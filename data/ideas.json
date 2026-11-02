@@ -656,5 +656,143 @@
         "html": "<p>This influential essay is an interpretation of AI history, not a theorem proving that handcrafted knowledge is never useful.</p><p><strong>The question to ask:</strong> Which part of your system gets better simply by scaling search or learning?</p>"
       }
     ]
+  },
+  {
+    "id": "lottery-ticket-hypothesis",
+    "title": "The tiny winning network hiding in a big one",
+    "kicker": "A lucky beginning",
+    "hook": "What if a neural network has a much smaller version inside it that can learn just as well?",
+    "type": "Paper",
+    "category": "Deep Learning",
+    "author": "Jonathan Frankle & Michael Carbin",
+    "source_title": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
+    "source_url": "https://arxiv.org/abs/1803.03635",
+    "year": 2019,
+    "minutes": 3,
+    "art": "mint",
+    "summary": "In experiments on relatively small vision networks, researchers found sparse subnetworks that could train to comparable accuracy when their surviving weights were reset to their original initial values.",
+    "body": [
+      "Training a large neural network can feel like searching through a vast number of possible connections. Could a much smaller network have succeeded from the very beginning?",
+      "Frankle and Carbin trained a dense model, pruned connections, then reset the surviving weights to their initial values before training the sparse network again. They repeated the process to find smaller subnetworks.",
+      "On MNIST and CIFAR-10 architectures, they found subnetworks with fewer than 10–20% of the original parameters that could achieve comparable accuracy. Their initialization mattered, not just the sparse structure."
+    ],
+    "takeaways": [
+      "A dense network can contain smaller subnetworks with surprisingly strong learning behavior.",
+      "The specific initial weights can matter alongside the pattern of surviving connections.",
+      "Finding such a subnetwork retroactively is not the same as cheaply identifying it before training."
+    ],
+    "nuance": "The original results focus on relatively small fully connected and convolutional vision networks. The winning tickets were discovered through training and pruning, not known for free at initialization; later work examined deeper networks and early-training rewinding.",
+    "application": "When testing sparse networks, compare the original surviving initialization against randomly reinitializing the same sparse architecture.",
+    "quiz": {
+      "question": "Why did the authors reset the remaining weights to their original initialization?",
+      "choices": [
+        "To show that any random sparse network learns equally well",
+        "To test whether the particular starting weights help the sparse network train",
+        "To increase the number of parameters"
+      ],
+      "answer": 1,
+      "explanation": "A winning ticket consists of a sparse connection pattern together with an advantageous initialization—not just a small network shape."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "DEEP LEARNING · 3 MIN",
+        "title": "A tiny winner hiding in a big network?",
+        "html": "<p>Imagine a huge neural network. What if some of its connections already form a much smaller network that can learn just as well?</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "THE INTUITION",
+        "title": "A network inside a network",
+        "html": "<p>The <strong>lottery ticket hypothesis</strong> says some randomly initialized dense networks contain smaller subnetworks with unusually favorable starting weights.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "DENSE NETWORK",
+            "title": "Many connections",
+            "text": "Train the whole network, with lots of candidate paths."
+          },
+          "right": {
+            "label": "WINNING TICKET",
+            "title": "Few connections",
+            "text": "Keep a special subset of connections and their original starting weights."
+          }
+        }
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "HOW THEY TESTED IT",
+        "title": "Train. Prune. Rewind.",
+        "html": "<p>They identified promising subnetworks <em>after</em> training the larger model—not by predicting the winners in advance.</p>",
+        "visual": {
+          "type": "flow",
+          "items": [
+            {
+              "label": "1",
+              "title": "Train",
+              "text": "Start with a dense model."
+            },
+            {
+              "label": "2",
+              "title": "Prune",
+              "text": "Remove low-magnitude weights."
+            },
+            {
+              "label": "3",
+              "title": "Rewind",
+              "text": "Restore surviving initial weights."
+            },
+            {
+              "label": "4",
+              "title": "Retrain",
+              "text": "See whether the smaller net learns."
+            }
+          ]
+        }
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "THE RESULT",
+        "title": "Surprisingly small, still effective",
+        "html": "<p>For several networks on MNIST and CIFAR-10, the authors found winning tickets with <strong>under 10–20% of the original parameters</strong> that reached comparable test accuracy. Some larger tickets even learned faster.</p>",
+        "visual": {
+          "type": "cards",
+          "items": [
+            {
+              "label": "SIZE",
+              "title": "Under 10–20%",
+              "text": "In the studied architectures."
+            },
+            {
+              "label": "PERFORMANCE",
+              "title": "Comparable",
+              "text": "To the original dense model."
+            },
+            {
+              "label": "CAVEAT",
+              "title": "Not free",
+              "text": "Finding the ticket required training and pruning."
+            }
+          ]
+        }
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "A QUICK THOUGHT EXPERIMENT",
+        "title": "Keep the connections, change the luck?",
+        "html": "<p>You found a promising sparse subnetwork. Now imagine keeping the same connections but drawing fresh random starting weights.</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "Would the original result necessarily survive?",
+          "answer": "No. The paper highlights the importance of the surviving weights' original initialization. The mask alone does not guarantee the same trainability."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE REAL TAKEAWAY",
+        "title": "It's an insight, not a pruning shortcut",
+        "html": "<p><strong>What it reveals:</strong> optimization depends on more than final model size; the starting point can help make a small subnetwork trainable.</p><p><strong>What it doesn't prove:</strong> that we can cheaply identify winning tickets before training, or that every large modern model contains one at initialization.</p>"
+      }
+    ]
   }
 ]
