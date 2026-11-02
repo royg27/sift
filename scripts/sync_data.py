@@ -16,7 +16,7 @@ for idea in ideas:
     assert 0 <= idea["quiz"]["answer"] < len(idea["quiz"]["choices"])
 html = path.read_text(encoding="utf-8")
 payload = json.dumps(ideas, separators=(",", ":"), ensure_ascii=False).replace("</", "<\\/")
-pattern = r"window\\.SIFT_IDEAS\\s*=\\s*\\[[\\s\\S]*?\\];(?=\\s*</script>)"
+pattern = r"window\.SIFT_IDEAS\s*=\s*\[[\s\S]*?\];(?=\s*</script>)"
 updated, count = re.subn(pattern, lambda _: "window.SIFT_IDEAS = " + payload + ";", html, count=1)
 assert count == 1, "Couldn't find data block in index.html"
 path.write_text(updated, encoding="utf-8")
