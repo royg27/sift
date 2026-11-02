@@ -6,6 +6,8 @@ on:
       - 'index.html'
       - 'data/ideas.json'
       - 'scripts/sync_data.py'
+      - 'reader.js'
+      - 'reader.css'
       - '.github/workflows/deploy.yml'
   workflow_dispatch:
 permissions:
@@ -33,6 +35,8 @@ jobs:
         run: |
           mkdir -p _site
           cp index.html _site/index.html
+          cp reader.js _site/reader.js
+          cp reader.css _site/reader.css
           touch _site/.nojekyll
       - uses: actions/upload-pages-artifact@v4
         with:
