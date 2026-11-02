@@ -1,6 +1,6 @@
 # Sift slide-story content contract
 
-Each idea in `data/ideas.json` can include a `slides` list of **4–6 short HTML panels**. The website builds a final recall slide automatically from the existing `quiz` field.
+Each idea in `data/ideas.json` can include a `slides` list of **3–8 short HTML panels**. Choose the number based on the idea: use fewer for simple insights, more for concepts that benefit from progressive explanation. The website builds a final recall slide automatically from the existing `quiz` field.
 
 ## Minimal example
 
