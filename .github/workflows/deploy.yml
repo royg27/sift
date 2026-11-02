@@ -29,8 +29,13 @@ jobs:
         with:
           python-version: '3.12'
       - uses: actions/configure-pages@v5
-      - name: Validate and compile sourced idea feed
-        run: python scripts/sync_data.py
+      - name: Validate slide content and reader syntax
+        run: |
+          node --check reader.js
+          python -m py_compile scripts/sync_data.py
+          python scripts/sync_data.py
+          grep -q 'reader.js' index.html
+          grep -q 'reader.css' index.html
       - name: Prepare static website
         run: |
           mkdir -p _site
