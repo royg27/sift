@@ -4,6 +4,8 @@ on:
     branches: [main]
     paths:
       - 'index.html'
+      - 'data/ideas.json'
+      - 'scripts/sync_data.py'
       - '.github/workflows/deploy.yml'
   workflow_dispatch:
 permissions:
@@ -21,7 +23,12 @@ jobs:
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
       - uses: actions/configure-pages@v5
+      - name: Validate and compile sourced idea feed
+        run: python scripts/sync_data.py
       - name: Prepare static website
         run: |
           mkdir -p _site
