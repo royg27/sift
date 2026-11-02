@@ -12,6 +12,9 @@ class SafeSlideHTML(HTMLParser):
             raise ValueError(f"Unsafe slide HTML tag or attributes: {tag}")
     def handle_startendtag(self, tag, attrs):
         self.handle_starttag(tag, attrs)
+    def handle_endtag(self, tag):
+        if tag not in self.ALLOWED:
+            raise ValueError(f"Unsafe slide HTML closing tag: {tag}")
 
 def validate_slides(idea):
     slides = idea.get("slides")
