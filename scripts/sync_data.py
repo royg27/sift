@@ -61,5 +61,16 @@ payload = json.dumps(ideas, separators=(",", ":"), ensure_ascii=False).replace("
 pattern = r"window\.SIFT_IDEAS\s*=\s*\[[\s\S]*?\];(?=\s*</script>)"
 updated, count = re.subn(pattern, lambda _: "window.SIFT_IDEAS = " + payload + ";", html, count=1)
 assert count == 1, "Couldn't find data block in index.html"
+# Compile CSS and JavaScript into the published HTML to avoid stale/missing
+# separate assets when the reader is first launched on GitHub Pages.
+css_asset = (ROOT / "reader.css").read_text(encoding="utf-8")
+js_asset = (ROOT / "reader.js").read_text(encoding="utf-8")
+assert "</style>" not in css_asset.lower() and "</script>" not in js_asset.lower()
+css_link = '<link rel="stylesheet" href="reader.css" />'
+js_link = '<script src="reader.js"></script>'
+assert updated.count(css_link) == 1 and updated.count(js_link) == 1, "Missing reader assets in index.html"
+updated = updated.replace(css_link, '<style id="sift-reader-styles">\n' + css_asset + '\n</style>')
+updated = updated.replace(js_link, '<script id="sift-reader-script">\n' + js_asset + '\n</script>')
+assert updated.count('window.SIFT_SLIDES =') == 1, "Slide reader unavailable"
 path.write_text(updated, encoding="utf-8")
 print(f"Embedded {len(ideas)} cards in index.html")
