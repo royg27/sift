@@ -114,7 +114,7 @@
       '<footer class="sift-reader-nav"><span class="sift-slide-counter">' + label + '</span>' +
       '<div class="sift-reader-controls"><button data-sift-prev="1" aria-label="Previous slide" ' +
       (index===0?'disabled':'') + '>←</button>' +
-      '<button class="sift-next" data-sift-next="1">' + (index===slides.length-1?'Finish':'Next →') + '</button></div></footer>' +
+      '<button class="sift-next" data-sift-next="1">' + (index===slides.length-1?'Close':'Next →') + '</button></div></footer>' +
       '</section></div>';
   }
   function open(idea, opts) {
