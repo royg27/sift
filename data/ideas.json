@@ -34,7 +34,77 @@
       ],
       "answer": 1,
       "explanation": "A scout searches for an accurate picture, including evidence that could overturn a favored belief."
-    }
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "THINKING BETTER",
+        "title": "What if changing your mind meant winning?",
+        "html": "<p>Most of us defend beliefs like soldiers. What changes when we approach them like scouts?</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "TWO MINDSETS",
+        "title": "Defend a position—or map reality?",
+        "html": "<p>Galef uses two metaphors for how people approach uncertainty.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "SOLDIER",
+            "title": "Protect the belief",
+            "text": "Look for arguments that support what you already think."
+          },
+          "right": {
+            "label": "SCOUT",
+            "title": "Map the terrain",
+            "text": "Look for the evidence that makes your understanding more accurate."
+          }
+        }
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "A USEFUL PRACTICE",
+        "title": "Three questions to ask yourself",
+        "html": "<p>You do not need to abandon convictions to become more accurate.</p>",
+        "visual": {
+          "type": "steps",
+          "items": [
+            {
+              "label": "01",
+              "title": "Notice the motive",
+              "text": "Am I investigating or defending?"
+            },
+            {
+              "label": "02",
+              "title": "Name the evidence",
+              "text": "What would change my mind?"
+            },
+            {
+              "label": "03",
+              "title": "Reward the update",
+              "text": "A corrected belief is progress."
+            }
+          ]
+        }
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "A SMALL EXPERIMENT",
+        "title": "Test an opinion you care about",
+        "html": "<p>Pick something you feel strongly about. Imagine encountering a fact that genuinely challenges it.</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "What would a scout do next?",
+          "answer": "Specify what evidence would change your confidence, then examine it fairly—not just evidence favorable to your existing view."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "IMPORTANT NUANCE",
+        "title": "A mindset, not a magic trick",
+        "html": "<p>This is a conceptual framework from a book. Simply wanting to be open-minded does not guarantee freedom from motivated reasoning.</p><p><strong>The practical takeaway:</strong> Make it easier to notice and update mistaken beliefs.</p>"
+      }
+    ]
   },
   {
     "id": "psychology-money",
@@ -330,7 +400,77 @@
       ],
       "answer": 1,
       "explanation": "Position-dependent performance was the key experimental observation."
-    }
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "AI RESEARCH",
+        "title": "The middle can go missing",
+        "html": "<p>A model can accept a very long document and still struggle to use relevant evidence buried inside it.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "THE POSITION EFFECT",
+        "title": "Same evidence. Different location.",
+        "html": "<p>In the evaluated tasks, changing where relevant information appeared often changed model performance.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "BEGINNING OR END",
+            "title": "Often easier",
+            "text": "Relevant material near the edges was frequently used more reliably."
+          },
+          "right": {
+            "label": "MIDDLE",
+            "title": "Often harder",
+            "text": "Performance often deteriorated when evidence was placed in the middle."
+          }
+        }
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "WHAT THEY TESTED",
+        "title": "Capacity isn't reliability",
+        "html": "<p>The researchers varied the position of evidence in question answering and key–value retrieval tasks.</p>",
+        "visual": {
+          "type": "steps",
+          "items": [
+            {
+              "label": "01",
+              "title": "Keep the question",
+              "text": "The information need stays the same."
+            },
+            {
+              "label": "02",
+              "title": "Move the evidence",
+              "text": "Place the useful fact at different positions."
+            },
+            {
+              "label": "03",
+              "title": "Compare accuracy",
+              "text": "Measure positional sensitivity."
+            }
+          ]
+        }
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "THINK LIKE AN EVALUATOR",
+        "title": "Would your agent pass this test?",
+        "html": "<p>Imagine the same critical requirement appears early, in the middle, or late in a long coding-agent transcript.</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "What would you measure?",
+          "answer": "Hold the task and fact fixed, vary only its position, and measure the stability of the agent's answer or implementation."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE LIMITATION",
+        "title": "Don't overgeneralize the result",
+        "html": "<p>The study established a failure pattern in its evaluated models and tasks. It does not prove that every current model behaves identically.</p><p><strong>Lesson:</strong> Test effective context use, not just context-window length.</p>"
+      }
+    ]
   },
   {
     "id": "weak-ties",
@@ -441,6 +581,80 @@
       ],
       "answer": 1,
       "explanation": "The essay favors general methods that continue improving with available computation."
-    }
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "A CLASSIC AI ESSAY",
+        "title": "Why the clever trick may lose",
+        "html": "<p>Sutton argues that systems built around methods that scale with compute often win over hand-crafted expertise in the long run.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "TWO STRATEGIES",
+        "title": "Engineer knowledge—or learn at scale?",
+        "html": "<p>The essay contrasts human-encoded solutions with general methods that improve as computing power grows.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "DOMAIN-SPECIFIC",
+            "title": "Hand-tuned rules",
+            "text": "Good near-term performance can depend on many expert assumptions."
+          },
+          "right": {
+            "label": "GENERAL METHODS",
+            "title": "Search + learning",
+            "text": "Performance can continue improving with additional computation."
+          }
+        }
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "THE HISTORICAL PATTERN",
+        "title": "What scales can pull ahead",
+        "html": "<p>The argument is about a recurring long-term trend, not a precise numeric law.</p>",
+        "visual": {
+          "type": "flow",
+          "items": [
+            {
+              "label": "01",
+              "title": "Human insight",
+              "text": "Hand-design shortcuts."
+            },
+            {
+              "label": "02",
+              "title": "More compute",
+              "text": "General methods exploit scale."
+            },
+            {
+              "label": "03",
+              "title": "The crossover",
+              "text": "Scalable methods overtake."
+            }
+          ]
+        }
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "A DESIGN CHOICE",
+        "title": "What would you prioritize?",
+        "html": "<p>You're building an agent and have a fixed engineering budget.</p>",
+        "interaction": {
+          "type": "choice",
+          "question": "Where would you invest first?",
+          "choices": [
+            "More bespoke task-specific heuristics",
+            "A general search/evaluation loop that improves with compute"
+          ],
+          "feedback": "Sutton's argument favors methods that can exploit more computation over time. That does not settle every short-term design trade-off."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "WHAT IT DOESN'T SAY",
+        "title": "Expert knowledge still matters",
+        "html": "<p>This influential essay is an interpretation of AI history, not a theorem proving that handcrafted knowledge is never useful.</p><p><strong>The question to ask:</strong> Which part of your system gets better simply by scaling search or learning?</p>"
+      }
+    ]
   }
 ]
