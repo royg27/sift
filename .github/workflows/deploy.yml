@@ -34,8 +34,9 @@ jobs:
           node --check reader.js
           python -m py_compile scripts/sync_data.py
           python scripts/sync_data.py
-          grep -q 'reader.js' index.html
-          grep -q 'reader.css' index.html
+          grep -q 'id="sift-reader-script"' index.html
+          grep -q 'id="sift-reader-styles"' index.html
+          grep -q 'window.SIFT_SLIDES =' index.html
       - name: Prepare static website
         run: |
           mkdir -p _site
