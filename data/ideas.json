@@ -794,5 +794,230 @@
         "html": "<p><strong>What it reveals:</strong> optimization depends on more than final model size; the starting point can help make a small subnetwork trainable.</p><p><strong>What it doesn't prove:</strong> that we can cheaply identify winning tickets before training, or that every large modern model contains one at initialization.</p>"
       }
     ]
+  },
+  {
+    "id": "microgpt-small-enough-to-see",
+    "title": "A language model you can fit in your head",
+    "kicker": "The tiny GPT experiment",
+    "hook": "What if you stripped a language model down until its entire learning recipe fit in one small Python file?",
+    "type": "Essay",
+    "category": "Deep Learning",
+    "author": "Andrej Karpathy",
+    "source_title": "microgpt",
+    "source_url": "https://karpathy.github.io/2026/02/12/microgpt/",
+    "year": 2026,
+    "minutes": 4,
+    "art": "lavender",
+    "summary": "Karpathy's microgpt is a deliberately tiny, dependency-free GPT implementation showing the core pieces of training and sampling in about 200 lines of Python; its toy output is names, not general intelligence.",
+    "body": [
+      "Large language models can feel like an enormous stack of infrastructure. Karpathy's microgpt asks what remains when you strip away performance engineering and frameworks.",
+      "The small script loads a dataset of names, turns characters into tokens, builds gradients with a tiny autograd engine, trains a GPT-like transformer with an optimizer, then samples new names one token at a time.",
+      "The striking lesson is about conceptual simplicity, not capability: the core learning loop is compact, while modern model performance depends on scale, data, engineering, and much more."
+    ],
+    "takeaways": [
+      "A minimal GPT training loop can be expressed in a small, readable program.",
+      "Training and generation are distinct phases connected by next-token prediction.",
+      "A toy demonstration is not evidence that frontier model capabilities are easy or cheap to reproduce."
+    ],
+    "nuance": "microgpt is an educational implementation and personal essay, not a benchmarked research paper. Its scalar autograd and toy dataset are dramatically less efficient and capable than production systems.",
+    "application": "When learning a complex ML system, separate the essential algorithm from engineering for speed, scale, and reliability.",
+    "quiz": {
+      "question": "What does microgpt primarily demonstrate?",
+      "choices": [
+        "That a 200-line model can match frontier LLMs",
+        "That the core training and generation recipe can be implemented compactly",
+        "That tokenization and optimization are optional"
+      ],
+      "answer": 1,
+      "explanation": "It is a small educational implementation of the essential components, not a competitive large language model."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "DEEP LEARNING · THE CORE IDEA",
+        "title": "Could GPT fit on one page?",
+        "html": "<p>Modern language models use vast infrastructure. But Karpathy's <strong>microgpt</strong> compresses the essential learning recipe into about 200 lines of plain Python.</p><p>The surprising part is how much machinery you can remove before the central idea disappears.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "THE RECIPE",
+        "title": "Six ingredients, one tiny program",
+        "html": "<p>It reads a list of names and learns to generate plausible new ones. The code includes the whole path from examples to samples.</p>",
+        "visual": {
+          "type": "steps",
+          "items": [
+            {
+              "label": "INPUT",
+              "title": "Data + tokens",
+              "text": "Turn names into characters represented as numbers."
+            },
+            {
+              "label": "MODEL",
+              "title": "GPT-like network",
+              "text": "Predict the next token from previous ones."
+            },
+            {
+              "label": "LEARN",
+              "title": "Gradients + optimizer",
+              "text": "Adjust parameters to reduce prediction error."
+            },
+            {
+              "label": "OUTPUT",
+              "title": "Sampling",
+              "text": "Generate one new character at a time."
+            }
+          ]
+        }
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "THE DISTINCTION",
+        "title": "Tiny algorithm, enormous engineering",
+        "html": "<p>The demonstration is small because it sacrifices speed and capability. Real deployments add efficient tensor computation, massive datasets, distributed training, and careful evaluation.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "MICROGPT",
+            "title": "Understand the mechanism",
+            "text": "A minimal educational model generating names."
+          },
+          "right": {
+            "label": "PRODUCTION LLM",
+            "title": "Scale the mechanism",
+            "text": "Much larger systems with specialized optimization and infrastructure."
+          }
+        }
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "A QUICK GUESS",
+        "title": "What does it learn?",
+        "html": "<p>After training on a dataset of names, the program samples new names one character at a time.</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "Does it memorize and replay only training names?",
+          "answer": "Not necessarily. It learns a probability distribution over character sequences and can sample novel combinations that resemble the training examples."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "WHY IT MATTERS",
+        "title": "Simple does not mean easy",
+        "html": "<p><strong>The insight:</strong> the conceptual core of language-model training is small enough to inspect.</p><p><strong>The limitation:</strong> understanding the loop is not the same as reproducing the performance, safety, or cost of a modern LLM. This is an educational essay, not a new capability benchmark.</p>"
+      }
+    ]
+  },
+  {
+    "id": "measure-work-not-busyness",
+    "title": "Your busiest day might not be your most productive",
+    "kicker": "A personal data experiment",
+    "hook": "A computer can tell you how long you were active. It cannot tell you whether you did valuable work.",
+    "type": "Essay",
+    "category": "Work",
+    "author": "Andrej Karpathy",
+    "source_title": "Quantifying Productivity",
+    "source_url": "https://karpathy.github.io/2014/08/03/quantifying-productivity/",
+    "year": 2014,
+    "minutes": 3,
+    "art": "peach",
+    "summary": "After tracking his own computer activity for nearly three months, Karpathy found useful discrepancies between time spent at work and time spent coding, while recognizing that activity traces do not measure productivity directly.",
+    "body": [
+      "Karpathy built a local tool to log active windows and typing activity, then visualized nearly three months of his computer use.",
+      "He noticed that long days at the office could contain substantially fewer hours of coding than he had intuitively expected. He also saw patterns around deadlines, breaks, and applications, but treated possible explanations cautiously.",
+      "The larger lesson is about measurement: logs can challenge our stories about where time goes, yet typing and screen time remain imperfect proxies for creative or intellectual output."
+    ],
+    "takeaways": [
+      "Observed activity can contradict our memory of how time was spent.",
+      "Time at a desk, typing intensity, and useful output are different quantities.",
+      "A measurement tool can create privacy risks and misleading incentives if used as a performance score."
+    ],
+    "nuance": "This was one person's self-tracking project, not a controlled study. The logs missed activity on other machines and could not capture thinking, collaboration, or the value of finished work.",
+    "application": "For one week, review broad time categories and compare them with actual completed outcomes—without equating keyboard activity with value.",
+    "quiz": {
+      "question": "What is the main limitation of measuring productivity through active windows and keystrokes?",
+      "choices": [
+        "It cannot measure any computer use",
+        "Activity is not the same as valuable output",
+        "It always overestimates coding time"
+      ],
+      "answer": 1,
+      "explanation": "Computer logs can reveal time allocation, but they do not establish the quality or importance of the work."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "THE QUANTIFIED SELF",
+        "title": "Where did your workday go?",
+        "html": "<p>Have you ever spent all day at your desk and wondered what actually got done?</p><p>Karpathy built a tool to record his own computer activity and inspect the gap between how work feels and how time is spent.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "THE EXPERIMENT",
+        "title": "From vague memory to a timeline",
+        "html": "<p>His local tracker recorded active windows and typing frequency, then turned nearly three months of activity into visual timelines.</p>",
+        "visual": {
+          "type": "flow",
+          "items": [
+            {
+              "label": "01",
+              "title": "Observe",
+              "text": "Record active apps and typing activity."
+            },
+            {
+              "label": "02",
+              "title": "Visualize",
+              "text": "See how a day is divided."
+            },
+            {
+              "label": "03",
+              "title": "Question",
+              "text": "Compare the timeline with your memory."
+            }
+          ]
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE SURPRISE",
+        "title": "A long day isn't all deep work",
+        "html": "<p>He found that even days spent at the office from morning to night could contain only about five or six hours of coding.</p><p>Meals, meetings, browsing, and other work filled the rest. That's an observation about his own logs, not a universal productivity benchmark.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "THE TRAP",
+        "title": "What you can count isn't always what counts",
+        "html": "<p>A typing-heavy day can be unproductive. A quiet afternoon of thinking might unlock the whole project.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "ACTIVITY",
+            "title": "Easy to log",
+            "text": "Window focus, time, keystrokes."
+          },
+          "right": {
+            "label": "IMPACT",
+            "title": "Hard to quantify",
+            "text": "Useful decisions, breakthroughs, finished work."
+          }
+        }
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "TRY THE IDEA",
+        "title": "What would you measure?",
+        "html": "<p>Imagine your calendar shows eight hours of work, but your keyboard tracker shows two hours of typing.</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "Can you conclude the day was unproductive?",
+          "answer": "No. The logs reveal activity patterns, not the value of meetings, design thinking, reading, or decisions. Pair time data with meaningful outcomes."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE CAVEAT",
+        "title": "Use the mirror, not the scoreboard",
+        "html": "<p>This was a personal experiment with missing data and no causal proof. Tracking can also be invasive.</p><p><strong>A useful practice:</strong> review where your time went, then ask what mattered—not how many keys you pressed.</p>"
+      }
+    ]
   }
 ]
