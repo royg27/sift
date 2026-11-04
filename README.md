@@ -9,7 +9,8 @@ An accessible mobile-first library of short, source-linked ideas from books, ess
 - Source-safe authored HTML per slide plus prebuilt comparisons, diagrams, reveal cards, and choices; legacy ideas auto-convert
 - 12 source-linked starter ideas (4 books, 5 essays, 3 papers)
 - Search and category/source filters
-- Bookmarks, read progress and recall questions, stored locally in the browser
+- Unread-only Discover and Unread tabs, plus a separate Completed shelf sorted by completion time; mark a story unread to move it back
+- Bookmarks, read progress and recall questions, stored locally per browser (no account, backend, or cross-user sharing)
 - Original source links, limitations and suggested applications
 
 ## Publishing
