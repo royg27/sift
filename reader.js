@@ -87,7 +87,7 @@
       }).join('') + (answered===undefined?'':'<p class="sift-quiz-feedback">' + esc(quiz.explanation) + '</p>') +
       '</div><div class="sift-reader-footer"><a href="' + esc(idea.source_url && /^https:\/\//i.test(idea.source_url) ? idea.source_url : '#') +
       '" target="_blank" rel="noopener noreferrer">Read the original source ↗</a><div class="sift-finish-actions">' +
-      '<button data-read="' + esc(idea.id) + '" class="sift-complete">' + (options.read?'✓ Completed':'✓ Mark as read') + '</button>' +
+      '<button data-read="' + esc(idea.id) + '" class="sift-complete">' + (options.read?'↶ Mark unread':'✓ Mark as read') + '</button>' +
       '<button data-save="' + esc(idea.id) + '" class="sift-keep">' + (options.saved?'★ Saved':'☆ Save') + '</button></div></div>';
   }
   function render() {
