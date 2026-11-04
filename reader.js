@@ -114,7 +114,7 @@
       '<footer class="sift-reader-nav"><span class="sift-slide-counter">' + label + '</span>' +
       '<div class="sift-reader-controls"><button data-sift-prev="1" aria-label="Previous slide" ' +
       (index===0?'disabled':'') + '>←</button>' +
-      '<button class="sift-next" data-sift-next="1">' + (index===slides.length-1?'Close':'Next →') + '</button></div></footer>' +
+      '<button class="sift-next" data-sift-next="1">' + (index===slides.length-1?'Done ✓':'Next →') + '</button></div></footer>' +
       '</section></div>';
   }
   function open(idea, opts) {
@@ -122,12 +122,30 @@
     if (activeId!==idea.id) { activeId=idea.id; index=0; }
     activeIdea=idea; options=opts||{}; render();
   }
-  function step(n) { var slides=slidesFor(activeIdea);if(n>=slides.length){var close=document.querySelector('.sift-close');if(close)close.click();return;}index=Math.max(0,Math.min(slides.length-1,n));render();}
+  // Reading the last content panel counts as finishing the story. Quiz is optional.
+  // The host owns localStorage, keeping reader state in one place.
+  function completeStory() {
+    if (!activeIdea || options.read || typeof window.SIFT_COMPLETE_STORY !== 'function') return;
+    if (window.SIFT_COMPLETE_STORY(activeIdea.id)) options.read = true;
+  }
+  function step(n, forward) {
+    var slides=slidesFor(activeIdea), before=index;
+    if(n>=slides.length){
+      completeStory();
+      var close=document.querySelector('.sift-close');
+      if(close)close.click();
+      return;
+    }
+    index=Math.max(0,Math.min(slides.length-1,n));
+    // Do not auto-complete when someone jumps straight to the quiz via progress.
+    if(forward && before===slides.length-2 && index===slides.length-1) completeStory();
+    render();
+  }
   document.addEventListener('click',function(e){
     if (!activeIdea || !document.getElementById('backdrop')) return;
     var button=e.target.closest('[data-sift-next],[data-sift-prev],[data-sift-goto],[data-sift-reveal],[data-sift-choice]');
     if (!button) return;
-    if (button.hasAttribute('data-sift-next')) step(index+1);
+    if (button.hasAttribute('data-sift-next')) step(index+1,true);
     else if (button.hasAttribute('data-sift-prev')) step(index-1);
     else if (button.hasAttribute('data-sift-goto')) step(Number(button.dataset.siftGoto));
     else if (button.hasAttribute('data-sift-reveal')) {revealed[activeId+':'+index]=true;render();}
@@ -136,7 +154,7 @@
   window.addEventListener('keydown',function(e){
     if (!activeIdea || !document.getElementById('backdrop')) return;
     if (['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)) return;
-    if(e.key==='ArrowRight'){e.preventDefault();step(index+1);}
+    if(e.key==='ArrowRight'){e.preventDefault();step(index+1,true);}
     else if(e.key==='ArrowLeft'){e.preventDefault();step(index-1);}
   });
   var touchX=0,touchY=0;
@@ -148,7 +166,7 @@
     if (!e.target.closest('.sift-reader')||!touchX) return;
     var dx=e.changedTouches[0].screenX-touchX,dy=e.changedTouches[0].screenY-touchY;
     touchX=0;
-    if(Math.abs(dx)>65 && Math.abs(dx)>Math.abs(dy)*1.4)step(index+(dx<0?1:-1));
+    if(Math.abs(dx)>65 && Math.abs(dx)>Math.abs(dy)*1.4)step(index+(dx<0?1:-1),dx<0);
   },{passive:true});
   window.SIFT_SLIDES = {open:open, refresh:open, close:function(){activeId=null;activeIdea=null;index=0;}};
 })();
