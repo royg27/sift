@@ -53,6 +53,18 @@ let saved=new Set(store('saved',[])),read=store('read',{}),quizzes=store('quizze
 let state={nav:'discover',type:'All',topic:'All',search:'',opened:null};
 function persist(){try{localStorage.setItem('sift_saved',JSON.stringify([...saved]));localStorage.setItem('sift_read',JSON.stringify(read));localStorage.setItem('sift_quizzes',JSON.stringify(quizzes));}catch{}}
 const id=id=>DATA.find(x=>x.id===id);
+// Called by the slide reader when the user reaches the recall slide or taps Done.
+// Do not toggle previously completed stories; their original completion time is kept.
+function completeStory(k) {
+ if(!id(k))return false;
+ if(!read[k]){
+  read[k]=new Date().toISOString();
+  persist();
+  render();
+ }
+ return true;
+}
+window.SIFT_COMPLETE_STORY=completeStory;
 const completedCount=()=>DATA.filter(x=>!!read[x.id]).length;
 const percent=()=>Math.round(completedCount()/Math.max(DATA.length,1)*100);
 const navs=[['discover','Discover','compass'],['library','Unread','library'],['saved','Saved','bookmark'],['completed','Completed','check']];
@@ -102,7 +114,7 @@ document.addEventListener('click',async function(e){const btn=e.target.closest('
  if(btn.dataset.type){state.type=btn.dataset.type;render();return;}if(btn.dataset.topic){state.topic=btn.dataset.topic;render();return;}if(btn.dataset.reset){state.nav='library';state.type='All';state.topic='All';state.search='';render();return;}if(btn.dataset.open){openIdea(id(btn.dataset.open));return;}if(btn.dataset.close){closeModal();return;}
  if(btn.dataset.save){let k=btn.dataset.save;if(saved.has(k)){saved.delete(k);toast('Removed from saved ideas')}else{saved.add(k);toast('Saved for later ✳')}persist();render();if(state.opened)refreshModal();return;}
  if(btn.dataset.read){const k=btn.dataset.read,wasRead=!!read[k];if(wasRead)delete read[k];else read[k]=new Date().toISOString();persist();render();if(state.opened)refreshModal();toast(wasRead?'Moved back to Unread':'Moved to Completed');return;}
- if(btn.dataset.quiz){const key=btn.dataset.quiz;if(quizzes[key]!==undefined)return;quizzes[key]=Number(btn.dataset.choice);persist();if(state.opened)refreshModal();toast(quizzes[key]===id(key).quiz.answer?'Correct — nicely done!':'Good attempt — keep learning');return;}
+ if(btn.dataset.quiz){const key=btn.dataset.quiz;if(quizzes[key]!==undefined)return;quizzes[key]=Number(btn.dataset.choice);persist();completeStory(key);if(state.opened)refreshModal();toast(quizzes[key]===id(key).quiz.answer?'Correct — nicely done!':'Good attempt — keep learning');return;}
  if(btn.dataset.share){const x=id(btn.dataset.share),url=safeUrl(x.source_url),msg=`${x.title} — a short insight from ${x.source_title}: ${url}`;if(navigator.share){try{await navigator.share({title:x.title,text:msg,url})}catch{}}else if(navigator.clipboard){try{await navigator.clipboard.writeText(msg);toast('Source link copied')}catch{toast('Open source to share the link')}}else{toast('Open source to share the link')}return;}
 });
 window.addEventListener('keydown',e=>{if(e.key==='Escape'&&state.opened)closeModal()});document.getElementById('search').addEventListener('input',e=>{state.search=e.target.value;const pos=e.target.selectionStart;render();const next=document.getElementById('search');next.focus();try{next.setSelectionRange(pos,pos)}catch{}});
