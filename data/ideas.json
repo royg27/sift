@@ -1019,5 +1019,229 @@
         "html": "<p>This was a personal experiment with missing data and no causal proof. Tracking can also be invasive.</p><p><strong>A useful practice:</strong> review where your time went, then ask what mattered—not how many keys you pressed.</p>"
       }
     ]
+  },
+  {
+    "id": "sleep-scent-memory",
+    "title": "Can a smell remind your sleeping brain?",
+    "kicker": "The sleeping memory cue",
+    "hook": "A scent present while learning may help the brain revisit that memory during deep sleep.",
+    "type": "Paper",
+    "category": "Science",
+    "author": "Julia S. Rihm, Susanne Diekelmann, Jan Born & Björn Rasch",
+    "source_title": "Reactivating Memories during Sleep by Odors: Odor Specificity and Associated Changes in Sleep Oscillations",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/24456392/",
+    "year": 2014,
+    "minutes": 3,
+    "art": "lavender",
+    "summary": "In a controlled visuospatial-memory experiment, replaying the same odor during slow-wave sleep improved later memory compared with a different odor or odorless control; EEG changes accompanied the effect.",
+    "body": [
+      "Our brains do not simply switch off learning during sleep. Researchers can sometimes cue recently learned memories with a sensory reminder.",
+      "Participants learned a visuospatial memory task in the presence of an odor. During subsequent slow-wave sleep, the researchers presented the same odor, a different odor, or an odorless control.",
+      "Only the matching odor significantly improved later memory in this experiment, accompanied by changes in sleep-related brain rhythms. That is a specific laboratory finding, not a proven everyday study hack."
+    ],
+    "takeaways": [
+      "A cue can help reactivate a recently formed memory during slow-wave sleep.",
+      "The identity of the cue mattered: a new odor was not equivalent to the original one.",
+      "This is evidence about a controlled memory task, not a general recipe for overnight learning."
+    ],
+    "nuance": "The experiment used a particular visuospatial task, controlled odor presentation and monitored slow-wave sleep. It does not show that arbitrary scents, sleep stages or new information can reliably improve learning at home.",
+    "application": "When encountering claims about learning during sleep, ask whether the experiment replayed a cue linked to prior learning or attempted to teach entirely new material.",
+    "quiz": {
+      "question": "Which odor helped memory in the study?",
+      "choices": [
+        "Any strong odor during sleep",
+        "The same odor paired with learning",
+        "A completely new odor"
+      ],
+      "answer": 1,
+      "explanation": "The effect was cue-specific: only the matching odor improved recall in the reported experiment."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "SLEEP SCIENCE",
+        "title": "Could a smell wake up a memory—without waking you?",
+        "html": "<p>Imagine studying a pattern while smelling lemon. Later, as you sleep, that scent returns. Could it nudge your brain to revisit what you learned?</p><p>Researchers tested a controlled version of this idea.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "THE EXPERIMENT",
+        "title": "A reminder during deep sleep",
+        "html": "<p>Participants learned a visuospatial task with an odor present. During later <strong>slow-wave sleep</strong>, researchers delivered a matching odor, a different odor, or an odorless control.</p>",
+        "visual": {
+          "type": "flow",
+          "items": [
+            {
+              "label": "01",
+              "title": "Learn",
+              "text": "Study locations alongside a scent."
+            },
+            {
+              "label": "02",
+              "title": "Sleep",
+              "text": "Reach slow-wave sleep."
+            },
+            {
+              "label": "03",
+              "title": "Cue",
+              "text": "Present a matching, different, or absent scent."
+            },
+            {
+              "label": "04",
+              "title": "Test",
+              "text": "Measure later memory."
+            }
+          ]
+        }
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "WHAT HAPPENED",
+        "title": "The right smell mattered",
+        "html": "<p>The <strong>matching odor</strong> improved later memory in this experiment. A different odor did not produce the same benefit. The researchers also observed changes in brain rhythms associated with slow-wave sleep.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "MATCHED",
+            "title": "Same odor",
+            "text": "Improved later recall in the tested task."
+          },
+          "right": {
+            "label": "NOT MATCHED",
+            "title": "Different or no odor",
+            "text": "No comparable benefit in this experiment."
+          }
+        }
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "THE DISTINCTION",
+        "title": "Is this learning in your sleep?",
+        "html": "<p>The participants had already studied the information before sleeping. The odor was a reminder, not a new lesson.</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "What did the scent actually do?",
+          "answer": "It likely helped reactivate a memory linked to prior learning. The experiment did not show that new facts can be taught to a sleeping person."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "KEEP IT IN PERSPECTIVE",
+        "title": "A laboratory effect, not a magic perfume",
+        "html": "<p>The study used a specific task and precisely timed odor delivery during monitored slow-wave sleep. We should not assume that spraying a room with a familiar scent will reliably boost everyday studying.</p><p><strong>The interesting idea:</strong> a sleeping brain can remain sensitive to reminders of what it learned.</p>"
+      }
+    ]
+  },
+  {
+    "id": "small-debates-wise-crowd",
+    "title": "Four small debates can outguess a giant crowd",
+    "kicker": "The wisdom of discussion",
+    "hook": "Independent guesses are powerful—but a little structured conversation can sometimes make them better.",
+    "type": "Paper",
+    "category": "Society",
+    "author": "Joaquin Navajas, Tamara Niella, Gerry Garbulsky, Bahador Bahrami & Mariano Sigman",
+    "source_title": "Aggregated knowledge from a small number of debates outperforms the wisdom of large crowds",
+    "source_url": "https://www.nature.com/articles/s41562-017-0273-4",
+    "year": 2018,
+    "minutes": 3,
+    "art": "peach",
+    "summary": "In a live general-knowledge estimation study with 5,180 participants, aggregating consensus answers from small independent discussion groups was more accurate than averaging initial individual guesses; even four group consensuses outperformed the large initial crowd in the reported setup.",
+    "body": [
+      "The classic wisdom-of-crowds idea says averaging many independent estimates can cancel individual errors. But what happens if people talk first?",
+      "In a study with 5,180 people, participants estimated answers individually, discussed in groups of five, and produced group consensus estimates.",
+      "Averaging the small-group consensus estimates improved accuracy over the initial independent crowd. In the studied questions, just four group consensus answers outperformed aggregation of thousands of original guesses."
+    ],
+    "takeaways": [
+      "Independence can help crowds, but discussion need not always destroy accuracy.",
+      "Small groups can exchange useful reasoning before their conclusions are aggregated.",
+      "The structure of deliberation and aggregation matters as much as the number of voices."
+    ],
+    "nuance": "These results concern numerical general-knowledge estimates in a specific experimental setting. Groupthink, unequal influence, shared bias or different tasks can reverse the benefit; four groups are not universally better than thousands of people.",
+    "application": "For a hard estimation question, first collect independent guesses, then let small separate groups deliberate, and aggregate their final estimates.",
+    "quiz": {
+      "question": "What did the researchers aggregate to obtain especially accurate estimates?",
+      "choices": [
+        "Only the loudest individual's answer",
+        "Consensus estimates from separate small groups",
+        "A single giant-group discussion"
+      ],
+      "answer": 1,
+      "explanation": "The study combined multiple small groups' consensus estimates rather than relying on one large conversation."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "COLLECTIVE INTELLIGENCE",
+        "title": "What if four tiny groups beat thousands of guesses?",
+        "html": "<p>Everyone knows that crowds can be wise when their errors cancel out. But here's a twist: <strong>talking in small groups</strong> can sometimes make the crowd even wiser.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "THE SETUP",
+        "title": "First guess alone. Then discuss.",
+        "html": "<p>In a live study involving <strong>5,180 participants</strong>, people answered general-knowledge estimation questions individually, discussed in groups of five, and reached group consensus answers.</p>",
+        "visual": {
+          "type": "steps",
+          "items": [
+            {
+              "label": "01",
+              "title": "Independent guess",
+              "text": "Each person estimates alone."
+            },
+            {
+              "label": "02",
+              "title": "Small debate",
+              "text": "Five people exchange reasoning."
+            },
+            {
+              "label": "03",
+              "title": "Group consensus",
+              "text": "Each group produces an estimate."
+            },
+            {
+              "label": "04",
+              "title": "Aggregate",
+              "text": "Combine separate group answers."
+            }
+          ]
+        }
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "THE SURPRISE",
+        "title": "A few conversations went a long way",
+        "html": "<p>Combining small-group consensus answers beat aggregating the initial individual guesses. In this study, as few as <strong>four group consensuses</strong> outperformed the initial estimates of thousands of participants.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "INITIAL CROWD",
+            "title": "Thousands of guesses",
+            "text": "Average independent individual estimates."
+          },
+          "right": {
+            "label": "DELIBERATING GROUPS",
+            "title": "Four consensuses",
+            "text": "Combine answers after separate small-group debates."
+          }
+        }
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "TRY THE DESIGN",
+        "title": "How would you organize a forecast?",
+        "html": "<p>You want a team to estimate something uncertain. Should everyone immediately discuss in one giant room?</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "What alternative does this study suggest?",
+          "answer": "Gather initial independent estimates, then let separate small groups debate and aggregate their consensuses. The study supports this on its tested estimation questions, not as a universal rule."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE CATCH",
+        "title": "Conversation can help—or hurt",
+        "html": "<p>The results do not imply that any discussion improves decisions. Strong personalities, shared misinformation and groupthink can still distort judgments.</p><p><strong>The useful distinction:</strong> deliberate within small groups, preserve independence across groups, then combine what they conclude.</p>"
+      }
+    ]
   }
 ]
