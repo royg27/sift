@@ -1243,5 +1243,199 @@
         "html": "<p>The results do not imply that any discussion improves decisions. Strong personalities, shared misinformation and groupthink can still distort judgments.</p><p><strong>The useful distinction:</strong> deliberate within small groups, preserve independence across groups, then combine what they conclude.</p>"
       }
     ]
+  },
+  {
+    "id": "illusion-explanatory-depth",
+    "title": "You understand a bicycle—until you explain it",
+    "kicker": "The knowledge illusion",
+    "hook": "Why can familiar machines become mysterious the moment you try explaining how they work?",
+    "type": "Paper",
+    "category": "Psychology",
+    "author": "Leonid Rozenblit & Frank Keil",
+    "source_title": "The misunderstood limits of folk science: an illusion of explanatory depth",
+    "source_url": "https://onlinelibrary.wiley.com/doi/10.1207/S15516709COG2605_1",
+    "year": 2002,
+    "minutes": 3,
+    "art": "peach",
+    "summary": "Across experiments, people often overestimated how deeply they understood everyday mechanisms; attempting a detailed explanation revealed gaps in their causal knowledge.",
+    "body": [
+      "Being familiar with a device is not the same as understanding how its parts cause it to work.",
+      "Rozenblit and Keil studied people's judgments about their knowledge of familiar mechanisms, and found that asking for detailed explanations exposed surprising gaps.",
+      "The effect is particularly pronounced for explanatory knowledge, compared with some other forms of knowledge."
+    ],
+    "takeaways": [
+      "Recognizing a mechanism is different from explaining its causal steps.",
+      "A detailed explanation can reveal hidden gaps in understanding.",
+      "Knowing where to find an explanation can feel like possessing it."
+    ],
+    "nuance": "The experiments studied particular explanatory judgments and knowledge domains. The results do not imply that people know nothing, or that all confidence is misplaced.",
+    "application": "Choose a familiar object, rate your understanding, then explain every causal step without looking anything up. Re-rate your confidence afterward.",
+    "quiz": {
+      "question": "What best reveals the illusion of explanatory depth?",
+      "choices": [
+        "Recognizing an object's name",
+        "Trying to explain precisely how it works",
+        "Reading its price tag"
+      ],
+      "answer": 1,
+      "explanation": "Detailed causal explanation makes missing links visible, even when the object feels familiar."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "PSYCHOLOGY · 3 MIN",
+        "title": "You know how it works. Right?",
+        "html": "<p>You use zippers, toilets, bicycles and locks without thinking. But could you explain, step by step, how each one actually works?</p><p>Researchers found that our sense of understanding can run well ahead of the details we can explain.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "THE TRAP",
+        "title": "Familiarity masquerades as knowledge",
+        "html": "<p>We see the finished machine working and can usually operate it. That smooth experience makes it easy to confuse <strong>using</strong> a mechanism with <strong>explaining</strong> it.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "FAMILIARITY",
+            "title": "I know this",
+            "text": "I can recognize it and use it."
+          },
+          "right": {
+            "label": "EXPLANATION",
+            "title": "I can trace why",
+            "text": "I can connect each component to its effect."
+          }
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE EXPERIMENTS",
+        "title": "Ask for the gears, not the gist",
+        "html": "<p>Rozenblit and Keil asked people to assess their understanding of everyday mechanisms and then produce detailed explanations. The attempt exposed gaps that initial confidence had concealed.</p><p>Their broader studies found this illusion especially strong for causal explanations, rather than all kinds of knowledge equally.</p>"
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "TRY IT",
+        "title": "Explain a zipper",
+        "html": "<p>Before revealing the answer, mentally describe exactly how moving the slider joins two rows of teeth. Where does each tooth go?</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "What does the slider actually do?",
+          "answer": "Its shaped channels guide the two rows of teeth together so their profiles interlock; moving the other way separates the interlocked rows. Could you have explained the geometry before reading this?"
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE USEFUL LESSON",
+        "title": "An explanation is a stress test",
+        "html": "<p>Before claiming you understand something, try teaching it from first principles. Wherever you have to say <em>and then somehow</em>, you have found a promising question.</p><p>But don't overcorrect: everyday competence is real, even without a complete mechanical theory.</p>"
+      }
+    ]
+  },
+  {
+    "id": "unreasonable-effectiveness-data",
+    "title": "Messy examples can beat elegant rules",
+    "kicker": "The power of scale",
+    "hook": "Why might a mountain of imperfect examples outperform a beautifully hand-built theory of language?",
+    "type": "Essay",
+    "category": "Technology",
+    "author": "Alon Halevy, Peter Norvig & Fernando Pereira",
+    "source_title": "The Unreasonable Effectiveness of Data",
+    "source_url": "https://research.google/blog/the-unreasonable-effectiveness-of-data/",
+    "year": 2009,
+    "minutes": 3,
+    "art": "mint",
+    "summary": "Halevy, Norvig and Pereira argue that for messy human domains like language, exploiting abundant real-world data can be more productive than trying to encode all the rules by hand.",
+    "body": [
+      "Human language is full of exceptions, context and ambiguity. Compact hand-written rules struggle to capture that richness.",
+      "The authors point to statistical approaches and web-scale corpora as a practical way to learn recurring patterns from real behavior.",
+      "This is a perspective essay supported by examples from language technology, not a controlled proof that more data always wins."
+    ],
+    "takeaways": [
+      "Complex human phenomena may resist compact handcrafted rules.",
+      "Large, imperfect datasets can capture rare patterns absent from curated samples.",
+      "More data does not automatically fix bias, poor measurement or evaluation."
+    ],
+    "nuance": "Published in 2009, this is an argument from a particular era of data-driven AI. Its examples do not establish that data quantity always beats model quality, clean labels, or sound experimental design.",
+    "application": "When a handcrafted rule system stalls, ask whether representative examples could expose exceptions you have not modeled—and test both approaches on held-out cases.",
+    "quiz": {
+      "question": "What is the central claim of the essay?",
+      "choices": [
+        "All data should be trusted without cleaning",
+        "Real-world data can reveal patterns too complex to encode by hand",
+        "Language follows a small set of perfect rules"
+      ],
+      "answer": 1,
+      "explanation": "The authors favor learning from plentiful real-world examples for complex human-centered tasks, not blindly trusting any dataset."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "TECHNOLOGY · 3 MIN",
+        "title": "What if the messy answer is better?",
+        "html": "<p>Imagine trying to write every rule of human language by hand. Every exception. Every odd phrase. Every context.</p><p>Now imagine learning patterns from a vast collection of how people actually speak and write.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "TWO APPROACHES",
+        "title": "Rules versus examples",
+        "html": "<p>Halevy, Norvig and Pereira argued that domains shaped by human behavior may be too irregular for neat, compact theories to do all the work.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "HANDCRAFTED",
+            "title": "Specify the rules",
+            "text": "Experts encode grammar, exceptions and cases."
+          },
+          "right": {
+            "label": "DATA-DRIVEN",
+            "title": "Learn from usage",
+            "text": "Statistical methods infer recurring patterns from examples."
+          }
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "WHY SCALE MATTERS",
+        "title": "Rare things stop being invisible",
+        "html": "<p>A small, carefully curated language corpus may miss unusual expressions entirely. A much larger, noisier corpus can contain examples of those rare patterns.</p><p>The authors highlighted how rapidly growing web data changed what statistical language systems could learn.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "THE TRADEOFF",
+        "title": "More examples, more responsibility",
+        "html": "<p>The essay makes a case for exploiting available data, not for assuming that every extra example helps. Sampling, bias, quality and evaluation still matter.</p>",
+        "visual": {
+          "type": "steps",
+          "items": [
+            {
+              "label": "1",
+              "title": "Collect",
+              "text": "Find representative examples."
+            },
+            {
+              "label": "2",
+              "title": "Learn",
+              "text": "Estimate useful patterns."
+            },
+            {
+              "label": "3",
+              "title": "Test",
+              "text": "Check generalization on unseen cases."
+            }
+          ]
+        }
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "THINK IT THROUGH",
+        "title": "Where would examples help?",
+        "html": "<p>Suppose you're building a system to interpret slang that changes every year. Would you rely only on a fixed dictionary or also examine how people currently use words?</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "What is the stronger strategy?",
+          "answer": "Fresh, representative usage examples can reveal meanings that fixed rules miss. But they must be evaluated carefully: popular usage can still be biased or misleading."
+        }
+      }
+    ]
   }
 ]
