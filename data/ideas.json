@@ -1437,5 +1437,210 @@
         }
       }
     ]
+  },
+  {
+    "id": "invisible-gorilla-attention",
+    "title": "You can look straight at something and miss it",
+    "kicker": "The limits of attention",
+    "hook": "How can a person in a gorilla suit cross your field of view without entering your awareness?",
+    "type": "Paper",
+    "category": "Psychology",
+    "author": "Daniel J. Simons & Christopher F. Chabris",
+    "source_title": "Gorillas in Our Midst: Sustained Inattentional Blindness for Dynamic Events",
+    "source_url": "https://doi.org/10.1068/p281059",
+    "year": 1999,
+    "minutes": 3,
+    "art": "lavender",
+    "summary": "In experiments with people monitoring basketball passes, many missed an unexpected person walking through the scene. What we notice depends on the task occupying our attention, not merely on what enters our eyes.",
+    "body": [
+      "Participants watched videos of people passing basketballs and counted passes by one team. During the action, an unexpected person crossed the scene.",
+      "Many participants failed to report the unexpected event. Detection depended on the primary task's difficulty and the unexpected object's similarity to the attended group.",
+      "The study demonstrates inattentional blindness in a specific laboratory setup, not that attention makes us universally oblivious."
+    ],
+    "takeaways": [
+      "Looking at a scene is not the same as noticing every event in it.",
+      "The task you are performing can shape which surprising details reach awareness.",
+      "Use independent checks when missing something would matter."
+    ],
+    "nuance": "The precise rate of missed events varied with experimental conditions. This is a laboratory attention effect, not a claim that all observers miss a gorilla or that perception is always unreliable.",
+    "application": "When reviewing a complicated document, do one pass for your main question and another for unexpected inconsistencies rather than expecting one focused pass to catch everything.",
+    "quiz": {
+      "question": "Why did some viewers miss the unexpected person?",
+      "choices": [
+        "Their eyes could not receive the image",
+        "Attention was occupied by the counting task",
+        "The unexpected person was digitally hidden"
+      ],
+      "answer": 1,
+      "explanation": "The unexpected event was visible, but selective attention made it less likely to be noticed."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "PSYCHOLOGY · 3 MIN",
+        "title": "The obvious thing nobody saw",
+        "html": "<p>Imagine watching a basketball game and counting passes by the team in white.</p><p>Someone in a gorilla suit walks through the scene. Would you notice? In a famous experiment, many people did not.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "THE EXPERIMENT",
+        "title": "Two things happen at once",
+        "html": "<p>Simons and Chabris asked participants to track passes in a short video. An unexpected person entered the action while viewers concentrated on the assigned task.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "YOUR TASK",
+            "title": "Count the passes",
+            "text": "Follow one team and keep a running total."
+          },
+          "right": {
+            "label": "THE SURPRISE",
+            "title": "Someone crosses",
+            "text": "An unexpected person moves through the same scene."
+          }
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "WHAT THE STUDY FOUND",
+        "title": "Seeing is not the same as noticing",
+        "html": "<p>Many viewers missed the unexpected event. Noticing varied with how demanding the counting task was and how similar the unexpected person looked to the attended players.</p><p>The point is not that eyes failed. Attention selected which parts of a busy scene reached awareness.</p>"
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "TRY THE IDEA",
+        "title": "What else might be invisible?",
+        "html": "<p>Suppose you proofread a report only for spelling errors. Could you overlook a glaringly inconsistent number?</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "Why might that happen?",
+          "answer": "A narrow task can direct attention away from other conspicuous details. A second pass with a different goal may catch what the first missed."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "IMPORTANT LIMIT",
+        "title": "Not a universal blindness switch",
+        "html": "<p>The researchers studied specific videos and attention tasks. They did not show that everyone misses the same event or that attention always blocks surprises.</p><p>Practical lesson: when stakes are high, use multiple review passes with different goals. A single careful look may still be selective.</p>"
+      }
+    ]
+  },
+  {
+    "id": "deep-image-prior-untrained-network",
+    "title": "An untrained neural network can help repair a photo",
+    "kicker": "The architecture is already a clue",
+    "hook": "What if the shape of a neural network—not a giant training dataset—helps recover a damaged image?",
+    "type": "Paper",
+    "category": "Deep Learning",
+    "author": "Dmitry Ulyanov, Andrea Vedaldi & Victor Lempitsky",
+    "source_title": "Deep Image Prior",
+    "source_url": "https://openaccess.thecvf.com/content_cvpr_2018/html/Ulyanov_Deep_Image_Prior_CVPR_2018_paper.html",
+    "year": 2018,
+    "minutes": 4,
+    "art": "mint",
+    "summary": "Deep Image Prior showed that the structure of a randomly initialized convolutional generator can be useful for restoring a single corrupted image. Fitting the network to that image can recover plausible structure without training on a separate image dataset.",
+    "body": [
+      "The usual recipe for image restoration trains on many example images. Deep Image Prior instead begins with a randomly initialized generator and optimizes it for one corrupted image.",
+      "The generator's architecture favors some image structures over others, providing an implicit prior even before learning from a dataset.",
+      "The authors demonstrated denoising, inpainting and super-resolution on tested images. The network is still optimized per image, and stopping at the right time matters for denoising."
+    ],
+    "takeaways": [
+      "Architecture itself can impose useful biases on possible outputs.",
+      "A neural network need not be pretrained on a large dataset to help with some image restoration tasks.",
+      "The method still optimizes weights on the target image; it is not instant restoration by random weights alone."
+    ],
+    "nuance": "The 2018 experiments concern selected low-level image restoration problems, not general visual understanding. The method may eventually fit noise too; early stopping and task-specific settings matter, and it does not universally outperform pretrained restoration models.",
+    "application": "When evaluating an ML method, ask which part of its success comes from learned data and which comes from architecture, optimization and other built-in assumptions.",
+    "quiz": {
+      "question": "What is surprising about Deep Image Prior?",
+      "choices": [
+        "It restores any photo without any optimization",
+        "A network's architecture can aid restoration without prior dataset training",
+        "It requires millions of labeled photos to restore one"
+      ],
+      "answer": 1,
+      "explanation": "The randomly initialized generator is optimized on the target image; its architecture provides a useful implicit bias."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "DEEP LEARNING · 4 MIN",
+        "title": "Can a neural network repair a photo without a training dataset?",
+        "html": "<p>Most image-restoration systems learn from thousands of examples. But what if you start with a neural network whose weights are random?</p><p>Deep Image Prior found that even this seemingly clueless network can help reconstruct a damaged image.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "THE TWIST",
+        "title": "What comes from data—and what comes from design?",
+        "html": "<p>Instead of learning from a collection of clean photos, the method adjusts one randomly initialized generator to reproduce a single damaged image.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "FAMILIAR ROUTE",
+            "title": "Train on many images",
+            "text": "Learn restoration patterns from a dataset."
+          },
+          "right": {
+            "label": "DEEP IMAGE PRIOR",
+            "title": "Optimize for one image",
+            "text": "Start random; use network structure as a built-in bias."
+          }
+        }
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "HOW IT WORKS",
+        "title": "Fit a generator, not individual pixels",
+        "html": "<p>The network receives a fixed random input and produces an image. Its weights are adjusted so that the output matches the available corrupted observation, with a task-appropriate loss.</p>",
+        "visual": {
+          "type": "flow",
+          "items": [
+            {
+              "label": "1",
+              "title": "Random input",
+              "text": "Feed a fixed noise pattern into a generator."
+            },
+            {
+              "label": "2",
+              "title": "Generate",
+              "text": "The network produces an image."
+            },
+            {
+              "label": "3",
+              "title": "Fit",
+              "text": "Adjust weights against the damaged observation."
+            }
+          ]
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE SURPRISING RESULT",
+        "title": "The structure itself helps",
+        "html": "<p>Ulyanov and colleagues demonstrated restoration on denoising, missing-region filling and super-resolution tasks. A convolutional generator tends to express useful image structure through its architecture, even without pretraining on an image collection.</p><p>That is an inductive bias: the model's design favors some solutions before seeing data.</p>"
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "THE CATCH",
+        "title": "Could it eventually learn the noise?",
+        "html": "<p>For denoising, optimizing forever is not necessarily wise. A sufficiently flexible network can eventually reproduce unwanted noise as well as image structure.</p>",
+        "interaction": {
+          "type": "choice",
+          "question": "What might help preserve a cleaner reconstruction?",
+          "choices": [
+            "Stop optimization at an appropriate point",
+            "Always optimize until every noisy pixel matches perfectly",
+            "Replace the image with unrelated training examples"
+          ],
+          "feedback": "Early stopping can matter: fitting the observation too closely may also fit noise."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "WHAT IT DOES NOT PROVE",
+        "title": "Not magic, not zero computation",
+        "html": "<p>The network still learns weights while fitting each target image. The result does not mean random weights alone restore photos, or that this method beats every pretrained model.</p><p>Its deeper lesson: performance can come partly from the architecture's assumptions, not just from information learned across a dataset.</p>"
+      }
+    ]
   }
 ]
