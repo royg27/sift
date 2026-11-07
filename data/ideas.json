@@ -1642,5 +1642,184 @@
         "html": "<p>The network still learns weights while fitting each target image. The result does not mean random weights alone restore photos, or that this method beats every pretrained model.</p><p>Its deeper lesson: performance can come partly from the architecture's assumptions, not just from information learned across a dataset.</p>"
       }
     ]
+  },
+  {
+    "id": "future-self-still-changing",
+    "title": "Your future self is probably less fixed than you think",
+    "kicker": "The end-of-history illusion",
+    "hook": "You know you've changed. Why does tomorrow's version of you seem so permanent?",
+    "type": "Paper",
+    "category": "Psychology",
+    "author": "Jordi Quoidbach, Daniel T. Gilbert & Timothy D. Wilson",
+    "source_title": "The End of History Illusion",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/23288539/",
+    "year": 2013,
+    "minutes": 3,
+    "art": "lavender",
+    "summary": "In a study of more than 19,000 adults, people described substantial changes in their past personalities, values and preferences but predicted comparatively little change ahead. The contrast suggests we may underestimate how different our future selves will be.",
+    "body": [
+      "Researchers asked adults aged 18 to 68 how much they had changed over the previous decade or expected to change over the next one.",
+      "Across ages, retrospective reports of change were larger than forecasts of future change, for personality, values and preferences.",
+      "This was largely a comparison between different people's recollections and forecasts, not a ten-year follow-up of each participant."
+    ],
+    "takeaways": [
+      "Present preferences can feel more permanent than they really are.",
+      "Past changes offer a useful prompt when making long commitments.",
+      "The study measures reported change and predictions, not a perfect objective record of future personality."
+    ],
+    "nuance": "The original design compared retrospective reports with prospective forecasts from different people, leaving room for memory, cohort and measurement effects. The pattern is not a law that every individual must change dramatically.",
+    "application": "Before a costly commitment based on a current passion, ask what you cared about ten years ago and how easily your next decade could surprise you.",
+    "quiz": {
+      "question": "What did the original end-of-history study find?",
+      "choices": [
+        "People reported more past change than they expected future change",
+        "People correctly forecast all future preferences",
+        "Personality stopped changing after age 30"
+      ],
+      "answer": 0,
+      "explanation": "Across ages, people described substantial past changes but anticipated relatively little future change."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "PSYCHOLOGY · 3 MIN",
+        "title": "Are you already the final version of yourself?",
+        "html": "<p>Think about your favorite music, goals, or friendships ten years ago. Some probably changed.</p><p>Now picture yourself ten years from today. Oddly, that future person may feel much more like today's you than your past self does.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "THE ASYMMETRY",
+        "title": "We remember change, but predict stability",
+        "html": "<p>In a 2013 study involving more than 19,000 adults aged 18 to 68, researchers compared reports of past change with expectations of future change in personality, values and preferences.</p><p>At different ages, people described more change behind them than they expected ahead.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "LOOKING BACK",
+            "title": "I've changed a lot",
+            "text": "Past tastes and values feel noticeably different."
+          },
+          "right": {
+            "label": "LOOKING FORWARD",
+            "title": "I'm mostly settled",
+            "text": "Current tastes and values feel enduring."
+          }
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "WHY IT MATTERS",
+        "title": "Today's preferences feel unusually final",
+        "html": "<p>The authors called this the <em>end-of-history illusion</em>: treating the present as if personal development has nearly finished.</p><p>That can matter when paying today for a future experience or making commitments based on what you currently love. A future you may want something else.</p>"
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "A SMALL EXPERIMENT",
+        "title": "Ask two versions of yourself",
+        "html": "<p>Pick something you feel sure you will enjoy in ten years: a hobby, a city, or a kind of work. Now remember a strong preference from ten years ago.</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "What is the useful question to ask before a long commitment?",
+          "answer": "What evidence do I have that this preference is more permanent than the ones I outgrew?"
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE IMPORTANT CAVEAT",
+        "title": "A comparison, not a crystal ball",
+        "html": "<p>The original studies compared people's memories of the previous decade with other people's predictions for the next. They did not follow every participant for ten years to verify those forecasts.</p><p>Memory and cohort differences could affect the gap. The finding is a reason for humility, not proof that your future tastes must change.</p>"
+      }
+    ]
+  },
+  {
+    "id": "false-news-novelty-spread",
+    "title": "Why the surprising rumor outruns the correction",
+    "kicker": "The novelty advantage",
+    "hook": "On Twitter, false stories often traveled faster than true ones—and the obvious explanation was incomplete.",
+    "type": "Paper",
+    "category": "Society",
+    "author": "Soroush Vosoughi, Deb Roy & Sinan Aral",
+    "source_title": "The Spread of True and False News Online",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/29590045/",
+    "year": 2018,
+    "minutes": 3,
+    "art": "peach",
+    "summary": "A 2018 study tracing approximately 126,000 fact-checked stories on Twitter found that false stories spread farther, faster, deeper and more broadly than true ones. Falsehoods appeared more novel, while bots amplified true and false stories at similar rates.",
+    "body": [
+      "Researchers studied the diffusion of about 126,000 true and false stories tweeted by roughly three million people between 2006 and 2017.",
+      "Falsehood traveled farther, faster, deeper and more broadly than truth in the observed cascades; the gap was especially pronounced for political stories.",
+      "False stories were more novel by the study's measures, and automated accounts did not explain the relative advantage: bots accelerated both categories at similar rates."
+    ],
+    "takeaways": [
+      "What feels surprising is not necessarily what is reliable.",
+      "The observed advantage of false stories cannot be attributed simply to bots.",
+      "This is evidence about fact-checked Twitter stories in 2006–2017, not every platform or kind of information."
+    ],
+    "nuance": "The study is observational. Novelty and emotional reactions are plausible contributors, not experimentally established causes of the diffusion gap. Its fact-checked sample and historical Twitter setting limit generalization.",
+    "application": "When a post seems irresistible because it is shocking or new, pause before sharing; inspect its original evidence rather than treating surprise as a credibility signal.",
+    "quiz": {
+      "question": "What did the 2018 Twitter diffusion study find about bots?",
+      "choices": [
+        "Bots preferentially spread false stories",
+        "Bots accelerated true and false stories at similar rates",
+        "The dataset excluded all automated accounts"
+      ],
+      "answer": 1,
+      "explanation": "Bots amplified both kinds of stories similarly; the relative spread advantage of false stories was not explained by bots alone."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "SOCIETY · 3 MIN",
+        "title": "Why does a wild rumor travel so far?",
+        "html": "<p>A shocking story appears in your feed. You want to send it to someone before you have even checked it.</p><p>In a large study of Twitter, researchers found a troubling pattern: false stories often traveled farther and faster than true ones.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "THE EVIDENCE",
+        "title": "Follow the story, not just the tweet",
+        "html": "<p>Researchers traced about 126,000 fact-checked stories shared by roughly three million Twitter users from 2006 through 2017.</p><p>False stories spread farther, faster, deeper and more broadly in the observed cascades. The difference was particularly pronounced for political news.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "TRUE STORIES",
+            "title": "More limited cascades",
+            "text": "Typically reached fewer people in this dataset."
+          },
+          "right": {
+            "label": "FALSE STORIES",
+            "title": "Wider cascades",
+            "text": "Often reached more people through longer sharing chains."
+          }
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE SURPRISE",
+        "title": "It wasn't simply a bot problem",
+        "html": "<p>One obvious suspect is automated accounts. But the researchers found that bots accelerated the spread of true and false stories at similar rates.</p><p>The relative advantage of falsehood remained. The pattern pointed toward human sharing behavior as an important part of the story.</p>"
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "THE NOVELTY TRAP",
+        "title": "What would you share first?",
+        "html": "<p>The false stories in the study were also more novel by the researchers' measures. Surprise might help explain why people pass them along, though the study did not prove that novelty caused the gap.</p>",
+        "interaction": {
+          "type": "choice",
+          "question": "Which reaction is a better reason to verify before sharing?",
+          "choices": [
+            "This is so surprising everyone must see it",
+            "I found the original evidence and checked it",
+            "Lots of people are reposting it"
+          ],
+          "feedback": "Surprise and popularity are not evidence. Novelty may help a story spread even when it is false."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "WHAT WE CAN SAY",
+        "title": "An observed pattern, not a universal law",
+        "html": "<p>The researchers analyzed fact-checked stories on Twitter during 2006–2017. Their results do not establish that falsehood always wins on every platform, or prove precisely why people share it.</p><p>The practical insight is modest but powerful: when something feels astonishing, that feeling may be a reason to slow down.</p>"
+      }
+    ]
   }
 ]
