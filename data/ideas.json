@@ -1821,5 +1821,92 @@
         "html": "<p>The researchers analyzed fact-checked stories on Twitter during 2006–2017. Their results do not establish that falsehood always wins on every platform, or prove precisely why people share it.</p><p>The practical insight is modest but powerful: when something feels astonishing, that feeling may be a reason to slow down.</p>"
       }
     ]
+  },
+  {
+    "id": "placebo-without-deception",
+    "title": "A placebo can work even when you know it's a placebo",
+    "kicker": "The surprising open-label placebo experiment",
+    "hook": "Does a placebo require a doctor to fool you? One randomized trial tested the opposite.",
+    "type": "Paper",
+    "category": "Science",
+    "author": "Ted J. Kaptchuk and colleagues",
+    "source_title": "Placebos without Deception: A Randomized Controlled Trial in Irritable Bowel Syndrome",
+    "source_url": "https://doi.org/10.1371/journal.pone.0015591",
+    "year": 2010,
+    "minutes": 3,
+    "art": "sage",
+    "summary": "In a small three-week randomized trial involving 80 patients with irritable bowel syndrome, people knowingly taking inert placebo pills reported greater symptom improvement than a no-treatment group receiving similar clinician attention. The finding challenges the idea that placebo responses always require deception, but does not show that inert pills treat underlying disease.",
+    "body": [
+      "The researchers openly explained that the pills contained no active medication, while also describing placebo effects and encouraging regular use.",
+      "Eighty patients with irritable bowel syndrome were randomized to these openly labeled placebo pills or no pills; clinician interactions were designed to be comparable.",
+      "At three weeks, the placebo group reported better overall improvement and symptom relief on the study's questionnaires. The study was small, short and measured largely self-reported outcomes."
+    ],
+    "takeaways": [
+      "Expectations and treatment rituals may influence subjective symptoms without deception.",
+      "A placebo comparison must consider clinician attention and the explanation patients receive.",
+      "This experiment does not justify replacing effective medical treatment with inert pills."
+    ],
+    "nuance": "The single-center trial had 80 participants, lasted three weeks and used largely patient-reported IBS outcomes. Participants were told that placebo effects can be powerful, so the results do not isolate pill-taking from expectation-setting. It did not establish a physiological cure or generalize to every condition.",
+    "application": "When reading a health study, separate symptom relief from disease modification, and inspect what the control group experienced—not merely whether a pill contained an active ingredient.",
+    "quiz": {
+      "question": "What did the open-label placebo trial actually demonstrate?",
+      "choices": [
+        "People must be deceived for placebo effects to occur",
+        "In this small IBS trial, knowingly taking inert pills improved reported symptoms versus a no-pill comparison",
+        "Placebo pills cured the underlying cause of IBS"
+      ],
+      "answer": 1,
+      "explanation": "Participants knew the pills were inert; the trial found better self-reported IBS outcomes over three weeks, not a demonstrated cure."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "SCIENCE · 3 MIN",
+        "title": "Would a sugar pill help if you knew the truth?",
+        "html": "<p>Imagine a doctor hands you pills and says plainly: <em>these contain no active medicine.</em></p><p>Would taking them be pointless? A 2010 randomized trial asked whether the familiar treatment ritual might still change how people feel—even without deception.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "THE EXPERIMENT",
+        "title": "Two groups, one unusual prescription",
+        "html": "<p>Researchers enrolled 80 people with irritable bowel syndrome (IBS). Both groups had comparable clinician contact. One group received no pills; the other knowingly took inert pills, with an explanation emphasizing possible placebo effects.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "CONTROL",
+            "title": "No pills",
+            "text": "Comparable clinician interaction, without the pill-taking ritual."
+          },
+          "right": {
+            "label": "OPEN-LABEL PLACEBO",
+            "title": "Known inert pills",
+            "text": "Pills clearly labeled placebo, taken regularly after an encouraging explanation."
+          }
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "WHAT THEY FOUND",
+        "title": "The group that knew still felt better",
+        "html": "<p>After three weeks, the open-label placebo group reported greater overall improvement and lower IBS symptom severity than the no-treatment group.</p><p>The result challenges a simple assumption: <strong>deception is not always necessary for a placebo response.</strong> It does not tell us which part of the experience produced the difference.</p>"
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "THINK LIKE A RESEARCHER",
+        "title": "What was bundled with the pills?",
+        "html": "<p>The pills were inert, but the intervention was not just a chemical-free capsule. It included an explanation, a routine, and a medical context.</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "What additional comparison could help isolate the effect of the pill-taking ritual?",
+          "answer": "Compare openly labeled pills with a group receiving the same explanation and attention but no pills. This trial matched clinician contact, but the ritual and expectations were still intertwined."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE LIMIT",
+        "title": "Feeling better is not the same as curing disease",
+        "html": "<p>This was one small, short, single-center trial, with outcomes largely based on what patients reported. It did not establish that inert pills reverse underlying pathology or work for every illness.</p><p>The useful insight is narrower—and more interesting: expectations, context, and treatment routines may matter even when everyone knows the pill is inactive.</p>"
+      }
+    ]
   }
 ]
