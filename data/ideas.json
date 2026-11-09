@@ -1908,5 +1908,211 @@
         "html": "<p>This was one small, short, single-center trial, with outcomes largely based on what patients reported. It did not establish that inert pills reverse underlying pathology or work for every illness.</p><p>The useful insight is narrower—and more interesting: expectations, context, and treatment routines may matter even when everyone knows the pill is inactive.</p>"
       }
     ]
+  },
+  {
+    "id": "ownership-changes-price",
+    "title": "Why your coffee mug is worth more once it's yours",
+    "kicker": "The price tag ownership quietly rewrites",
+    "hook": "Would you pay as much for a mug as you'd demand to give it up? In a classic experiment, the answers diverged.",
+    "type": "Paper",
+    "category": "Economics",
+    "author": "Daniel Kahneman, Jack L. Knetsch and Richard H. Thaler",
+    "source_title": "Experimental Tests of the Endowment Effect and the Coase Theorem",
+    "source_url": "https://doi.org/10.1086/261737",
+    "year": 1990,
+    "minutes": 3,
+    "art": "peach",
+    "summary": "In classic market experiments, people randomly given coffee mugs typically demanded more to sell them than others offered to buy them. Trading was lower than predicted, whereas markets using tokens with assigned redemption values traded as expected. Ownership can influence valuation, although this is not a universal rule for every good or market.",
+    "body": [
+      "Researchers randomly assigned coffee mugs to some participants and organized markets in which mug owners could sell and others could buy.",
+      "The mug markets showed a pronounced gap between willingness to accept and willingness to pay, with fewer trades than standard predictions. Parallel markets for induced-value tokens behaved much closer to the theoretical benchmark.",
+      "This contrast suggested that the reluctance to trade mugs was not merely a failure to understand the trading procedure."
+    ],
+    "takeaways": [
+      "Owning an item can change the price at which you are willing to part with it.",
+      "Comparing consumption goods with redeemable tokens helps separate valuation from market mechanics.",
+      "A valuation gap in an experiment does not imply that all prices or trades behave this way."
+    ],
+    "nuance": "These were controlled market experiments. Subsequent work has explored when the effect weakens, including with experience and different procedures; the paper does not prove an immutable ownership bias in every context.",
+    "application": "When selling an old possession, ask what you would pay to acquire the same item today. The gap between that number and your asking price may reveal an attachment to ownership.",
+    "quiz": {
+      "question": "Why did the researchers also run markets for tokens with assigned values?",
+      "choices": [
+        "To test whether trading procedures alone caused the low mug-trading volume",
+        "To show that every market has identical prices",
+        "To prove mugs are objectively worthless"
+      ],
+      "answer": 0,
+      "explanation": "Token markets traded near the predicted volume, helping distinguish the mug valuation effect from a generic inability to trade."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "ECONOMICS · 3 MIN",
+        "title": "A mug changes value when it changes hands",
+        "html": "<p>Imagine receiving an ordinary coffee mug for free. A stranger offers to buy it. How much would you demand?</p><p>Now reverse the situation: you don't own it. How much would you pay?</p><p><strong>Economic theory gives us a reason to expect these numbers to be fairly close.</strong> Real people often disagree.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "THE MARKET TEST",
+        "title": "Same mug. Different side of the deal.",
+        "html": "<p>In experiments published in 1990, researchers randomly gave mugs to some participants. Owners could sell; nonowners could buy.</p><p>The groups faced the same object, but ownership changed the question they were answering.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "BUYER",
+            "title": "How much to acquire it?",
+            "text": "The highest price you'd willingly pay for a mug you do not own."
+          },
+          "right": {
+            "label": "OWNER",
+            "title": "How much to surrender it?",
+            "text": "The lowest price you'd accept to give up the mug you already have."
+          }
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE SURPRISE",
+        "title": "The mugs barely moved",
+        "html": "<p>Mug owners typically wanted substantially more than prospective buyers would pay. As a result, fewer mugs traded than the researchers' benchmark predicted.</p><p>One interpretation is the <strong>endowment effect</strong>: possessing something can raise its subjective value, even if you received it by chance.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "A CLEVER CONTROL",
+        "title": "What if trading itself was the problem?",
+        "html": "<p>The researchers also ran markets for tokens that could be redeemed for assigned monetary values. Those markets produced trading volumes much closer to predictions.</p><p>That contrast mattered: participants could navigate the market, yet consumption goods produced unusually little exchange.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "MUG MARKET",
+            "title": "Undertrading",
+            "text": "Owners' selling prices and buyers' offers diverged."
+          },
+          "right": {
+            "label": "TOKEN MARKET",
+            "title": "Near benchmark",
+            "text": "Trade volume was close to the predicted level."
+          }
+        }
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "TRY THE REFRAME",
+        "title": "Your old headphones",
+        "html": "<p>Suppose you're asking a surprisingly high price for headphones you no longer use. Before listing them, consider a different question.</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "What would you pay for an identical used pair today?",
+          "answer": "If you'd pay far less than you're asking, part of the difference may reflect attachment to what is already yours. Condition and resale hassle can also matter."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE BOUNDARY",
+        "title": "Not every object behaves like a mug",
+        "html": "<p>The experiment reveals a valuation pattern in particular controlled markets. It doesn't prove that ownership always inflates value, or that people cannot learn to trade differently.</p><p>The practical insight is a question, not a diagnosis: <strong>am I pricing the object—or the feeling of giving it up?</strong></p>"
+      }
+    ]
+  },
+  {
+    "id": "culture-as-collective-brain",
+    "title": "The smartest invention may belong to no single inventor",
+    "kicker": "Why culture can act like shared intelligence",
+    "hook": "Some tools and techniques are too complicated for one person to reinvent. How does a society keep making them better?",
+    "type": "Paper",
+    "category": "History",
+    "author": "Michael Muthukrishna and Joseph Henrich",
+    "source_title": "Innovation in the Collective Brain",
+    "source_url": "https://henrich.fas.harvard.edu/publications/innovation-collective-brain-0",
+    "year": 2016,
+    "minutes": 3,
+    "art": "sage",
+    "summary": "Muthukrishna and Henrich describe innovation as a process emerging from a network of people who learn from one another, recombine ideas, and accumulate improvements over generations. Their collective-brain framework shifts attention from isolated genius to social learning, connectivity and cumulative culture; it is a theoretical synthesis, not a controlled proof that larger networks always innovate more.",
+    "body": [
+      "An individual rarely invents every component of a complex technology from scratch. Skills, methods and tools can be transmitted socially and improved incrementally.",
+      "The collective-brain framework treats innovation as emerging from interactions among learners, inventors and the accumulated knowledge they inherit.",
+      "Networks can expand access to useful ideas and allow recombination, but the quality of social learning and the structure of connections matter; sheer population size is not a magic switch."
+    ],
+    "takeaways": [
+      "Innovation can be cumulative: each generation starts with discoveries it did not personally make.",
+      "The connections between people can be as important as the capabilities of individuals.",
+      "Preserving and sharing knowledge is part of the innovation process, not merely a record of it."
+    ],
+    "nuance": "The article develops and synthesizes a theoretical framework with supporting literature; it does not establish a single causal law that bigger groups always create better ideas. Networks can also spread errors, and institutions shape who gets to contribute.",
+    "application": "When tackling a hard problem, map the knowledge you inherit, seek people with different partial solutions, and document improvements so the next person starts further ahead.",
+    "quiz": {
+      "question": "In the collective-brain view, where does much innovation come from?",
+      "choices": [
+        "One exceptional individual working without outside ideas",
+        "People learning from, combining and improving ideas across a network and over time",
+        "Population size alone, regardless of connections or learning"
+      ],
+      "answer": 1,
+      "explanation": "The framework emphasizes social learning, connections, recombination and cumulative improvements rather than isolated genius."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "HISTORY · IDEAS · 3 MIN",
+        "title": "Who invented the modern world?",
+        "html": "<p>Think of a bicycle, a telescope, or a smartphone. Can you name one person who invented every essential component?</p><p>Usually not. Each object combines techniques, materials, and discoveries inherited from many others.</p><p>Researchers Michael Muthukrishna and Joseph Henrich offer a useful lens: <strong>the collective brain.</strong></p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "THE CORE IDEA",
+        "title": "A chain that remembers",
+        "html": "<p>A person discovers a useful trick. Someone else learns it, improves it, and passes the better version onward. Over time, the resulting technique may become too intricate for one individual to reconstruct alone.</p>",
+        "visual": {
+          "type": "flow",
+          "items": [
+            {
+              "label": "1",
+              "title": "Learn",
+              "text": "Inherit tools and know-how from others."
+            },
+            {
+              "label": "2",
+              "title": "Modify",
+              "text": "Experiment, adapt, or combine techniques."
+            },
+            {
+              "label": "3",
+              "title": "Transmit",
+              "text": "Pass the improved version to the next learner."
+            }
+          ]
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE SHIFT",
+        "title": "From lone genius to connected minds",
+        "html": "<p>In their 2016 synthesis, the authors argue that innovation depends not only on clever individuals but also on <strong>who can learn from whom</strong> and how ideas are preserved.</p><p>A breakthrough may be the latest link in a long chain, rather than a lightning bolt from nowhere.</p>"
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "THINK IT THROUGH",
+        "title": "Two clever villages",
+        "html": "<p>Imagine two communities with equally talented makers. One keeps discoveries secret. The other shares successful methods, critiques mistakes, and combines techniques.</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "Which community has a better chance of accumulating improvements—and why?",
+          "answer": "The connected community has more opportunities to retain, test and recombine knowledge. That is a prediction of the collective-brain framework, not a guarantee: institutions and incentives still matter."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "WHAT THIS DOESN'T PROVE",
+        "title": "More people isn't a magic formula",
+        "html": "<p>This is a theoretical framework supported by a wider research literature, not an experiment proving that any larger network will innovate faster.</p><p>Connections can transmit mistakes as well as discoveries. Access, incentives, trust, and institutions affect whether useful knowledge survives.</p><p>The lesson is to build <strong>learning pathways</strong>, not simply bigger crowds.</p>"
+      },
+      {
+        "kind": "story",
+        "eyebrow": "A SMALL APPLICATION",
+        "title": "Leave a better starting point",
+        "html": "<p>On your next project, ask three questions: What did I inherit? Whose different expertise could improve it? What should I record so someone else can build on it?</p><p>Even a concise note, reusable method, or documented failure can be a contribution to a collective brain.</p>"
+      }
+    ]
   }
 ]
