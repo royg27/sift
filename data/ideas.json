@@ -2114,5 +2114,211 @@
         "html": "<p>On your next project, ask three questions: What did I inherit? Whose different expertise could improve it? What should I record so someone else can build on it?</p><p>Even a concise note, reusable method, or documented failure can be a contribution to a collective brain.</p>"
       }
     ]
+  },
+  {
+    "id": "knowledge-distillation-soft-labels",
+    "title": "A smaller AI can learn from a bigger one's mistakes",
+    "kicker": "Why the wrong answers can teach more than the right one",
+    "hook": "A teacher says 'cat.' A better teacher says 'cat, but it looks a little like a fox.'",
+    "type": "Paper",
+    "category": "Deep Learning",
+    "author": "Geoffrey Hinton, Oriol Vinyals and Jeff Dean",
+    "source_title": "Distilling the Knowledge in a Neural Network",
+    "source_url": "https://arxiv.org/abs/1503.02531",
+    "year": 2015,
+    "minutes": 3,
+    "art": "lavender",
+    "summary": "Knowledge distillation trains a compact student network to match a larger teacher's softened output probabilities, not just the correct label. The pattern of less likely alternatives carries information about similarities between classes. The paper reports results on handwritten-digit recognition and speech recognition; success depends on the teacher, student and task.",
+    "body": [
+      "A standard classifier often learns from a single correct class. That label hides what else the example resembles.",
+      "Distillation uses a trained teacher's probability distribution as an additional learning signal. A temperature adjustment exposes relationships among unlikely alternatives.",
+      "The authors demonstrated the approach on MNIST and an acoustic speech-recognition model, showing that a smaller deployable model can benefit from a larger ensemble's predictions."
+    ],
+    "takeaways": [
+      "A teacher's uncertainty can carry useful structure about similarities.",
+      "A smaller student can learn from a teacher's outputs without copying its architecture or weights.",
+      "Training-time compute and deployment-time compute need not be the same."
+    ],
+    "nuance": "The paper does not show that any small model can perfectly reproduce any large model. Soft labels can also transmit teacher errors, and the paper's empirical evidence is task-specific.",
+    "application": "When building a compact classifier, consider training it against a stronger teacher's softened predictions and evaluating it independently on held-out examples.",
+    "quiz": {
+      "question": "What extra information can a teacher's softened predictions give a student?",
+      "choices": [
+        "Which incorrect classes resemble the example",
+        "The teacher's exact internal weights",
+        "A guarantee that the student will never err"
+      ],
+      "answer": 0,
+      "explanation": "Relative probabilities of alternatives reveal learned similarities, though they may also reflect teacher errors."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "DEEP LEARNING · 3 MIN",
+        "title": "What can a wrong answer teach?",
+        "html": "<p>A picture is labeled <strong>cat</strong>. That tells a model what it is, but not what it almost looks like.</p><p>Imagine a teacher adding: it is much more like a fox than a bicycle. Those near-misses can be useful information.</p><p>Can a small AI learn from a larger AI's entire pattern of guesses?</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "TWO KINDS OF SUPERVISION",
+        "title": "A label versus a lesson",
+        "html": "<p>Traditional labels identify the correct class. A trained teacher offers a distribution across classes: which alternatives look plausible, and which are absurd.</p><p>The numbers below are <em>illustrative</em>, not measurements from the paper.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "HARD LABEL",
+            "title": "Cat",
+            "text": "Cat: yes. Fox: no. Bicycle: no."
+          },
+          "right": {
+            "label": "SOFT TEACHER",
+            "title": "Cat, with context",
+            "text": "Cat: likely. Fox: somewhat similar. Bicycle: extremely unlikely."
+          }
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE TRICK",
+        "title": "Turn up the temperature",
+        "html": "<p>A confident teacher may assign almost all probability to one answer. The useful differences between the alternatives become tiny.</p><p>Hinton and colleagues used a <strong>temperature</strong> setting to soften the probabilities. The student learns to match this softened pattern, often alongside the real labels.</p><p>No one needs to copy the teacher's internal weights.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "THE TRAINING PIPELINE",
+        "title": "Big teacher, small student",
+        "html": "<p>The expensive teacher can be trained offline. The smaller student learns from its predictions and is the model eventually deployed.</p>",
+        "visual": {
+          "type": "flow",
+          "items": [
+            {
+              "label": "1",
+              "title": "Train teacher",
+              "text": "Build a strong model or ensemble."
+            },
+            {
+              "label": "2",
+              "title": "Produce soft targets",
+              "text": "Reveal how the teacher ranks possible answers."
+            },
+            {
+              "label": "3",
+              "title": "Train student",
+              "text": "Match those targets in a smaller network."
+            }
+          ]
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE EVIDENCE",
+        "title": "Did it actually help?",
+        "html": "<p>The 2015 paper studied handwritten-digit recognition and acoustic speech recognition. The authors reported useful results from transferring an ensemble's behavior into a smaller model, including improvements in a commercial speech system.</p><p>That supports distillation as a practical technique in those settings. It does not prove every tiny model can absorb everything a larger one knows.</p>"
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "TEST THE IDEA",
+        "title": "Which teacher is more informative?",
+        "html": "<p>Two teachers correctly identify a handwritten 3. One only reports the answer. The other also reveals that it resembles an 8 more than a 1.</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "Which teacher gives a small student more information?",
+          "answer": "The second: its relative probabilities describe a similarity structure. But if its judgments are unreliable, the student can inherit those mistakes."
+        }
+      }
+    ]
+  },
+  {
+    "id": "manual-work-before-automation",
+    "title": "The best way to scale may be to start manually",
+    "kicker": "A counterintuitive lesson from early startups",
+    "hook": "What if doing work by hand is the fastest way to discover what software should automate?",
+    "type": "Essay",
+    "category": "Technology",
+    "author": "Paul Graham",
+    "source_title": "Do Things that Don't Scale",
+    "source_url": "https://paulgraham.com/ds.html",
+    "year": 2013,
+    "minutes": 3,
+    "art": "peach",
+    "summary": "Paul Graham argues that early startups often need deliberately manual efforts: recruiting users individually, helping them personally, and even performing a service by hand before automating it. Such work can generate the feedback needed to discover what to build, though the essay is founder advice supported by examples rather than controlled evidence.",
+    "body": [
+      "An early product may not attract users by itself. Graham argues that founders often must recruit users personally and offer unusually attentive support.",
+      "Some founders can deliver a service manually before building automation, discovering the actual workflow and bottlenecks through experience.",
+      "The approach should change as demand grows; the goal is learning what is worth scaling, not permanently hiding manual labor."
+    ],
+    "takeaways": [
+      "Manual service can be a research tool, not merely a workaround.",
+      "A handful of engaged users may teach more than a large but indifferent audience.",
+      "Automate observed bottlenecks rather than imagined ones."
+    ],
+    "nuance": "This is an influential entrepreneurial argument built on case examples, not a randomized test or universal law. Manual service can mask weak demand or create unsustainable expectations; safety-critical and regulated services require additional care.",
+    "application": "For a new product idea, serve three prospective users personally, note repeated steps and points of friction, and automate only what repeats.",
+    "quiz": {
+      "question": "Why might a founder initially deliver a service manually?",
+      "choices": [
+        "To avoid ever writing software",
+        "To discover real user needs and recurring steps before automating",
+        "Because all successful products must stay manual"
+      ],
+      "answer": 1,
+      "explanation": "Hands-on delivery exposes what users value and which parts of the process deserve automation."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "TECHNOLOGY · STARTUPS · 3 MIN",
+        "title": "Your first product might be a person",
+        "html": "<p>Suppose you want to build software that plans weekend trips. You could spend months creating a recommendation engine.</p><p>Or you could plan ten trips manually for real people and notice which parts they love, ignore, or change.</p><p>The second approach sounds less scalable. It might teach you more.</p>"
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE COUNTERINTUITIVE MOVE",
+        "title": "Don't automate a guess",
+        "html": "<p>In his 2013 essay, Paul Graham argues that young startups often need to do things that large companies cannot afford to do: recruit users one by one, personally solve problems, and offer exceptional attention.</p><p>That isn't just marketing. It can be a way to learn what the product should become.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "TWO PATHS",
+        "title": "Build first or learn first?",
+        "html": "<p>Automation is powerful when you know which task matters. Before that, it can make the wrong process faster.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "AUTOMATE EARLY",
+            "title": "Scale assumptions",
+            "text": "Build a complete workflow before observing many users."
+          },
+          "right": {
+            "label": "SERVE MANUALLY",
+            "title": "Find the real bottleneck",
+            "text": "Solve the problem directly, observe friction, then automate repeated steps."
+          }
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "A REAL EXAMPLE",
+        "title": "The founders who carried laptops",
+        "html": "<p>Graham recounts how the early Stripe team did not simply email interested users a signup link. They helped people get set up immediately, sometimes taking their laptops and doing the installation.</p><p>He also describes founders handling work behind the scenes before automating it. These are illustrative startup stories, not controlled comparisons.</p>"
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "APPLY IT",
+        "title": "Which part would you automate?",
+        "html": "<p>You manually create five trip itineraries. Each person wants different destinations, but all five ask for an easy way to compare travel times.</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "What should you build first?",
+          "answer": "A travel-time comparison tool is a promising first feature: it addresses repeated observed friction. Test whether users actually value it before expanding."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE LIMIT",
+        "title": "Manual isn't always better",
+        "html": "<p>Graham's essay is practical advice, not proof that every startup should use this approach.</p><p>Personal service can hide weak demand, become costly, or set expectations you cannot maintain. The useful question is not whether manual work can scale forever.</p><p>It is whether manual work helps you <strong>discover what deserves to scale.</strong></p>"
+      }
+    ]
   }
 ]
