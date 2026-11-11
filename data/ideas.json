@@ -2320,5 +2320,186 @@
         "html": "<p>Graham's essay is practical advice, not proof that every startup should use this approach.</p><p>Personal service can hide weak demand, become costly, or set expectations you cannot maintain. The useful question is not whether manual work can scale forever.</p><p>It is whether manual work helps you <strong>discover what deserves to scale.</strong></p>"
       }
     ]
+  },
+  {
+    "id": "snow-cholera-exceptions",
+    "title": "The people who didn't get sick cracked the case",
+    "kicker": "A Victorian detective story about causal evidence",
+    "hook": "Why did a brewery escape a deadly outbreak in the middle of London?",
+    "type": "Book",
+    "category": "History",
+    "author": "John Snow",
+    "source_title": "On the Mode of Communication of Cholera (second edition)",
+    "source_url": "https://www.gutenberg.org/files/72894/72894-h/72894-h.htm",
+    "year": 1855,
+    "minutes": 3,
+    "art": "peach",
+    "summary": "During London's 1854 cholera outbreak, physician John Snow investigated not only the concentration of deaths near a public pump but also exceptions to that pattern. Differences in water consumption helped distinguish his waterborne explanation from the prevailing bad-air theory.",
+    "body": [
+      "Snow mapped deaths and investigated where people obtained drinking water.",
+      "A nearby brewery escaped severe illness among its workers, who did not use the implicated street pump. A woman living far away who had its water delivered died of cholera.",
+      "The pump handle was removed, but the outbreak was already declining, making the intervention alone insufficient to establish its effect."
+    ],
+    "takeaways": [
+      "Exceptions can distinguish competing explanations.",
+      "Measure exposure rather than assuming proximity is exposure.",
+      "A decline after an intervention does not necessarily establish causation."
+    ],
+    "nuance": "Snow's investigation was observational, not randomized. He did not establish the precise effect of removing the pump handle; his evidence came from multiple comparisons and investigations.",
+    "application": "When investigating a failure, compare affected cases with nearby unaffected cases and distant affected cases. Ask what exposure they actually share.",
+    "quiz": {
+      "question": "Why was the brewery especially informative?",
+      "choices": [
+        "It was far from the outbreak",
+        "Its workers shared the neighborhood but avoided the suspected water source",
+        "It proved beer cures cholera"
+      ],
+      "answer": 1,
+      "explanation": "The contrast helped separate geographic proximity from actual exposure to the pump water."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "HISTORY · EPIDEMIOLOGY · 3 MIN",
+        "title": "A mystery on Broad Street",
+        "html": "<p>London, 1854. Cholera is killing people in a crowded neighborhood. Many blame foul air. Physician John Snow suspects drinking water instead.</p><p>His most revealing clues include people who stayed healthy right beside the outbreak, and people who fell ill far away.</p>"
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE FIRST CLUE",
+        "title": "A map is only the beginning",
+        "html": "<p>Snow recorded where victims lived or became ill and marked deaths on a map alongside public pumps.</p><p>Many clustered around the Broad Street pump. But geography alone could not settle the argument: people living nearby shared both air and access to water.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "THE CONTRAST",
+        "title": "Same neighborhood, different exposure",
+        "html": "<p>Snow investigated groups that did not fit the simple geographic pattern.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "NEAR THE PUMP",
+            "title": "Brewery workers",
+            "text": "Their employer reported no severe cholera among the workers, who did not use the street pump."
+          },
+          "right": {
+            "label": "FAR AWAY",
+            "title": "A woman in Hampstead",
+            "text": "She had Broad Street water delivered and died after drinking it."
+          }
+        }
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "THINK LIKE A DETECTIVE",
+        "title": "What would you investigate next?",
+        "html": "<p>Imagine two adjacent buildings. One has many cases; the other has almost none. Both breathe the same neighborhood air.</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "What difference would you look for?",
+          "answer": "Compare their water sources and actual drinking habits. The contrasting exposures can help distinguish explanations that a map alone cannot separate."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE IMPORTANT TWIST",
+        "title": "The handle is not the whole story",
+        "html": "<p>Officials removed the pump handle on September 8. But new cases were already falling. Snow himself acknowledged that the effect of the removal was uncertain.</p><p>The stronger lesson is to combine independent clues, especially exceptions that competing explanations struggle to explain.</p>"
+      }
+    ]
+  },
+  {
+    "id": "hayek-prices-information",
+    "title": "A price can carry news without telling the story",
+    "kicker": "How markets communicate dispersed information",
+    "hook": "How can a factory react to a shortage it has never heard about?",
+    "type": "Essay",
+    "category": "Economics",
+    "author": "Friedrich A. Hayek",
+    "source_title": "The Use of Knowledge in Society",
+    "source_url": "https://www.econlib.org/library/Essays/hykKnw.html",
+    "year": 1945,
+    "minutes": 3,
+    "art": "peach",
+    "summary": "Hayek's 1945 essay argues that changing prices can communicate scarcity across a network of buyers and sellers without requiring each participant to know the underlying events. His example of tin illustrates how decentralized adjustments can coordinate resource use.",
+    "body": [
+      "Relevant economic knowledge is distributed across people and places.",
+      "A change in the price of tin can encourage users to conserve it or find substitutes without knowing why it became scarce.",
+      "Prices communicate some information but do not automatically capture every social cost or guarantee fair outcomes."
+    ],
+    "takeaways": [
+      "A signal can coordinate action without explaining its cause.",
+      "Local knowledge matters when circumstances change.",
+      "Useful signals are not necessarily complete measures of social value."
+    ],
+    "nuance": "This is a theoretical argument, not an empirical demonstration that markets always allocate resources efficiently. Market power, externalities and unequal purchasing power can distort outcomes.",
+    "application": "When designing a shared resource system, ask which local signals would help users adjust their behavior and which important costs those signals would omit.",
+    "quiz": {
+      "question": "What does Hayek's tin example illustrate?",
+      "choices": [
+        "Everyone must know why a shortage happened",
+        "A price change can coordinate responses without everyone knowing the cause",
+        "Prices always measure social welfare perfectly"
+      ],
+      "answer": 1,
+      "explanation": "The price transmits actionable information about relative scarcity without transmitting the entire underlying story."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "ECONOMICS · 3 MIN",
+        "title": "The factory that never heard the news",
+        "html": "<p>Imagine a factory using tin. Somewhere overseas, a mine closes. The factory manager never reads about it.</p><p>Yet the factory starts using less tin. How could information about a distant event change a local decision without anyone explaining what happened?</p>"
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE KNOWLEDGE PROBLEM",
+        "title": "Nobody sees the whole economy",
+        "html": "<p>In his 1945 essay, economist Friedrich Hayek emphasizes that practical knowledge is scattered among people. A supplier knows its inventory; a buyer knows which materials it can replace.</p><p>Coordinating their decisions is not just a calculation problem. It is also a communication problem.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "A SIGNAL TRAVELS",
+        "title": "From shortage to substitution",
+        "html": "<p>Hayek uses tin as a hypothetical example of how a price can transmit information.</p>",
+        "visual": {
+          "type": "flow",
+          "items": [
+            {
+              "label": "EVENT",
+              "title": "Tin becomes scarcer",
+              "text": "Supply falls or another use becomes more valuable."
+            },
+            {
+              "label": "SIGNAL",
+              "title": "Tin gets more expensive",
+              "text": "Buyers face a changed trade-off."
+            },
+            {
+              "label": "RESPONSE",
+              "title": "Users adapt",
+              "text": "Some conserve tin or switch to alternatives."
+            }
+          ]
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE LIMIT",
+        "title": "A signal is not the whole truth",
+        "html": "<p>A price may reflect scarcity without reflecting pollution, unequal access, or the consequences for people who cannot afford a product.</p><p>Hayek offers an argument about coordination, not proof that every market outcome is desirable. A useful signal can still leave out information that matters.</p>"
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "APPLY THE IDEA",
+        "title": "Design a better signal",
+        "html": "<p>Imagine several teams sharing limited computing capacity. Each team knows which jobs are urgent, but no central manager knows every detail.</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "What could help teams coordinate?",
+          "answer": "A visible congestion or resource-cost signal could encourage flexible jobs to move. Critical jobs may still need reserved capacity or explicit priority rules."
+        }
+      }
+    ]
   }
 ]
