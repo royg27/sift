@@ -2501,5 +2501,198 @@
         }
       }
     ]
+  },
+  {
+    "id": "choice-blindness-reasons",
+    "title": "You might defend a choice you never made",
+    "kicker": "When explanations arrive after decisions",
+    "hook": "What if someone secretly swapped your decision—and you explained why you made it?",
+    "type": "Paper",
+    "category": "Psychology",
+    "author": "Petter Johansson, Lars Hall, Sverker Sikström and Andreas Olsson",
+    "source_title": "Failure to Detect Mismatches Between Intention and Outcome in a Simple Decision Task",
+    "source_url": "https://doi.org/10.1126/science.1111709",
+    "year": 2005,
+    "minutes": 3,
+    "art": "lavender",
+    "summary": "In a 2005 experiment, people selected the more attractive of two faces. Researchers sometimes used a trick to show them the unchosen face as though it were their choice. Some participants failed to notice and supplied reasons for the switched outcome, illustrating limits of introspection about decisions.",
+    "body": [
+      "Participants chose between two photographed faces. On some trials, the experimenter secretly substituted the unchosen photograph.",
+      "Some participants did not detect the substitution and explained why they preferred the face they were shown.",
+      "This is evidence that explanations can sometimes be constructed after an outcome, not proof that all preferences are arbitrary."
+    ],
+    "takeaways": [
+      "An articulate explanation is not always a faithful record of the original decision.",
+      "Check whether a reported choice matches what was actually selected.",
+      "Choice blindness is demonstrated in particular experimental settings, not every decision."
+    ],
+    "nuance": "The experimental manipulation involved simple attractiveness judgments. It does not show that people routinely fail to notice major real-world reversals or that all reasons are invented.",
+    "application": "When reviewing an important decision, write down the choice and reasoning before seeing the outcome; compare the record with later explanations.",
+    "quiz": {
+      "question": "What was the key experimental manipulation?",
+      "choices": [
+        "Changing participants' memories with medication",
+        "Presenting the unchosen face as if it had been selected",
+        "Asking people to choose without seeing any faces"
+      ],
+      "answer": 1,
+      "explanation": "The researchers covertly switched the outcome of some choices and observed whether people detected the mismatch."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "PSYCHOLOGY · 3 MIN",
+        "title": "Explain the choice you didn't make",
+        "html": "<p>You choose one of two faces. The experimenter hands you the photograph you supposedly preferred and asks why.</p><p>You give a convincing explanation. But there's a catch: the photograph was secretly switched. You are explaining a choice you never made.</p>"
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE EXPERIMENT",
+        "title": "A simple switch",
+        "html": "<p>In a 2005 study, Johansson and colleagues asked participants to select the more attractive face from pairs of photographs.</p><p>On some trials, a sleight-of-hand manipulation substituted the face they had not chosen. The researchers watched for detection and asked participants to explain their supposed preference.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "INTENTION VERSUS OUTCOME",
+        "title": "Two different histories",
+        "html": "<p>The crucial distinction is between what the participant selected and what they were subsequently shown.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "ACTUAL CHOICE",
+            "title": "Face A",
+            "text": "The participant points to A."
+          },
+          "right": {
+            "label": "SWITCHED OUTCOME",
+            "title": "Face B",
+            "text": "The experimenter presents B as the chosen face."
+          }
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "WHAT THEY FOUND",
+        "title": "A reason is not a recording",
+        "html": "<p>Some participants failed to notice the mismatch. They still offered reasons for preferring the substituted face.</p><p>The researchers called this <strong>choice blindness</strong>. It suggests that our explanations can sometimes be constructed around the outcome we believe we chose.</p>"
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "TRY THE IDEA",
+        "title": "How would you test your own reasons?",
+        "html": "<p>Suppose you are choosing between two job offers. Months later, you confidently explain why your decision was inevitable.</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "What record could help distinguish original reasons from hindsight?",
+          "answer": "Write down your preferred option and the reasons before accepting an offer. Later, compare the original record with the story you now tell."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE BOUNDARY",
+        "title": "Not every choice is blind",
+        "html": "<p>The study used a specific, relatively simple judgment and a covert substitution. It does not mean people never know their own preferences or would overlook every important reversal.</p><p>Its useful warning is narrower: <strong>confidence in an explanation is not proof that it accurately reconstructs a decision.</strong></p>"
+      }
+    ]
+  },
+  {
+    "id": "clip-pictures-words",
+    "title": "Teach a computer to see with captions instead of labels",
+    "kicker": "The surprising shortcut behind CLIP",
+    "hook": "What if recognizing new objects did not require training a new classifier for each category?",
+    "type": "Paper",
+    "category": "Deep Learning",
+    "author": "Alec Radford and colleagues",
+    "source_title": "Learning Transferable Visual Models From Natural Language Supervision",
+    "source_url": "https://proceedings.mlr.press/v139/radford21a.html",
+    "year": 2021,
+    "minutes": 4,
+    "art": "blue",
+    "summary": "CLIP trains image and text encoders to identify which caption belongs with which image across a large collection of image–text pairs. At inference, it compares a new image against text descriptions of candidate categories, enabling zero-shot classification on many benchmarks without task-specific training.",
+    "body": [
+      "Conventional image classifiers often rely on a fixed set of manually labeled categories. CLIP instead learns from paired images and natural-language text.",
+      "Its training objective brings matching image and caption representations closer while distinguishing mismatched pairs.",
+      "The authors trained on 400 million image–text pairs and evaluated transfer on more than 30 datasets, finding substantial zero-shot capabilities but uneven performance."
+    ],
+    "takeaways": [
+      "Natural-language captions can provide flexible supervision for visual recognition.",
+      "Contrastive learning aligns two different kinds of inputs in a shared representation space.",
+      "Zero-shot transfer means no task-specific training at evaluation, not no training at all."
+    ],
+    "nuance": "The model required a huge pretraining dataset and compute. Its performance varies by task and distribution, and web-sourced data can carry biases. The paper does not establish reliable understanding of every image or prompt.",
+    "application": "For a small visual classification prototype, compare descriptions such as 'a photo of a bicycle' and 'a photo of a scooter' rather than assuming every class needs a new supervised training run; validate on representative data.",
+    "quiz": {
+      "question": "How can CLIP classify a category without training a new task-specific head?",
+      "choices": [
+        "It compares image representations with text descriptions of candidate categories",
+        "It searches the web for every new image",
+        "It memorizes every possible class name during evaluation"
+      ],
+      "answer": 0,
+      "explanation": "CLIP learns a shared image–text space, so candidate class descriptions can be compared directly with an image."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "DEEP LEARNING · 4 MIN",
+        "title": "What if pictures learned from words?",
+        "html": "<p>Imagine teaching a computer to recognize a skateboard, a flamingo, or a traffic cone.</p><p>Traditionally, you might collect labeled examples for every category. CLIP asks a different question: can an AI learn useful visual concepts simply by matching pictures with the text people write about them?</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "THE LEARNING GAME",
+        "title": "Find the matching caption",
+        "html": "<p>During training, CLIP sees batches of pictures and captions. Two encoders convert images and text into representations that can be compared.</p><p>The objective rewards the true image–caption pairs over mismatched combinations.</p>",
+        "visual": {
+          "type": "flow",
+          "items": [
+            {
+              "label": "INPUT",
+              "title": "Image and caption",
+              "text": "A photo of a dog beside a bicycle."
+            },
+            {
+              "label": "ENCODE",
+              "title": "Two representations",
+              "text": "An image encoder and a text encoder produce comparable vectors."
+            },
+            {
+              "label": "LEARN",
+              "title": "Match the right pair",
+              "text": "Increase similarity for matching pairs relative to mismatches."
+            }
+          ]
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE CLEVER PART",
+        "title": "New labels can be sentences",
+        "html": "<p>After training, CLIP can compare a new image with text prompts such as 'a photo of a cat' and 'a photo of a dog.'</p><p>The closest match becomes its prediction. That is called <strong>zero-shot classification</strong>: the model needs no additional training specifically on that classification dataset.</p>"
+      },
+      {
+        "kind": "story",
+        "eyebrow": "WHAT THE PAPER TESTED",
+        "title": "A large experiment, not a magic trick",
+        "html": "<p>The authors trained with 400 million image–text pairs and evaluated transfer on more than 30 existing vision datasets.</p><p>They reported that a zero-shot CLIP model matched the original ResNet-50's ImageNet accuracy without training on ImageNet's labeled training set. Results varied across tasks.</p>"
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "TEST YOUR INTUITION",
+        "title": "What does zero-shot actually mean?",
+        "html": "<p>A CLIP model is asked to distinguish a bicycle from a scooter using those two words as candidate labels.</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "Has the model learned without examples?",
+          "answer": "No. It has already learned from a very large collection of image–text pairs. Zero-shot means it does not need additional labeled training examples for this specific evaluation task."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE LIMITS",
+        "title": "Captions aren't perfect teachers",
+        "html": "<p>Web captions can be incomplete, misleading, or biased. Training on hundreds of millions of pairs also requires substantial resources.</p><p>CLIP demonstrated a flexible route to visual recognition, not perfect visual understanding or dependable performance in every setting. The enduring idea is <strong>learning a reusable connection between language and images.</strong></p>"
+      }
+    ]
   }
 ]
