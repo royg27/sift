@@ -2694,5 +2694,118 @@
         "html": "<p>Web captions can be incomplete, misleading, or biased. Training on hundreds of millions of pairs also requires substantial resources.</p><p>CLIP demonstrated a flexible route to visual recognition, not perfect visual understanding or dependable performance in every setting. The enduring idea is <strong>learning a reusable connection between language and images.</strong></p>"
       }
     ]
+  },
+  {
+    "id": "walking-divergent-thinking",
+    "title": "A walk helps you invent ideas—not necessarily solve them",
+    "kicker": "Creativity has different gears",
+    "hook": "Why might pacing help you brainstorm but not find the one correct answer?",
+    "type": "Paper",
+    "category": "Psychology",
+    "author": "Marily Oppezzo and Daniel L. Schwartz",
+    "source_title": "Give Your Ideas Some Legs: The Positive Effect of Walking on Creative Thinking",
+    "source_url": "https://doi.org/10.1037/a0036577",
+    "year": 2014,
+    "minutes": 3,
+    "art": "mint",
+    "summary": "Four experiments found that walking improved generation of novel possibilities, including indoors on a treadmill, but did not similarly improve a focused word-association task.",
+    "body": [
+      "The researchers compared people sitting and walking while completing tasks that required either many possible answers or one correct answer.",
+      "Walking generally improved divergent idea generation, and some benefit persisted briefly after participants sat down. Outdoor stimulation alone did not explain the result: treadmill walking also helped.",
+      "The distinction matters: walking can be a useful way to open up possibilities, not a universal boost to every kind of thinking."
+    ],
+    "takeaways": [
+      "Match your thinking environment to the cognitive task.",
+      "Try walking when generating options, metaphors or alternative approaches.",
+      "Return to focused evaluation when you need to select or verify a solution."
+    ],
+    "nuance": "The four experiments involved 176 mostly college-aged participants and short laboratory tasks. They do not establish the mechanism, long-term productivity gains, or that walking improves all reasoning.",
+    "application": "Take a short walk while generating five alternative solutions to a problem. Then sit down to test and rank them.",
+    "quiz": {
+      "question": "Which task was most consistently helped by walking in these experiments?",
+      "choices": [
+        "Generating multiple unusual uses for an object",
+        "Finding one correct word association",
+        "Every form of analytical reasoning"
+      ],
+      "answer": 0,
+      "explanation": "Walking benefited divergent idea generation, while the tested convergent word-association task did not show the same benefit."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "CREATIVITY EXPERIMENT",
+        "title": "Why do ideas arrive when you walk?",
+        "html": "<p>Imagine being stuck at your desk. You get up, pace for a few minutes, and suddenly have three new approaches.</p><p>Is that just a pleasant feeling—or does walking actually change the kinds of ideas you generate?</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "TWO THINKING MODES",
+        "title": "Many possibilities versus one answer",
+        "html": "<p>Oppezzo and Schwartz tested two distinct cognitive tasks. The distinction turned out to matter more than a generic claim that exercise makes us smarter.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "DIVERGENT",
+            "title": "Generate possibilities",
+            "text": "Think of unusual uses for a common object."
+          },
+          "right": {
+            "label": "CONVERGENT",
+            "title": "Find one solution",
+            "text": "Find a word that connects three given words."
+          }
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "WHAT THEY FOUND",
+        "title": "Walking opened up the option space",
+        "html": "<p>Across four experiments, walking improved performance on tasks involving novel uses and analogies. The effect appeared on a treadmill as well as outdoors, and sometimes lingered after people sat down.</p><p>But walking did not improve the tested single-answer word-association task in the same way.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "HOW THEY TESTED IT",
+        "title": "It wasn't simply the scenery",
+        "html": "<p>One experiment separated moving your body from seeing an outdoor environment. Participants walked outside, walked on a treadmill, sat indoors, or were pushed outside in a wheelchair.</p>",
+        "visual": {
+          "type": "steps",
+          "items": [
+            {
+              "label": "01",
+              "title": "Change movement",
+              "text": "Compare walking with sitting."
+            },
+            {
+              "label": "02",
+              "title": "Change surroundings",
+              "text": "Compare indoor and outdoor conditions."
+            },
+            {
+              "label": "03",
+              "title": "Score ideas",
+              "text": "Evaluate novelty and quality of analogies."
+            }
+          ]
+        }
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "TRY THE DISTINCTION",
+        "title": "Which problem would you take on a walk?",
+        "html": "<p>You have two tasks: brainstorm ten ways to reuse an empty jar, or verify the arithmetic in a tax calculation.</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "Which one matches the strongest experimental evidence?",
+          "answer": "Brainstorming alternative uses. The studies support a benefit for generating possibilities, not a blanket improvement in exact-answer tasks."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE BOUNDARY",
+        "title": "A creativity tool, not a universal brain upgrade",
+        "html": "<p>The experiments were brief and mostly involved college-aged adults. They did not establish why walking helps, or prove that a walking meeting improves every real-world decision.</p><p><strong>Practical experiment:</strong> walk to generate options; sit to evaluate them.</p>"
+      }
+    ]
   }
 ]
