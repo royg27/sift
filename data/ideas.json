@@ -2807,5 +2807,105 @@
         "html": "<p>The experiments were brief and mostly involved college-aged adults. They did not establish why walking helps, or prove that a walking meeting improves every real-world decision.</p><p><strong>Practical experiment:</strong> walk to generate options; sit to evaluate them.</p>"
       }
     ]
+  },
+  {
+    "id": "freeze-water-see-molecules",
+    "title": "To see life's machinery, freeze water without making ice",
+    "kicker": "The strange trick behind a microscopy revolution",
+    "hook": "How do you photograph a fragile molecule when the microscope itself can destroy it?",
+    "type": "Essay",
+    "category": "Science",
+    "author": "Royal Swedish Academy of Sciences",
+    "source_title": "The Nobel Prize in Chemistry 2017 — Press Release",
+    "source_url": "https://www.nobelprize.org/prizes/chemistry/2017/press-release/",
+    "year": 2017,
+    "minutes": 3,
+    "art": "blue",
+    "summary": "Cryo-electron microscopy made fragile biological molecules far easier to study by combining rapid cooling that traps water in a glass-like state, low-dose electron imaging, and computational reconstruction from many noisy views. The 2017 Chemistry Nobel recognized three scientists whose complementary advances helped make this possible.",
+    "body": [
+      "Electron microscopes can reveal extremely small structures, but their vacuum and powerful electron beam create serious problems for water-rich, fragile biological samples.",
+      "Jacques Dubochet developed rapid cooling that vitrifies water instead of forming damaging ice crystals. Joachim Frank developed methods for combining fuzzy two-dimensional views into three-dimensional structures. Richard Henderson demonstrated that high-resolution electron imaging of proteins was possible.",
+      "These advances, together with subsequent improvements in detectors and methods, transformed structural biology. They do not make every molecule easy to image or eliminate sample damage."
+    ],
+    "takeaways": [
+      "Preserving a specimen can be as important as improving the instrument.",
+      "Many noisy views can yield a detailed three-dimensional reconstruction when processed appropriately.",
+      "Breakthroughs often require several complementary inventions rather than a single eureka moment."
+    ],
+    "nuance": "Cryo-EM reconstructs structures from many molecular images rather than directly filming a single molecule at atomic detail. Resolution varies by specimen, preparation and instrumentation. The Nobel account summarizes a multi-decade technical history, not one controlled experiment.",
+    "application": "When a measurement seems impossible, separate the obstacles: preserving the subject, capturing a signal, and reconstructing useful information. Different solutions may be needed for each.",
+    "quiz": {
+      "question": "Why does cryo-electron microscopy cool water so rapidly?",
+      "choices": [
+        "To make large ice crystals that magnify molecules",
+        "To trap water in a glass-like state that preserves delicate structures",
+        "To turn electrons into visible light"
+      ],
+      "answer": 1,
+      "explanation": "Rapid cooling vitrifies water, avoiding disruptive ice crystals and helping preserve biomolecules for electron imaging."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "SCIENCE · 3 MIN",
+        "title": "Freeze water without making ice",
+        "html": "<p>Imagine trying to photograph a tiny, delicate machine. The camera needs a vacuum, the machine is surrounded by water, and the beam used to see it can damage it.</p><p>How could scientists ever see the machinery inside living cells?</p>"
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE PROBLEM",
+        "title": "The microscope changes what it sees",
+        "html": "<p>Electron microscopes can resolve details far smaller than ordinary light microscopes. But biological molecules are fragile.</p><p>Water evaporates in a vacuum, ice crystals can distort structures, and electron beams can damage samples. A sharper lens alone cannot solve these problems.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "THE THREE PIECES",
+        "title": "Preserve, photograph, reconstruct",
+        "html": "<p>The breakthrough emerged from complementary advances over decades, recognized by the 2017 Nobel Prize in Chemistry.</p>",
+        "visual": {
+          "type": "steps",
+          "items": [
+            {
+              "label": "PRESERVE",
+              "title": "Vitrify the water",
+              "text": "Dubochet's rapid cooling avoids disruptive ice crystals."
+            },
+            {
+              "label": "CAPTURE",
+              "title": "Use electrons carefully",
+              "text": "Henderson showed high-resolution protein imaging was possible."
+            },
+            {
+              "label": "REBUILD",
+              "title": "Combine noisy views",
+              "text": "Frank developed methods to reconstruct 3D structures from 2D images."
+            }
+          ]
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE SURPRISE",
+        "title": "Frozen doesn't have to mean crystalline",
+        "html": "<p>Normally, freezing water creates ordered ice crystals. Cool it sufficiently fast and it can instead become a glass-like solid, called <strong>vitreous ice</strong>.</p><p>That matters because the molecules can remain embedded in a thin layer of water without large crystals disrupting their arrangement.</p>"
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "CHECK YOUR INTUITION",
+        "title": "What makes a fuzzy picture useful?",
+        "html": "<p>One electron-microscope image of a molecule may be noisy and hard to interpret. Scientists collect many images of particles in different orientations.</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "Why not simply trust the sharpest single picture?",
+          "answer": "Computational methods align and combine information across many particle images, helping reconstruct a clearer three-dimensional structure than an individual noisy view provides."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE LIMITS",
+        "title": "Not a magic camera",
+        "html": "<p>Cryo-electron microscopy does not directly record a flawless atomic movie of every molecule. Samples can still be damaged, and attainable resolution depends on the specimen and the experiment.</p><p>Its larger lesson: <strong>sometimes seeing more requires protecting the subject and inventing a better way to combine imperfect observations.</strong></p>"
+      }
+    ]
   }
 ]
