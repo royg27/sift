@@ -2907,5 +2907,208 @@
         "html": "<p>Cryo-electron microscopy does not directly record a flawless atomic movie of every molecule. Samples can still be damaged, and attainable resolution depends on the specimen and the experiment.</p><p>Its larger lesson: <strong>sometimes seeing more requires protecting the subject and inventing a better way to combine imperfect observations.</strong></p>"
       }
     ]
+  },
+  {
+    "id": "checklist-for-experts",
+    "title": "The expert's secret weapon is a tiny checklist",
+    "kicker": "When knowledge is not enough",
+    "hook": "What if the hardest failures happen not because we don't know what to do, but because we forget one crucial step?",
+    "type": "Book",
+    "category": "Science",
+    "author": "Atul Gawande",
+    "source_title": "The Checklist Manifesto: How to Get Things Right",
+    "source_url": "https://us.macmillan.com/books/9780805091748/thechecklistmanifesto/",
+    "year": 2009,
+    "minutes": 3,
+    "art": "mint",
+    "summary": "In complex work, expertise can coexist with preventable omissions. Gawande shows why a brief checklist can support skilled teams without replacing judgment.",
+    "body": [
+      "Modern surgery depends on immense specialist knowledge. Yet knowing the right steps is not the same as reliably completing every step under pressure.",
+      "Atul Gawande argues that a well-designed checklist protects a small number of critical actions, especially when work involves many people and interruptions.",
+      "The point is not to turn professionals into robots. It is to free their attention for the difficult decisions by making routine essentials harder to miss."
+    ],
+    "takeaways": [
+      "Identify the few omissions that would cause disproportionate harm.",
+      "Use a short pause at the moment those steps matter.",
+      "Treat a checklist as a coordination tool, not a substitute for expertise."
+    ],
+    "nuance": "The book describes successes in aviation and medicine, but not every checklist improves outcomes. Adoption, team culture, and selecting the right steps matter.",
+    "application": "Before your next complicated release or trip, list five easily forgotten, high-consequence checks. Run them at the actual handoff point.",
+    "quiz": {
+      "question": "What problem is a well-designed checklist primarily trying to solve?",
+      "choices": [
+        "A lack of expert knowledge",
+        "Critical steps being missed amid complexity",
+        "The need to eliminate professional judgment"
+      ],
+      "answer": 1,
+      "explanation": "Checklists make essential actions more reliable while leaving complex decisions to skilled people."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "THE PARADOX",
+        "title": "Knowing isn't always doing",
+        "html": "<p>Imagine a surgical team with years of training. Everyone knows that a particular safety step matters. Yet in a busy operating room, it can still be missed.</p><p><strong>The failure isn't necessarily ignorance.</strong> It may be complexity overwhelming reliable execution.</p>"
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE BOOK'S INSIGHT",
+        "title": "Experts need memory outside their heads",
+        "html": "<p>In <em>The Checklist Manifesto</em>, surgeon Atul Gawande explores how specialists can know an extraordinary amount and still overlook a basic action.</p><p>A checklist is a small external memory designed for the moments when attention is scarce and the cost of omission is high.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "TWO KINDS OF WORK",
+        "title": "Don't checklist the judgment",
+        "html": "<p>The useful distinction is between <strong>critical repeatable steps</strong> and decisions that require interpretation. A checklist supports the former so experts can focus on the latter.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "CHECK",
+            "title": "Did we do it?",
+            "text": "Confirm a critical action at the right moment."
+          },
+          "right": {
+            "label": "JUDGE",
+            "title": "What should we do?",
+            "text": "Use expertise to interpret an unfamiliar situation."
+          }
+        }
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "TRY IT",
+        "title": "Where would a checklist help?",
+        "html": "<p>A software team repeatedly forgets to check a deployment rollback path. Which intervention fits the book's argument best?</p>",
+        "interaction": {
+          "type": "choice",
+          "question": "Choose the most useful response.",
+          "choices": [
+            "Tell everyone to concentrate harder",
+            "Add a short pre-release check for rollback readiness",
+            "Replace the team's technical judgment with a 40-page script"
+          ],
+          "feedback": "A brief, timely check targets a recurring omission without pretending every release decision is routine."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE CATCH",
+        "title": "A checklist can become noise",
+        "html": "<p>More boxes do not automatically mean more safety. A sprawling checklist can distract, and a team that treats it as ceremony may ignore the real risks.</p><p>The design challenge is to choose a few consequential checks, place them at the right moment, and make it normal for anyone to speak up.</p>"
+      },
+      {
+        "kind": "story",
+        "eyebrow": "TAKE IT WITH YOU",
+        "title": "Protect one vulnerable handoff",
+        "html": "<p>Think of a recurring task with an expensive, easily forgotten step: sending an invoice, publishing a release, packing for a trip.</p><p>Write a short checklist and use it <strong>at the moment of action</strong>, not merely when planning. Its value is in preventing a miss, not looking organized.</p>"
+      }
+    ]
+  },
+  {
+    "id": "door-that-tells-you-push",
+    "title": "A confusing door is a design problem, not a people problem",
+    "kicker": "The clues hiding in objects",
+    "hook": "If a door looks like it should be pulled but actually needs pushing, who made the mistake?",
+    "type": "Book",
+    "category": "Technology",
+    "author": "Don Norman",
+    "source_title": "The Design of Everyday Things (Revised and Expanded Edition)",
+    "source_url": "https://media.aanda.psu.edu/sites/media/aa/files/documents/norman_design-of-everyday-things.pdf",
+    "year": 2013,
+    "minutes": 3,
+    "art": "peach",
+    "summary": "Don Norman explains how visible cues, natural mappings, and timely feedback let objects communicate how to use them—and why confusing interfaces are often failures of design rather than users.",
+    "body": [
+      "A flat plate on a door suggests pushing. A vertical handle suggests pulling. When the physical cue contradicts the actual action, people make predictable mistakes.",
+      "In The Design of Everyday Things, Don Norman describes signifiers, mapping, and feedback as clues that help users understand what actions are possible and what happened afterward.",
+      "The practical shift is to stop asking why people fail to understand a product and ask what information the product fails to provide."
+    ],
+    "takeaways": [
+      "Make the intended action discoverable before the user acts.",
+      "Match controls to outcomes with intuitive mapping.",
+      "Give timely feedback so people know whether an action worked."
+    ],
+    "nuance": "Design conventions differ across cultures and contexts. Clear cues reduce confusion but cannot remove every tradeoff or user error.",
+    "application": "Find a confusing control you use daily. Identify the missing cue, unclear mapping, or absent feedback, then sketch one change.",
+    "quiz": {
+      "question": "A door has a handle that invites pulling but only opens by pushing. What is the main design problem?",
+      "choices": [
+        "Users have poor memories",
+        "The visible cue suggests the wrong action",
+        "The door needs more written instructions"
+      ],
+      "answer": 1,
+      "explanation": "The signifier conflicts with the required action, making the mistake predictable."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "EVERYDAY MYSTERY",
+        "title": "Why did you pull a push door?",
+        "html": "<p>You reach for a handle and pull. Nothing happens. A tiny sign says <strong>PUSH</strong>.</p><p>Was that your mistake—or did the door itself invite the wrong action? Don Norman argues that many ordinary frustrations are predictable consequences of how objects communicate.</p>"
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE CLUE",
+        "title": "Objects are giving instructions",
+        "html": "<p>A flat plate suggests pushing. A graspable handle suggests pulling. These visible hints are <strong>signifiers</strong>: they tell us where and how to act.</p><p>When the hint and the actual mechanism disagree, even attentive people can make the same mistake again and again.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "THREE DESIGN CLUES",
+        "title": "Make the next action obvious",
+        "html": "<p>Good design helps people answer three questions without consulting a manual: What can I do? Which control affects what? Did it work?</p>",
+        "visual": {
+          "type": "cards",
+          "items": [
+            {
+              "label": "SIGNIFIER",
+              "title": "Where do I act?",
+              "text": "A visible cue points to the action."
+            },
+            {
+              "label": "MAPPING",
+              "title": "What will it change?",
+              "text": "Controls correspond clearly to outcomes."
+            },
+            {
+              "label": "FEEDBACK",
+              "title": "Did it work?",
+              "text": "The system visibly responds."
+            }
+          ]
+        }
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "DESIGN DETECTIVE",
+        "title": "Spot the missing clue",
+        "html": "<p>Imagine a stove with four identical knobs arranged in a row, but the burners are arranged in a square. Each knob has a tiny printed label.</p>",
+        "interaction": {
+          "type": "choice",
+          "question": "What change most directly improves mapping?",
+          "choices": [
+            "Make the labels longer",
+            "Arrange the knobs to mirror the burners",
+            "Add a louder click when turning a knob"
+          ],
+          "feedback": "Matching the layout of controls to the burners makes their relationship easier to infer."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE LIMIT",
+        "title": "Obvious to whom?",
+        "html": "<p>What feels natural depends partly on experience and convention. A gesture familiar to one person may confuse another.</p><p>Good design therefore needs observation and testing, not just the designer's intuition. Norman's deeper move is to treat repeated user errors as information about the system.</p>"
+      },
+      {
+        "kind": "story",
+        "eyebrow": "YOUR TURN",
+        "title": "Stop blaming the user",
+        "html": "<p>Find one interface that regularly trips people up: a remote, a form, a kitchen control.</p><p>Ask whether it hides the possible action, maps controls poorly, or fails to show a result. Then imagine one small change that would prevent the mistake before instructions are needed.</p>"
+      }
+    ]
   }
 ]
