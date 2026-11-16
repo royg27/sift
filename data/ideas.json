@@ -3110,5 +3110,191 @@
         "html": "<p>Find one interface that regularly trips people up: a remote, a form, a kitchen control.</p><p>Ask whether it hides the possible action, maps controls poorly, or fails to show a result. Then imagine one small change that would prevent the mistake before instructions are needed.</p>"
       }
     ]
+  },
+  {
+    "id": "shipping-container-standard",
+    "title": "The box that rewired world trade",
+    "kicker": "A quiet revolution in logistics",
+    "hook": "How did an ordinary steel box help reshape where the world makes things?",
+    "type": "Book",
+    "category": "History",
+    "author": "Marc Levinson",
+    "source_title": "The Box: How the Shipping Container Made the World Smaller and the World Economy Bigger",
+    "source_url": "https://press.princeton.edu/books/paperback/9780691170817/the-box",
+    "year": 2006,
+    "minutes": 3,
+    "art": "ocean",
+    "summary": "The shipping container's breakthrough was not just a box: it was a compatible system of ships, trucks, trains, cranes, and ports that made moving goods dramatically easier.",
+    "body": [
+      "In 1956, a converted tanker carried 58 containers from Newark to Houston. The physical box was simple; the system it required was not.",
+      "Marc Levinson traces how standard sizes, specialized equipment, investment, and negotiations enabled cargo to move between ships, trains, and trucks without repeatedly unpacking it.",
+      "Cheaper, more predictable transport helped reshape manufacturing geography. The lesson is that a modest component can have extraordinary consequences when an entire network becomes compatible."
+    ],
+    "takeaways": [
+      "Look for the costly handoffs between otherwise efficient steps.",
+      "A standard becomes powerful when many independent participants adopt it.",
+      "Infrastructure changes can reorganize markets, jobs, and cities—not just improve one process."
+    ],
+    "nuance": "Containerization was not an overnight or solitary invention. Adoption took years, major capital investment, and labor negotiations; its benefits and disruptions were unevenly distributed.",
+    "application": "Pick a workflow with repeated handoffs. What shared format or interface would remove re-entry, repacking, or translation between stages?",
+    "quiz": {
+      "question": "Why was the shipping container more transformative than a better box alone?",
+      "choices": [
+        "It eliminated the need for ships",
+        "It made transport modes work together around a common standard",
+        "It made every shipment equally cheap"
+      ],
+      "answer": 1,
+      "explanation": "The container's effect depended on interoperable handling across trucks, trains, ships, and ports."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "AN UNLIKELY INVENTION",
+        "title": "A steel box changed the map",
+        "html": "<p>In 1956, a converted tanker carried 58 containers from Newark to Houston.</p><p>Nothing about a rectangular metal box seems revolutionary. Yet Marc Levinson's <em>The Box</em> shows how this mundane object helped change where factories operate, which ports prosper, and what goods consumers can buy.</p>"
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE OLD BOTTLENECK",
+        "title": "Every transfer was another job",
+        "html": "<p>Before widespread containerization, cargo often had to be handled piece by piece as it moved between transport modes.</p><p>Loading, unloading, sorting, and repacking consumed labor and time. The expensive part wasn't always crossing the ocean. It was the messy boundary between one leg of the journey and the next.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "THE SYSTEM INNOVATION",
+        "title": "Make the handoffs disappear",
+        "html": "<p>The key was a shared unit that equipment across the transport network could handle.</p><p><strong>The breakthrough was interoperability:</strong> the box, the cranes, the ships, the trucks, and the ports had to work together.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "Before",
+            "title": "Handle the goods",
+            "text": "Cargo repeatedly unloaded and handled between stages"
+          },
+          "right": {
+            "label": "After",
+            "title": "Handle the container",
+            "text": "A sealed unit transfers across compatible transport modes"
+          }
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE HARD PART",
+        "title": "A standard needs a coalition",
+        "html": "<p>Adoption required expensive port upgrades, new equipment, labor negotiations, and agreement on standards. It took years rather than one brilliant launch.</p><p>Once enough of the network became compatible, lower transport costs made distant production more practical—and changed the fortunes of ports and workers.</p>"
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "APPLY THE IDEA",
+        "title": "Where is your container?",
+        "html": "<p>Imagine a team copying information manually between three tools. Each tool works well on its own.</p><p>What would most closely resemble the shipping-container breakthrough?</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "Think of one change that fixes the handoffs, not the individual tools.",
+          "answer": "A common data format and reliable import/export interface could let information travel through the whole workflow without repeated manual translation."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE BIGGER LESSON",
+        "title": "Small object, large system",
+        "html": "<p>Levinson's story is not that a box alone created globalization. It is that a simple standardized component helped coordinate a complicated transport system.</p><p>When judging an innovation, ask not only <em>what does this improve?</em> but <strong>what other parts of the world can now connect?</strong></p>"
+      }
+    ]
+  },
+  {
+    "id": "local-knowledge-planning",
+    "title": "A perfect map can erase the neighborhood",
+    "kicker": "The danger of tidy plans",
+    "hook": "Why can a beautifully ordered plan fail the people it is meant to help?",
+    "type": "Book",
+    "category": "Society",
+    "author": "James C. Scott",
+    "source_title": "Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed",
+    "source_url": "https://yalebooks.yale.edu/book/9780300078152/seeing-like-a-state/",
+    "year": 1998,
+    "minutes": 3,
+    "art": "sage",
+    "summary": "James C. Scott argues that sweeping plans often fail when simplified administrative models ignore the local knowledge and relationships that make real communities function.",
+    "body": [
+      "Governments and large organizations need simplified representations to administer complicated places: categories, maps, rules, and measurable targets.",
+      "In Seeing Like a State, James C. Scott examines cases where ambitious top-down interventions treated those simplifications as if they were the whole reality, overriding local practices and knowledge.",
+      "The practical insight is not to abandon planning. It is to treat a model as a partial view and give affected people a meaningful role in testing and correcting it."
+    ],
+    "takeaways": [
+      "Administrative clarity is useful but always selective.",
+      "Local practical knowledge can reveal constraints that centralized plans miss.",
+      "Test changes with affected people and preserve channels for feedback and revision."
+    ],
+    "nuance": "Scott focuses on particularly consequential failures of authoritarian, high-modernist planning. His argument does not establish that all centralized coordination fails or that local practices are always good.",
+    "application": "Before standardizing a process, ask people who actually use it what exceptions, workarounds, and dependencies the clean diagram leaves out.",
+    "quiz": {
+      "question": "What is the central danger Scott identifies in ambitious top-down planning?",
+      "choices": [
+        "Using any map or metric",
+        "Mistaking a simplified administrative view for the full complexity of reality",
+        "Consulting local communities too often"
+      ],
+      "answer": 1,
+      "explanation": "Simplifications help administration, but treating them as complete can destroy useful local relationships and practices."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "THE PLANNER'S PARADOX",
+        "title": "The plan looks flawless. Then it meets people.",
+        "html": "<p>Imagine redesigning a neighborhood from above: straight roads, neat blocks, clear categories. On paper, everything is easier to manage.</p><p>But the old neighborhood had informal routes, relationships, and habits invisible on the plan. What happens when the tidy diagram replaces the living place?</p>"
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE BOOK'S ARGUMENT",
+        "title": "To govern, you simplify",
+        "html": "<p>In <em>Seeing Like a State</em>, James C. Scott examines how powerful institutions make complicated societies easier to describe and administer.</p><p>Maps, classifications, and standardized procedures can be genuinely useful. The trouble begins when officials mistake those selective representations for everything that matters.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "TWO WAYS OF KNOWING",
+        "title": "A map is not the neighborhood",
+        "html": "<p>A central plan can see roads and official boundaries. Residents may know seasonal shortcuts, informal support networks, and the reasons a seemingly inefficient practice persists.</p><p><strong>Neither view is complete on its own.</strong></p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "From above",
+            "title": "Legible system",
+            "text": "Standard categories, visible routes, measurable outputs"
+          },
+          "right": {
+            "label": "On the ground",
+            "title": "Lived system",
+            "text": "Tacit know-how, exceptions, relationships, local constraints"
+          }
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "WHY PLANS FAIL",
+        "title": "The missing knowledge has consequences",
+        "html": "<p>Scott analyzes large-scale schemes, including forced agricultural and settlement programs, that imposed simplified designs on complex social life.</p><p>His concern is especially sharp when confident planners have coercive power and the people affected cannot object, adapt, or reverse the intervention.</p>"
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "TEST THE IDEA",
+        "title": "Would you standardize this?",
+        "html": "<p>A company wants every regional team to use exactly the same workflow. The central dashboard shows fewer steps, but local teams report unusual customer needs.</p><p>What information should the designers seek before rolling it out?</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "Name a source of knowledge the dashboard probably misses.",
+          "answer": "Observe local teams and ask about exceptions, informal workarounds, and downstream effects. Pilot the standard with feedback and a way to revise it."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE IMPORTANT LIMIT",
+        "title": "Don't confuse caution with paralysis",
+        "html": "<p>Scott is not showing that every large plan is doomed or every local custom is wise.</p><p>The narrower, useful warning is about <strong>unquestioned simplification plus unchecked power</strong>. Good planning needs formal knowledge, local feedback, and room to discover what the model left out.</p>"
+      }
+    ]
   }
 ]
