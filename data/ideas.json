@@ -3297,4 +3297,198 @@
       }
     ]
   }
+,
+{
+    "id": "longitude-clock-at-sea",
+    "title": "To find your place at sea, bring the time from home",
+    "kicker": "A clock became a navigation instrument",
+    "hook": "How can a clock tell a sailor where they are, thousands of miles from shore?",
+    "type": "Book",
+    "category": "History",
+    "author": "Dava Sobel",
+    "source_title": "Longitude: The True Story of a Lone Genius Who Solved the Greatest Scientific Problem of His Time",
+    "source_url": "https://www.davasobel.com/books-by-dava-sobel/longitude",
+    "year": 1995,
+    "minutes": 3,
+    "art": "ocean",
+    "summary": "Dava Sobel recounts how clockmaker John Harrison helped solve the longitude problem by building timekeepers that could preserve reference time despite the punishing conditions at sea.",
+    "body": [
+      "Latitude was comparatively accessible through celestial observations, but east–west position posed a harder challenge: sailors needed a reliable reference for how far Earth had rotated.",
+      "A ship can compare local noon with the time kept at a reference meridian. Earth turns 360 degrees in 24 hours, so one hour of time difference corresponds to 15 degrees of longitude.",
+      "John Harrison spent decades building increasingly reliable marine timekeepers. Sobel tells the human story of experimentation, institutional resistance, and the struggle for recognition."
+    ],
+    "takeaways": [
+      "A problem that looks geographical may be solved by measuring something else.",
+      "A stable reference turns a changing observation into useful information.",
+      "Engineering reliability matters as much as a clever principle."
+    ],
+    "nuance": "Marine chronometers were not the only viable longitude method: astronomical lunar-distance techniques also contributed to navigation. Sobel emphasizes Harrison's story, rather than providing a complete history of every solution.",
+    "application": "When a measurement seems impossible, ask whether a related quantity can be measured reliably and converted into the answer.",
+    "quiz": {
+      "question": "Why did keeping accurate reference time help sailors determine longitude?",
+      "choices": [
+        "It directly measured ocean depth",
+        "Comparing reference time with local solar time reveals east–west angular difference",
+        "It told sailors the latitude without observing the sky"
+      ],
+      "answer": 1,
+      "explanation": "Earth rotates 15 degrees per hour. The difference between local solar time and reference time reveals longitude."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "THE NAVIGATION PUZZLE",
+        "title": "Lost at sea—with a clock?",
+        "html": "<p>Imagine a ship far from land. You can observe the Sun and stars, but how far east or west have you traveled?</p><p>For centuries this was a dangerous navigational problem. The unlikely answer was to carry something extraordinarily difficult to keep accurate on a moving ship: <strong>time</strong>.</p>"
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE HIDDEN GEOMETRY",
+        "title": "The Earth is a giant clock",
+        "html": "<p>Earth completes one rotation in 24 hours. That means each hour of difference between two locations' solar times corresponds to 15 degrees of longitude.</p><p>If you know when it is noon where you are, and what time it is at a reference location, you have the crucial comparison.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "TWO CLOCKS, ONE POSITION",
+        "title": "Compare the Sun with home",
+        "html": "<p>Local noon comes from the Sun reaching its highest point. A reference clock preserves the time at a chosen meridian.</p><p>The gap between those times reveals east–west position. The idea is simple; making a clock trustworthy through months of ocean travel was not.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "Local observation",
+            "title": "Sun at noon",
+            "text": "What time is it here?"
+          },
+          "right": {
+            "label": "Reference",
+            "title": "Sea-going clock",
+            "text": "What time is it at the reference meridian?"
+          }
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE ENGINEERING FEAT",
+        "title": "A clockmaker challenged the ocean",
+        "html": "<p>Dava Sobel's <em>Longitude</em> follows John Harrison, a self-taught English clockmaker who spent decades refining marine timekeepers.</p><p>Movement, temperature changes, and long voyages threatened accuracy. Harrison's achievement was not discovering that time mattered, but making accurate timekeeping practical at sea.</p>"
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "TRY THE PRINCIPLE",
+        "title": "What if the Sun is four hours ahead?",
+        "html": "<p>Imagine it is local noon on your ship, while your reference clock reads 8 a.m.</p><p>Earth rotates 15 degrees each hour. Which way have you traveled from the reference meridian, and roughly how far?</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "Calculate the longitude difference.",
+          "answer": "Four hours × 15 degrees = 60 degrees. Local time is ahead of reference time, so the ship is roughly 60 degrees east."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE BIGGER LESSON",
+        "title": "Change what you measure",
+        "html": "<p>The longitude problem was partly a triumph of reframing: turn a difficult location measurement into a precise time comparison.</p><p>There were other navigational solutions, including lunar-distance astronomy. Harrison's story is especially memorable because it shows how much persistent engineering can matter after the core idea is understood.</p>"
+      }
+    ]
+  },
+{
+    "id": "matsutake-ruined-forests",
+    "title": "A luxury mushroom grows in the ruins",
+    "kicker": "What damaged landscapes can still make possible",
+    "hook": "Why does a prized Japanese delicacy lead an anthropologist into disturbed forests and precarious livelihoods?",
+    "type": "Book",
+    "category": "Science",
+    "author": "Anna Lowenhaupt Tsing",
+    "source_title": "The Mushroom at the End of the World: On the Possibility of Life in Capitalist Ruins",
+    "source_url": "https://press.princeton.edu/books/ebook/9781400873548/the-mushroom-at-the-end-of-the-world-0",
+    "year": 2015,
+    "minutes": 3,
+    "art": "sage",
+    "summary": "Anna Tsing follows matsutake mushrooms through disturbed forests and global trade to show how ecological relationships and livelihoods persist in landscapes transformed by industrial activity.",
+    "body": [
+      "Matsutake mushrooms can flourish in human-disturbed forests, forming relationships with trees and becoming valuable food in Japan.",
+      "Tsing follows the mushroom from foragers and buyers to distant markets, revealing economic activity that depends on complex ecological and social relationships.",
+      "Her larger argument challenges the assumption that damaged places are simply empty or finished: life can persist through contingent collaborations, without making destruction desirable."
+    ],
+    "takeaways": [
+      "A disturbed ecosystem is not necessarily biologically empty.",
+      "Commodity chains depend on relationships that market prices alone do not describe.",
+      "Resilience does not erase the harms that made adaptation necessary."
+    ],
+    "nuance": "Tsing offers an ethnographic interpretation, not a controlled test showing that ecological disturbance is beneficial. Matsutake's success in some disturbed forests should not be generalized to other species or ecosystems.",
+    "application": "When evaluating a damaged system, investigate both what has been lost and which unexpected dependencies, adaptations, or opportunities now exist.",
+    "quiz": {
+      "question": "What does matsutake illustrate in Tsing's book?",
+      "choices": [
+        "Environmental damage always improves biodiversity",
+        "Ecological and economic life can emerge through complex relationships in disturbed landscapes",
+        "All valuable mushrooms can be cultivated industrially"
+      ],
+      "answer": 1,
+      "explanation": "The book traces how matsutake, trees, foragers, and markets interact in landscapes shaped by disturbance, without celebrating destruction."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "AN UNLIKELY DELICACY",
+        "title": "A treasure in a damaged forest",
+        "html": "<p>Some of the world's most sought-after mushrooms appear in forests shaped by human disturbance.</p><p>Matsutake is prized in Japan, yet its story begins in places that might look ruined. Anthropologist Anna Tsing asks what this strange mushroom can reveal about survival, trade, and our assumptions about progress.</p>"
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE ECOLOGICAL TWIST",
+        "title": "Life doesn't wait for perfect conditions",
+        "html": "<p>Matsutake forms relationships with trees and can thrive in certain disturbed forests. It is not a simple product that growers can reliably manufacture on demand.</p><p>Its existence depends on living interactions, forest histories, and conditions that no single actor completely controls.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "FOLLOW THE MUSHROOM",
+        "title": "One mushroom, many worlds",
+        "html": "<p>Tsing follows matsutake through a network connecting forest ecologies, people who gather mushrooms, traders, and Japanese consumers.</p><p>What looks like one expensive product actually rests on several different systems of knowledge and livelihood.</p>",
+        "visual": {
+          "type": "flow",
+          "items": [
+            {
+              "label": "Forest",
+              "title": "Ecological relationships",
+              "text": "Fungi, trees, disturbance, and history"
+            },
+            {
+              "label": "Foragers",
+              "title": "Situated livelihoods",
+              "text": "Knowledge, risk, and gathering"
+            },
+            {
+              "label": "Markets",
+              "title": "Global value",
+              "text": "Trade networks and Japanese demand"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE BOOK'S PROVOCATION",
+        "title": "The economy isn't only factories",
+        "html": "<p>In <em>The Mushroom at the End of the World</em>, Tsing studies a commodity chain that cannot be understood simply as a company designing a product and controlling its production.</p><p>Its value emerges from foraging, ecological relationships, cultural preferences, and exchanges across very different communities.</p>"
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "LOOK AGAIN",
+        "title": "What would a price tag miss?",
+        "html": "<p>Imagine seeing a costly mushroom in a shop. The price tells you that someone values it—but not how it came to exist.</p><p>What would you investigate to understand its real story?</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "Name two relationships hidden behind the price.",
+          "answer": "For example, the mushroom's relationship with living trees, the forest's history of disturbance, foragers' local knowledge, or the trading networks connecting distant buyers."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "A NECESSARY CAUTION",
+        "title": "Survival is not the same as recovery",
+        "html": "<p>Tsing's account is not an argument that damaged forests are better forests. Some organisms find opportunities in disturbed landscapes while others disappear.</p><p>The insight is more careful: even amid disruption, unexpected forms of cooperation and survival can persist. Understanding them requires looking closely rather than assuming a place is either pristine or worthless.</p>"
+      }
+    ]
+  }
 ]
