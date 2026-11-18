@@ -3296,9 +3296,8 @@
         "html": "<p>Scott is not showing that every large plan is doomed or every local custom is wise.</p><p>The narrower, useful warning is about <strong>unquestioned simplification plus unchecked power</strong>. Good planning needs formal knowledge, local feedback, and room to discover what the model left out.</p>"
       }
     ]
-  }
-,
-{
+  },
+  {
     "id": "longitude-clock-at-sea",
     "title": "To find your place at sea, bring the time from home",
     "kicker": "A clock became a navigation instrument",
@@ -3391,7 +3390,7 @@
       }
     ]
   },
-{
+  {
     "id": "matsutake-ruined-forests",
     "title": "A luxury mushroom grows in the ruins",
     "kicker": "What damaged landscapes can still make possible",
@@ -3488,6 +3487,186 @@
         "eyebrow": "A NECESSARY CAUTION",
         "title": "Survival is not the same as recovery",
         "html": "<p>Tsing's account is not an argument that damaged forests are better forests. Some organisms find opportunities in disturbed landscapes while others disappear.</p><p>The insight is more careful: even amid disruption, unexpected forms of cooperation and survival can persist. Understanding them requires looking closely rather than assuming a place is either pristine or worthless.</p>"
+      }
+    ]
+  },
+  {
+    "id": "sidewalks-need-an-audience",
+    "title": "A safer street needs an audience",
+    "kicker": "Why an ordinary shop can help a whole block",
+    "hook": "Could a corner store contribute to street safety simply by giving people a reason to be there?",
+    "type": "Book",
+    "category": "Society",
+    "author": "Jane Jacobs",
+    "source_title": "The Death and Life of Great American Cities",
+    "source_url": "https://www.penguinrandomhouse.ca/books/86058/the-death-and-life-of-great-american-cities-by-jane-jacobs/9780679644330/excerpt",
+    "year": 1961,
+    "minutes": 3,
+    "art": "amber",
+    "summary": "Jane Jacobs argued that active sidewalks, street-facing buildings, and everyday watchers help create informal public oversight. A street's safety is shaped not only by formal policing but by the reasons people have to occupy and notice it.",
+    "body": [
+      "Jacobs described how streets with shops and other destinations attract people at different hours, creating a steady presence.",
+      "Windows, storefronts, and people on sidewalks provide informal observation: her famous idea of eyes on the street.",
+      "The argument is about how urban design supports everyday public life, not a guarantee that busy streets are crime-free."
+    ],
+    "takeaways": [
+      "Design reasons for people to use public space, not merely space for them to pass through.",
+      "Street-facing activity and repeated casual observation can support informal social oversight.",
+      "A lively street and a safe street are related ideas, not identical measures."
+    ],
+    "nuance": "Jacobs's observations and arguments are not a controlled causal estimate of crime reduction. Crowds can also produce risks, and policing, lighting, inequality, and accessibility matter.",
+    "application": "On your next walk, compare a blank-walled block with one lined by active storefronts. Notice where people linger, where windows face the sidewalk, and which hours leave the street empty.",
+    "quiz": {
+      "question": "In Jacobs's account, why can neighborhood shops help street life?",
+      "choices": [
+        "They eliminate the need for any public safety services",
+        "They attract people and create opportunities for informal observation",
+        "They make every street equally busy at all hours"
+      ],
+      "answer": 1,
+      "explanation": "Shops provide destinations and activity; the resulting presence and observation can support informal public oversight."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "THE CITY'S INVISIBLE HELPERS",
+        "title": "Who watches an ordinary street?",
+        "html": "<p>Picture two blocks at dusk. One has a long blank wall. The other has a bakery, a café, and windows overlooking the sidewalk.</p><p>Which feels easier to walk through? Jane Jacobs suggested that the answer may have less to do with grand architecture than with everyday people who have reasons to be there.</p>"
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE CORE INSIGHT",
+        "title": "Safety isn't only a uniform",
+        "html": "<p>In <em>The Death and Life of Great American Cities</em>, Jacobs described informal oversight by residents, shopkeepers, passersby, and people looking out of windows.</p><p>Her phrase <strong>eyes on the street</strong> captures a simple mechanism: people who use and care about a place can notice what happens there.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "TWO BLOCKS",
+        "title": "Design changes who shows up",
+        "html": "<p>A sidewalk alone does not guarantee lively public space. The buildings and activities beside it matter.</p><p>Places to visit can draw walkers; windows and street-facing entrances connect indoor life to the street.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "Blank edge",
+            "title": "Few reasons to stop",
+            "text": "Long walls, little activity, fewer casual watchers"
+          },
+          "right": {
+            "label": "Active edge",
+            "title": "Many reasons to visit",
+            "text": "Shops, entrances, windows, people coming and going"
+          }
+        }
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "TRY A CITY EXPERIMENT",
+        "title": "What would you change first?",
+        "html": "<p>A plaza is beautiful but empty after work. Adding another bench might help, but Jacobs would ask a different question.</p><p>What regular activity could bring people past the plaza at different hours?</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "Think of one destination and one way to connect it to the street.",
+          "answer": "A small evening café, library entrance, or neighborhood service with windows facing the plaza could create reasons to visit and opportunities for casual observation."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "DON'T OVERCLAIM",
+        "title": "Busy does not automatically mean safe",
+        "html": "<p>Jacobs offered an influential way to observe cities, not a universal formula for preventing crime. Visibility, access, local trust, and formal services all matter.</p><p>The practical lesson is to examine what a place <em>invites people to do</em>, rather than judging public space only from its blueprint.</p>"
+      }
+    ]
+  },
+  {
+    "id": "when-measure-becomes-mission",
+    "title": "When the score becomes the mission",
+    "kicker": "The hidden cost of measuring everything",
+    "hook": "What happens when a hospital, school, or company starts optimizing its score rather than the work the score was meant to represent?",
+    "type": "Book",
+    "category": "Economics",
+    "author": "Jerry Z. Muller",
+    "source_title": "The Tyranny of Metrics",
+    "source_url": "https://press.princeton.edu/books/paperback/9780691191911/the-tyranny-of-metrics",
+    "year": 2018,
+    "minutes": 3,
+    "art": "indigo",
+    "summary": "Jerry Z. Muller argues that performance indicators can become counterproductive when organizations attach rewards and penalties to narrow measurements. Metrics can inform judgment, but should not silently replace it.",
+    "body": [
+      "A measure is a simplified proxy for something we care about, such as learning, patient care, or service quality.",
+      "When rewards depend on that proxy, people may concentrate on what is counted and neglect what is harder to measure.",
+      "Muller's remedy is not to abandon measurement but to use it alongside informed professional judgment and attention to unintended effects."
+    ],
+    "takeaways": [
+      "Ask what a metric omits, not only what it captures.",
+      "Tying incentives to a score can change the behavior being measured.",
+      "Use multiple sources of evidence and qualitative judgment when stakes are high."
+    ],
+    "nuance": "The book assembles arguments and examples across institutions; it does not establish that every performance metric causes harm. Transparent measurement can reveal failures that intuition misses.",
+    "application": "Pick one dashboard metric you use. Write down its intended outcome, a way to raise the number without improving that outcome, and one complementary check.",
+    "quiz": {
+      "question": "What is the central danger Muller identifies in performance metrics?",
+      "choices": [
+        "Numbers can never represent useful information",
+        "A proxy measure can become a target and distort the underlying work",
+        "Professional judgment is always more accurate than data"
+      ],
+      "answer": 1,
+      "explanation": "When incentives focus on a narrow score, people may improve the score without improving the real objective."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "A NUMBER WITH POWER",
+        "title": "The score looks better. Is the work better?",
+        "html": "<p>A school celebrates rising test scores. A hospital reports faster patient processing. A company closes more support tickets.</p><p>Those numbers may reflect real improvement. But they may also hide a shift toward what is easiest to count. Jerry Muller asks what happens when measurement becomes management's main language.</p>"
+      },
+      {
+        "kind": "story",
+        "eyebrow": "PROXY VS PURPOSE",
+        "title": "The number is not the goal",
+        "html": "<p>A performance metric stands in for a larger outcome. Test scores can represent some learning; ticket counts can represent some productivity.</p><p>Neither captures everything. If a reward is attached to the number, people gain a reason to optimize the proxy—even when doing so neglects important work outside it.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "THE INCENTIVE TRAP",
+        "title": "Two ways to improve a score",
+        "html": "<p>Consider a customer-support team judged by tickets closed per day. The same dashboard improvement could mean very different things.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "Real gain",
+            "title": "Solve issues faster",
+            "text": "Better tools reduce delays while customers get help"
+          },
+          "right": {
+            "label": "Metric gain",
+            "title": "Close tickets sooner",
+            "text": "Hard cases are deferred or marked complete too early"
+          }
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "MULLER'S ARGUMENT",
+        "title": "Measurement changes behavior",
+        "html": "<p>In <em>The Tyranny of Metrics</em>, Muller examines education, healthcare, government, and business. His concern is not arithmetic itself but the belief that quantified performance can replace situated judgment.</p><p>Public rankings and rewards may amplify gaming, narrow priorities, and pressure to look good rather than do good.</p>"
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "AUDIT YOUR DASHBOARD",
+        "title": "Find the missing outcome",
+        "html": "<p>Imagine a support team celebrates a record number of closed tickets. Before applauding, what would you want to know?</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "Name one complementary measure or observation.",
+          "answer": "Check repeat contacts, customer-reported resolution, difficult cases left open, or a sample of conversations. These reveal whether the apparent speed improved actual service."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE BALANCED VIEW",
+        "title": "Keep the metric. Keep your judgment.",
+        "html": "<p>Measurement can expose hidden problems and challenge biased intuition. Muller does not argue that organizations should stop counting.</p><p>Instead, ask whether the number tracks the desired outcome, how incentives might distort it, and which qualitative checks should accompany it. A useful dashboard should support decisions, not make them automatically.</p>"
       }
     ]
   }
