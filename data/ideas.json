@@ -3669,5 +3669,198 @@
         "html": "<p>Measurement can expose hidden problems and challenge biased intuition. Muller does not argue that organizations should stop counting.</p><p>Instead, ask whether the number tracks the desired outcome, how incentives might distort it, and which qualitative checks should accompany it. A useful dashboard should support decisions, not make them automatically.</p>"
       }
     ]
+  },
+  {
+    "id": "address-is-access",
+    "title": "An address can decide whether you count",
+    "kicker": "The hidden power of a street number",
+    "hook": "What if a missing street address made it harder to receive a parcel, prove where you live, or be found in an emergency?",
+    "type": "Book",
+    "category": "History",
+    "author": "Deirdre Mask",
+    "source_title": "The Address Book: What Street Addresses Reveal About Identity, Race, Wealth, and Power",
+    "source_url": "https://us.macmillan.com/books/9781250134790/theaddressbook/",
+    "year": 2020,
+    "minutes": 3,
+    "art": "amber",
+    "summary": "Deirdre Mask shows that an address is more than a navigation aid: it is infrastructure for being recognized and reached, while street naming also encodes political power and identity.",
+    "body": [
+      "A street address seems like an ordinary label until someone lacks one. Deliveries, official records, and everyday services often assume that every home can be named in a standard way.",
+      "In The Address Book, Mask explores communities where this assumption breaks down, alongside disputes over who gets commemorated in street names.",
+      "Addresses make people legible to institutions. That can enable access and safety, but also surveillance and control."
+    ],
+    "takeaways": [
+      "Treat addressing as civic infrastructure, not just a convenience.",
+      "Ask who is excluded when a system assumes everyone has a conventional address.",
+      "Street names can reflect contested memory and political power."
+    ],
+    "nuance": "Mask's book combines reporting and historical examples; the consequences of lacking an address differ across places. Formal addressing can improve access while also increasing visibility to authorities.",
+    "application": "Think of one service that asks for a street address. How would someone without one use it? Sketch an alternative verification or delivery method.",
+    "quiz": {
+      "question": "What is the most important overlooked role of an address in Mask's account?",
+      "choices": [
+        "It only helps tourists navigate",
+        "It helps institutions locate and recognize people, with benefits and risks",
+        "It ensures every street name is politically neutral"
+      ],
+      "answer": 1,
+      "explanation": "An address is a link between a person or place and institutional systems; it can create access and expose people to control."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "AN INVISIBLE PRIVILEGE",
+        "title": "What if your home had no address?",
+        "html": "<p>You can describe where you live. Your neighbors know the way. But a delivery form demands a street and house number you don't have.</p><p>In <em>The Address Book</em>, Deirdre Mask asks us to notice the infrastructure hidden in a few ordinary words and digits.</p>"
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE ASSUMPTION",
+        "title": "Forms expect the world to be numbered",
+        "html": "<p>Addresses connect physical places to postal services, records, navigation, and other systems. When a place lacks a conventional address, the person living there may have to invent workarounds.</p><p>Mask describes people and communities for whom being physically present is not the same as being easy for institutions to find.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "ONE PLACE, TWO REALITIES",
+        "title": "Being somewhere isn't always enough",
+        "html": "<p>Imagine two homes in the same city. Both are real, but only one fits the standard address field. That small difference can ripple through daily life.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "Recognized",
+            "title": "A standard address",
+            "text": "Easy to enter in forms and route through services"
+          },
+          "right": {
+            "label": "Unrecognized",
+            "title": "No standard address",
+            "text": "May require directions, intermediaries, or special arrangements"
+          }
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "WHO GETS NAMED?",
+        "title": "The map also remembers—and chooses",
+        "html": "<p>Mask also follows disputes over street names. A name can honor someone, preserve a political story, or become a site of conflict.</p><p>So addressing does two jobs at once: it helps locate places, and it expresses who has the power to define a public landscape.</p>"
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "REDESIGN THE FORM",
+        "title": "Make room for the unaddressed",
+        "html": "<p>A service requires a street number to register. Some residents live in places without one. What would you change first?</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "Think of an alternative way to locate or verify a home.",
+          "answer": "Allow a mapped location, landmark directions, local pickup point, or assisted verification. Test whether these alternatives work without exposing residents to unnecessary risks."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE TRADEOFF",
+        "title": "Visibility can help—and expose",
+        "html": "<p>Being locatable can make essential services easier to access. It can also make people more visible to surveillance, taxation, or coercion.</p><p>Mask's broader invitation is to ask who designs a city's labels, who benefits from them, and whose everyday life is made harder when the map leaves them out.</p>"
+      }
+    ]
+  },
+  {
+    "id": "purpose-before-guest-list",
+    "title": "A better gathering starts by excluding a default",
+    "kicker": "Why the guest list follows the purpose",
+    "hook": "Why can a carefully planned meeting still feel pointless, while a small improvised dinner becomes unforgettable?",
+    "type": "Book",
+    "category": "Society",
+    "author": "Priya Parker",
+    "source_title": "The Art of Gathering: How We Meet and Why It Matters",
+    "source_url": "https://www.priyaparker.com/the-art-of-gathering",
+    "year": 2018,
+    "minutes": 3,
+    "art": "rose",
+    "summary": "Priya Parker argues that meaningful gatherings begin with a specific purpose rather than default formats, habitual invite lists, or logistics. Purpose should shape whom to invite and how people participate.",
+    "body": [
+      "We often start planning gatherings with a date, venue, and guest list. Parker suggests beginning with a sharper question: what change or experience is this particular gathering for?",
+      "A purpose like 'help new colleagues trust one another enough to ask for help' offers clearer design choices than 'team meeting.' It may call for a smaller group, different prompts, and an intentional ending.",
+      "Good hosting is not maximal control; it is thoughtful structure that gives participants a reason and a way to connect."
+    ],
+    "takeaways": [
+      "Name the specific purpose before choosing the format.",
+      "Invite people because they serve the purpose, not merely by habit.",
+      "Design openings and participation rules deliberately."
+    ],
+    "nuance": "Parker offers a facilitation framework grounded in experience and examples, not a controlled guarantee that any single hosting technique improves outcomes. Exclusion can also be misused; consider fairness and accessibility.",
+    "application": "Before your next meeting or dinner, finish this sentence: 'People should leave able to ___.' Then change one invitation or activity to support that outcome.",
+    "quiz": {
+      "question": "According to Parker's framework, what should guide a gathering's guest list?",
+      "choices": [
+        "Who attended last time",
+        "A clear and specific purpose",
+        "The largest number of available people"
+      ],
+      "answer": 1,
+      "explanation": "Purpose is meant to drive the guest list, format, and interactions instead of following established defaults."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "THE MEETING TRAP",
+        "title": "Everyone came. Why did nobody connect?",
+        "html": "<p>You booked a room, sent invitations, and arranged snacks. The event went smoothly. Yet people leave wondering what it was for.</p><p>Priya Parker's <em>The Art of Gathering</em> argues that logistics are not the same as a reason to gather.</p>"
+      },
+      {
+        "kind": "story",
+        "eyebrow": "START WITH WHY",
+        "title": "A category is not a purpose",
+        "html": "<p>“Team meeting” describes a format. “Help a new team speak candidly about what it needs” describes an intended outcome.</p><p>That distinction matters. A specific purpose tells you what conversations belong, who needs to be present, and what can be left out.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "DESIGN FROM PURPOSE",
+        "title": "Reverse the planning order",
+        "html": "<p>Parker proposes letting the reason for meeting shape the gathering, rather than treating a familiar format as inevitable.</p>",
+        "visual": {
+          "type": "steps",
+          "items": [
+            {
+              "label": "1",
+              "title": "Name the purpose",
+              "text": "What should be different afterward?"
+            },
+            {
+              "label": "2",
+              "title": "Choose the people",
+              "text": "Who is essential to that outcome?"
+            },
+            {
+              "label": "3",
+              "title": "Shape the experience",
+              "text": "What structure makes the purpose possible?"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "A HOST'S RESPONSIBILITY",
+        "title": "Neutrality can leave a vacuum",
+        "html": "<p>Parker challenges the idea that a good host should simply stand back. Without structure, the loudest or most comfortable guests may set the terms.</p><p>Thoughtful hosting can mean making space for quieter voices, explaining why everyone is there, and establishing a few clear expectations.</p>"
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "TRY IT ON A REAL EVENT",
+        "title": "Rewrite the invitation",
+        "html": "<p>Your recurring project meeting has twelve attendees and no clear outcome. How would you redesign it?</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "Write a one-sentence purpose, then name one change.",
+          "answer": "For example: 'Decide which unresolved risk blocks launch.' Invite the people with relevant information and decision authority, circulate the options, and end with an explicit decision."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE LIMIT",
+        "title": "Purpose is a compass, not permission to exclude carelessly",
+        "html": "<p>A strong purpose can justify a smaller, more focused gathering. But purpose is not a license to ignore accessibility, belonging, or legitimate stakeholders.</p><p>The practical lesson is to make design choices intentionally—and to check whether the people in the room actually had the experience you hoped to create.</p>"
+      }
+    ]
   }
 ]
