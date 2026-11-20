@@ -3862,5 +3862,186 @@
         "html": "<p>A strong purpose can justify a smaller, more focused gathering. But purpose is not a license to ignore accessibility, belonging, or legitimate stakeholders.</p><p>The practical lesson is to make design choices intentionally—and to check whether the people in the room actually had the experience you hoped to create.</p>"
       }
     ]
+  },
+  {
+    "id": "risk-relative-vs-absolute",
+    "title": "A risk can double and still be tiny",
+    "kicker": "The missing denominator",
+    "hook": "A headline says a danger has doubled. Would you react differently if it rose from one in ten thousand to two?",
+    "type": "Book",
+    "category": "Science",
+    "author": "David Spiegelhalter",
+    "source_title": "The Art of Statistics: Learning from Data",
+    "source_url": "https://www.penguin.co.uk/books/294857/the-art-of-statistics-by-spiegelhalter-david/9780241258767",
+    "year": 2019,
+    "minutes": 3,
+    "art": "sky",
+    "summary": "Statistical literacy means asking what a dramatic comparison actually measures. Relative changes can sound enormous while concealing the baseline risk and the absolute difference.",
+    "body": [
+      "A claim that risk doubled tells us the ratio between two probabilities, not how common the outcome was in the first place.",
+      "Imagine a hypothetical risk moving from 1 in 10,000 to 2 in 10,000. The relative increase is 100%, but the absolute increase is one additional case per 10,000. Both descriptions are mathematically correct; neither alone tells the whole story.",
+      "Spiegelhalter's broader lesson is to interrogate how numbers were generated and communicated. Good decisions also need the outcome's severity, uncertainty, timeframe, and whether the comparison is causal."
+    ],
+    "takeaways": [
+      "Ask for the baseline and the absolute change, not just a percentage.",
+      "Check who was counted and over what time period.",
+      "Separate numerical magnitude from the importance of the outcome."
+    ],
+    "nuance": "The numerical example is illustrative, not a finding reported from the book. Small absolute risks can matter greatly for severe outcomes or large populations; relative measures can also be useful.",
+    "application": "Next time you see a 'doubles the risk' headline, rewrite it as 'from X out of N to Y out of N' before judging its significance.",
+    "quiz": {
+      "question": "A risk rises from 1 in 10,000 to 2 in 10,000. Which statement is correct?",
+      "choices": [
+        "The absolute increase is 100 percentage points",
+        "The relative risk doubled, but the absolute increase is 1 in 10,000",
+        "The risk is now 2 percent"
+      ],
+      "answer": 1,
+      "explanation": "The ratio doubled, but the probability increased by only one additional event per 10,000."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "THE SCARY HEADLINE",
+        "title": "This risk just doubled",
+        "html": "<p>That sounds alarming. But a doubling can describe a jump from one case in ten thousand to two—or from one in two to nearly everyone.</p><p>Without a starting point, the same headline can describe radically different situations.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "TWO TRUE DESCRIPTIONS",
+        "title": "Relative and absolute tell different stories",
+        "html": "<p>Imagine a hypothetical outcome that rises from 1 in 10,000 people to 2 in 10,000. Both descriptions below are accurate.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "RELATIVE",
+            "title": "100% increase",
+            "text": "Twice the original risk"
+          },
+          "right": {
+            "label": "ABSOLUTE",
+            "title": "+1 per 10,000",
+            "text": "One additional event in 10,000 people"
+          }
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE QUESTION BEHIND THE NUMBER",
+        "title": "Who is the denominator?",
+        "html": "<p>To interpret a percentage, ask: among whom, over what period, and compared with what?</p><p>A yearly probability for one age group is not interchangeable with a lifetime probability for everyone. Even a perfectly calculated number can mislead when its reference group disappears.</p>"
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "READ THE HEADLINE",
+        "title": "Translate the dramatic claim",
+        "html": "<p>A headline announces that a treatment cuts a complication risk by half. Before deciding whether that is a major benefit, what information would you request?</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "Name the missing number.",
+          "answer": "Ask for the original complication rate and the treated rate, ideally as counts per 1,000 or 10,000 people, along with the study population and uncertainty."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE IMPORTANT CAVEAT",
+        "title": "Tiny probabilities can still matter",
+        "html": "<p>A small absolute increase is not automatically harmless. Severity, exposure, and the number of people affected matter too.</p><p>Spiegelhalter's larger message is not to distrust statistics. It is to make the question, comparison, and uncertainty visible before making a decision.</p>"
+      }
+    ]
+  },
+  {
+    "id": "ocean-chemistry-second-climate-problem",
+    "title": "The ocean can change even without getting hotter",
+    "kicker": "The chemistry behind disappearing reefs",
+    "hook": "Why can extra carbon dioxide threaten sea life even when you set rising temperatures aside?",
+    "type": "Book",
+    "category": "Science",
+    "author": "Elizabeth Kolbert",
+    "source_title": "The Sixth Extinction: An Unnatural History",
+    "source_url": "https://www.elizabethkolbert.com/the-sixth-extinction",
+    "year": 2014,
+    "minutes": 3,
+    "art": "ocean",
+    "summary": "Elizabeth Kolbert's reporting highlights ocean acidification: seawater absorbs some atmospheric carbon dioxide, altering carbonate chemistry and making it harder for many organisms to build shells and coral skeletons.",
+    "body": [
+      "Climate change is not only about heat. When carbon dioxide dissolves in seawater, it changes the water's chemistry, including lowering its pH and reducing the availability of carbonate ions used by many marine organisms.",
+      "Kolbert reported from coral research sites to make this less visible threat tangible. Reef-building corals create physical habitat for many other species, so a challenge to reef growth can ripple through ecosystems.",
+      "Ocean acidification does not mean the ocean has become acidic overall: seawater remains alkaline on average, but is becoming less alkaline. Effects vary across species and places, and warming adds another major stress."
+    ],
+    "takeaways": [
+      "Carbon dioxide can change oceans chemically, not just thermally.",
+      "Calcifying organisms need suitable carbonate chemistry to build structures.",
+      "Distinguish a documented mechanism from predictions about exactly which ecosystems will collapse."
+    ],
+    "nuance": "Kolbert's book is narrative science journalism, not a single controlled experiment. Acidification effects differ among organisms and interact with warming, pollution, and local conditions; exact future outcomes remain uncertain.",
+    "application": "When reading about marine climate impacts, separate three pathways: warming, acidification, and local pressures. Ask which evidence supports each.",
+    "quiz": {
+      "question": "Why can extra atmospheric CO2 make coral reef-building more difficult?",
+      "choices": [
+        "It removes all salt from seawater",
+        "It changes carbonate chemistry, reducing carbonate ions important for calcification",
+        "It turns the entire ocean into a strongly acidic liquid"
+      ],
+      "answer": 1,
+      "explanation": "Absorbed CO2 alters seawater chemistry and can reduce carbonate ion availability, making calcification more difficult for many organisms."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "A SECOND OCEAN THREAT",
+        "title": "What if the water never warmed?",
+        "html": "<p>Even without a temperature increase, rising carbon dioxide could still change the sea.</p><p>Elizabeth Kolbert's <em>The Sixth Extinction</em> follows scientists investigating a quieter transformation: the chemistry of the water itself.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "FOLLOW THE CARBON",
+        "title": "From smokestack to coral skeleton",
+        "html": "<p>Some carbon dioxide released into the air dissolves into seawater. The resulting chemical shifts can leave less carbonate available for organisms that build calcium-carbonate structures.</p>",
+        "visual": {
+          "type": "flow",
+          "items": [
+            {
+              "label": "1",
+              "title": "More CO2 in air",
+              "text": "A portion enters the ocean"
+            },
+            {
+              "label": "2",
+              "title": "Seawater chemistry shifts",
+              "text": "pH falls and carbonate availability changes"
+            },
+            {
+              "label": "3",
+              "title": "Building gets harder",
+              "text": "Many corals and shell-builders face added stress"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "A LIVING ARCHITECTURE",
+        "title": "Coral is more than an animal",
+        "html": "<p>Reef-building corals construct habitat used by other organisms. When the conditions for building and maintaining that structure deteriorate, the consequences can extend beyond the corals themselves.</p><p>Kolbert visited reef researchers to explore how changes invisible to a swimmer can matter to an entire ecosystem.</p>"
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "CHECK THE MECHANISM",
+        "title": "Does acidification mean acidic oceans?",
+        "html": "<p>The phrase sounds as if seawater must have crossed from alkaline to acidic. Has it?</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "Predict what the word actually means here.",
+          "answer": "No. The ocean remains alkaline on average. Acidification means its pH is declining relative to earlier conditions, with important chemical consequences."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "WHAT WE KNOW AND DON'T",
+        "title": "A mechanism is not a universal forecast",
+        "html": "<p>The chemistry is well established, but species respond differently. Warming, pollution, and local water conditions also affect reefs.</p><p>The useful distinction is between a measured change in ocean chemistry and the more complex question of exactly how each ecosystem will respond over time.</p>"
+      }
+    ]
   }
 ]
