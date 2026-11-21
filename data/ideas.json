@@ -4043,5 +4043,92 @@
         "html": "<p>The chemistry is well established, but species respond differently. Warming, pollution, and local water conditions also affect reefs.</p><p>The useful distinction is between a measured change in ocean chemistry and the more complex question of exactly how each ecosystem will respond over time.</p>"
       }
     ]
+  },
+{
+    "id": "scientific-integrity-show-the-failures",
+    "title": "The most important result may be the one you almost hid",
+    "kicker": "Feynman's test of scientific honesty",
+    "hook": "What if the biggest threat to your experiment is not fraud, but the perfectly reasonable detail you leave out?",
+    "type": "Essay",
+    "category": "Science",
+    "author": "Richard P. Feynman",
+    "source_title": "Cargo Cult Science",
+    "source_url": "https://calteches.library.caltech.edu/51/2/CargoCult.htm",
+    "year": 1974,
+    "minutes": 3,
+    "art": "sage",
+    "summary": "In his 1974 Caltech address, Richard Feynman argued that scientific integrity requires actively disclosing evidence that could undermine your own conclusion—not merely avoiding fabricated results.",
+    "body": [
+      "Feynman described work that imitates the visible rituals of science while failing to establish that its claims are reliable. The problem is not necessarily dishonesty; it can be selective reporting that makes an experiment look more decisive than it is.",
+      "His proposed standard is unusually demanding: tell readers not only what supports your interpretation but also what might invalidate it, which alternative explanations remain, and where earlier attempts failed.",
+      "This principle extends beyond laboratories. A persuasive product demo, policy proposal, or research presentation can be technically truthful while hiding the very context needed to judge it."
+    ],
+    "takeaways": [
+      "Disclose relevant counterevidence, not just supportive observations.",
+      "Explain plausible alternative causes and limitations.",
+      "Make it possible for someone else to challenge or reproduce your claim."
+    ],
+    "nuance": "Feynman's address is a normative argument illustrated by examples, not an experiment proving that a particular reporting practice improves replication rates. Complete disclosure is constrained by relevance, privacy, and practical limits.",
+    "application": "Before sharing a result, add a short section: 'What would make this conclusion wrong?' Include the strongest unresolved objection.",
+    "quiz": {
+      "question": "Which practice best matches Feynman's standard of scientific integrity?",
+      "choices": [
+        "Report only the cleanest successful experiment",
+        "Explain the strongest evidence against your own interpretation",
+        "Avoid discussing failed attempts"
+      ],
+      "answer": 1,
+      "explanation": "Feynman emphasized making potentially disconfirming information available so others can assess the claim."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "THE HONEST EXPERIMENT",
+        "title": "You can tell the truth and still mislead",
+        "html": "<p>Imagine a researcher reporting a striking result. Every number shown is correct. But several unsuccessful trials, a measurement caveat, and a plausible alternative explanation are missing.</p><p>Richard Feynman argued that science demands more than avoiding lies.</p>"
+      },
+      {
+        "kind": "story",
+        "eyebrow": "A 1974 WARNING",
+        "title": "Science has rituals—and a harder standard",
+        "html": "<p>In his Caltech commencement address, Feynman described work that copies the outward appearance of science without reliably testing its claims.</p><p>His central concern was intellectual honesty: researchers must make it easier for others to discover where their conclusions could fail.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "TWO WAYS TO REPORT",
+        "title": "The same result, two very different stories",
+        "html": "<p>A polished claim can be factually correct yet leave readers with a distorted impression. The missing context changes what the evidence actually warrants.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "SELECTIVE",
+            "title": "Only the success",
+            "text": "Highlight the strongest run; omit caveats and alternative explanations."
+          },
+          "right": {
+            "label": "INTEGRITY",
+            "title": "Show the full picture",
+            "text": "Describe failures, uncertainties, and what would challenge the claim."
+          }
+        }
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "THE MISSING PARAGRAPH",
+        "title": "Audit your own evidence",
+        "html": "<p>You tested a new workflow and it performed better on your favorite examples. You're about to announce that it works.</p><p>What is the most useful paragraph to add before publication?</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "What should a skeptical reader know?",
+          "answer": "How examples were selected, whether other trials failed, what comparison was used, and which plausible alternative explanations remain."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "A PRACTICAL STANDARD",
+        "title": "Make criticism possible",
+        "html": "<p>Before presenting a conclusion, ask what evidence would make you less confident—and whether the audience can see it.</p><p>This is a principle, not a guarantee of perfect research. But it changes the goal from winning agreement to helping others evaluate what is actually known.</p>"
+      }
+    ]
   }
 ]
