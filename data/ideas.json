@@ -4044,7 +4044,7 @@
       }
     ]
   },
-{
+  {
     "id": "scientific-integrity-show-the-failures",
     "title": "The most important result may be the one you almost hid",
     "kicker": "Feynman's test of scientific honesty",
@@ -4128,6 +4128,274 @@
         "eyebrow": "A PRACTICAL STANDARD",
         "title": "Make criticism possible",
         "html": "<p>Before presenting a conclusion, ask what evidence would make you less confident—and whether the audience can see it.</p><p>This is a principle, not a guarantee of perfect research. But it changes the goal from winning agreement to helping others evaluate what is actually known.</p>"
+      }
+    ]
+  },
+  {
+    "id": "hela-cells-human-story",
+    "title": "The cells survived. The consent did not.",
+    "kicker": "The human story behind an immortal cell line",
+    "hook": "A laboratory breakthrough can change medicine and still leave an ethical debt unpaid.",
+    "type": "Book",
+    "category": "Science",
+    "author": "Rebecca Skloot",
+    "source_title": "The Immortal Life of Henrietta Lacks",
+    "source_url": "https://www.penguinrandomhouse.com/books/168191/the-immortal-life-of-henrietta-lacks-by-rebecca-skloot/",
+    "year": 2010,
+    "minutes": 3,
+    "art": "rose",
+    "summary": "Henrietta Lacks's cells became a foundational laboratory tool, while the circumstances of their collection and her family's later experience exposed questions about consent, recognition, and the distribution of research benefits.",
+    "body": [
+      "In 1951, cells taken from Henrietta Lacks during cancer treatment gave rise to HeLa, a line that could keep growing in laboratory culture. Such a renewable human cell source was unusually useful for experiments.",
+      "The cells were collected without her knowledge. Her family learned much later how extensively HeLa had been used, while facing questions about privacy, medical research, and who benefited.",
+      "Rebecca Skloot's account insists on holding two facts together: the extraordinary scientific value of HeLa and the life of the person whose tissue made it possible."
+    ],
+    "takeaways": [
+      "Scientific utility does not resolve whether a sample was collected ethically.",
+      "Research materials have human histories beyond their laboratory labels.",
+      "Consent, privacy, recognition, and benefit-sharing are related but distinct questions."
+    ],
+    "nuance": "The ethical and legal rules governing human tissue have changed over time and differ by context. This story does not establish that every later use of a stored specimen required the same form of consent.",
+    "application": "When reading about a breakthrough based on human data or tissue, ask who supplied it, what they knew, and who can influence its future use.",
+    "quiz": {
+      "question": "What tension is central to the HeLa story?",
+      "choices": [
+        "Whether cells can be grown outside the body",
+        "How major scientific benefits can coexist with failures of consent and recognition",
+        "Whether all medical research is unethical"
+      ],
+      "answer": 1,
+      "explanation": "HeLa's enormous research value does not erase the ethical questions surrounding collection and the family's experience."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "A CELL LINE WITH A NAME",
+        "title": "What if part of you lived in laboratories worldwide?",
+        "html": "<p>In 1951, cells taken from Henrietta Lacks during cancer treatment began an extraordinary scientific journey. They kept dividing in laboratory culture, becoming known as HeLa.</p><p>The story of those cells and the story of Henrietta herself unfolded very differently.</p>"
+      },
+      {
+        "kind": "story",
+        "eyebrow": "WHY SCIENTISTS CARED",
+        "title": "A renewable tool for experiments",
+        "html": "<p>Many human cells are difficult to maintain in culture. HeLa cells could be propagated repeatedly, making them valuable for research including work on polio, cancer, and viruses.</p><p>But the convenience of a laboratory material says nothing about the conditions under which it was obtained.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "TWO HISTORIES",
+        "title": "One breakthrough, two perspectives",
+        "html": "<p>Rebecca Skloot's book restores the person and family behind an abbreviation found in countless laboratories.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "IN THE LAB",
+            "title": "A powerful resource",
+            "text": "A durable human cell line supporting many lines of research."
+          },
+          "right": {
+            "label": "IN THE FAMILY",
+            "title": "Unanswered questions",
+            "text": "Collection without Henrietta's knowledge, followed by decades of uncertainty and exclusion."
+          }
+        }
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "THE ETHICS TEST",
+        "title": "What does a discovery owe its source?",
+        "html": "<p>Suppose a biological sample becomes immensely useful years after it was collected. Does its value settle the question of how it should be used?</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "Name two separate questions researchers should consider.",
+          "answer": "Was the sample obtained and used under appropriate consent and privacy rules? How should contributors and communities be informed, recognized, or involved?"
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE LESSON",
+        "title": "A sample is not just a sample",
+        "html": "<p>HeLa is a scientific success story, but it is also a reminder that technical progress and ethical progress are not interchangeable.</p><p>When research depends on human bodies or data, ask not only what became possible, but whose choices and interests shaped the work.</p>"
+      }
+    ]
+  },
+  {
+    "id": "humboldt-nature-connections",
+    "title": "The mountain was a map of the whole planet",
+    "kicker": "Humboldt's interconnected nature",
+    "hook": "What can a single climb reveal about ecosystems thousands of miles apart?",
+    "type": "Book",
+    "category": "History",
+    "author": "Andrea Wulf",
+    "source_title": "The Invention of Nature: Alexander von Humboldt's New World",
+    "source_url": "https://www.penguinrandomhouse.com/books/227866/the-invention-of-nature-by-andrea-wulf/9780345806291/",
+    "year": 2015,
+    "minutes": 3,
+    "art": "sage",
+    "summary": "Andrea Wulf recounts how Alexander von Humboldt connected observations across altitude, geography, climate, and living things to argue for an interconnected understanding of nature.",
+    "body": [
+      "Alexander von Humboldt traveled widely and observed plants, landscapes, and climate as parts of a system rather than isolated curiosities.",
+      "His comparisons across regions and elevations encouraged a way of seeing nature through relationships: a change in one condition may influence many others.",
+      "Wulf's biography traces the influence of this perspective on later environmental thinking, while showing that it arose from observation, travel, and synthesis rather than one decisive experiment."
+    ],
+    "takeaways": [
+      "Compare patterns across environments, not only individual specimens.",
+      "A system's relationships may explain more than a catalog of its parts.",
+      "A powerful conceptual lens is not the same as a complete causal model."
+    ],
+    "nuance": "Humboldt did not single-handedly invent ecology or establish all modern climate science. Wulf's book is a historical interpretation of his influence, not an experimental proof of every connection he proposed.",
+    "application": "When confronting an environmental problem, list its connected conditions—water, temperature, organisms, land use—before proposing a single-variable fix.",
+    "quiz": {
+      "question": "What distinguished Humboldt's way of studying nature?",
+      "choices": [
+        "Treating each species as unrelated to its environment",
+        "Comparing patterns and relationships across places and conditions",
+        "Assuming all mountains have identical ecosystems"
+      ],
+      "answer": 1,
+      "explanation": "He sought connections between living things, climate, geography, and other environmental conditions."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "THE CONNECTED WORLD",
+        "title": "A mountain is more than a mountain",
+        "html": "<p>Imagine climbing from tropical lowlands into cold mountain air. Plants change, temperatures fall, and familiar patterns appear in unfamiliar places.</p><p>Alexander von Humboldt saw an opportunity: instead of collecting isolated facts, he could compare how nature changes together.</p>"
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE SHIFT",
+        "title": "From collections to connections",
+        "html": "<p>Naturalists had long described species and landscapes. Humboldt also asked how climate, altitude, geography, and living organisms relate.</p><p>Andrea Wulf's biography portrays this as a major shift in perspective: the natural world is not simply a cabinet of separate specimens.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "THINK IN RELATIONSHIPS",
+        "title": "Follow the links, not just the labels",
+        "html": "<p>A plant's presence is not explained by its name alone. Conditions and interactions matter.</p>",
+        "visual": {
+          "type": "flow",
+          "items": [
+            {
+              "label": "CONDITIONS",
+              "title": "Climate and elevation",
+              "text": "Temperature, moisture, and terrain differ across locations."
+            },
+            {
+              "label": "LIFE",
+              "title": "Plants and animals",
+              "text": "Different organisms thrive under different conditions."
+            },
+            {
+              "label": "PATTERNS",
+              "title": "Compare places",
+              "text": "Similar relationships can emerge far apart."
+            }
+          ]
+        }
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "YOUR TURN",
+        "title": "Diagnose a changing forest",
+        "html": "<p>Suppose a forest's plant community is shifting. You could count disappearing species—or also examine what changed around them.</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "What connected factors would you investigate?",
+          "answer": "Temperature, rainfall, soil, land use, competition, and other organisms. Their relationships may matter more than any one factor."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE BIGGER IDEA",
+        "title": "A perspective that outlived its explorer",
+        "html": "<p>Wulf traces Humboldt's influence on later writers, scientists, and environmental thinkers. His enduring contribution was not a finished theory of everything.</p><p>It was a habit of looking for relationships—and noticing that changing one part of nature can have consequences elsewhere.</p>"
+      }
+    ]
+  },
+  {
+    "id": "bazaar-feedback-debugging",
+    "title": "Why showing unfinished code can improve it",
+    "kicker": "A software essay about feedback",
+    "hook": "What if sharing an imperfect version is part of how you make it better?",
+    "type": "Essay",
+    "category": "Technology",
+    "author": "Eric S. Raymond",
+    "source_title": "The Cathedral and the Bazaar",
+    "source_url": "https://nakamotoinstitute.org/library/the-cathedral-and-the-bazaar/",
+    "year": 1997,
+    "minutes": 3,
+    "art": "blue",
+    "summary": "Eric S. Raymond contrasts tightly controlled software development with open, iterative collaboration, arguing from the Linux and fetchmail experiences that frequent releases and diverse feedback can expose problems earlier.",
+    "body": [
+      "Raymond contrasts a cathedral-style project, developed mainly behind closed doors, with a bazaar-style project that makes work visible to many contributors.",
+      "Drawing on Linux and his fetchmail project, he argues that early releases can turn users into testers and sometimes collaborators. Feedback can reveal needs and bugs the core team did not anticipate.",
+      "This is an influential engineering argument based on particular project experiences, not a universal theorem that openness always produces better software."
+    ],
+    "takeaways": [
+      "Early feedback can reveal mistakes before they become expensive.",
+      "A larger audience helps only when reports can be evaluated and acted upon.",
+      "Openness is a design choice, not a substitute for coordination and maintainership."
+    ],
+    "nuance": "The essay's famous debugging intuition is not a guarantee: participation quality, project complexity, security, and maintainer capacity all affect whether an open process works.",
+    "application": "For a small project, release a narrow usable version, make reporting frictionless, and track which feedback actually changes decisions.",
+    "quiz": {
+      "question": "What is the strongest defensible lesson of the bazaar model?",
+      "choices": [
+        "More reviewers guarantee bug-free software",
+        "Early releases and responsive feedback can improve a project",
+        "Planning is always harmful"
+      ],
+      "answer": 1,
+      "explanation": "The argument is about productive feedback loops, not a guarantee that openness solves every problem."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "BUILD IN PUBLIC",
+        "title": "Could an unfinished release be a tool?",
+        "html": "<p>A developer has a working but imperfect program. Should they polish it privately for months—or let people try it now?</p><p>Eric S. Raymond's influential essay suggests that exposing work early can be part of the engineering process itself.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "TWO DEVELOPMENT STYLES",
+        "title": "The cathedral and the bazaar",
+        "html": "<p>Raymond used two metaphors for contrasting approaches to software development.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "CATHEDRAL",
+            "title": "Carefully controlled",
+            "text": "A small group develops and reveals relatively finished releases."
+          },
+          "right": {
+            "label": "BAZAAR",
+            "title": "Open iteration",
+            "text": "Frequent releases invite testing, suggestions, and contributions."
+          }
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE MECHANISM",
+        "title": "Users notice what builders miss",
+        "html": "<p>Raymond drew on the Linux community and his own work on fetchmail. People using software in different ways can encounter bugs or needs its authors never anticipated.</p><p>But observations help only when maintainers listen, verify, and turn them into changes.</p>"
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "A RELEASE DECISION",
+        "title": "What would you expose first?",
+        "html": "<p>You have a small tool that works for common cases but still has rough edges. Which first release is most informative?</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "What would make an early release useful rather than chaotic?",
+          "answer": "A usable core, clear known limitations, a simple feedback channel, and a maintainer willing to triage reports and iterate."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE LIMIT",
+        "title": "More eyes are not magic",
+        "html": "<p>Open feedback is not guaranteed to uncover every bug. Some problems demand specialist expertise, and reviewing reports takes work.</p><p>The transferable idea is narrower and stronger: shorten the distance between building something, observing how people use it, and improving it.</p>"
       }
     ]
   }
