@@ -4398,5 +4398,186 @@
         "html": "<p>Open feedback is not guaranteed to uncover every bug. Some problems demand specialist expertise, and reviewing reports takes work.</p><p>The transferable idea is narrower and stronger: shorten the distance between building something, observing how people use it, and improving it.</p>"
       }
     ]
+  },
+  {
+    "id": "buildings-need-room-to-change",
+    "title": "The best building may be the one you can change",
+    "kicker": "Architecture is a process, not a photograph",
+    "hook": "What if a building's real design test begins after its architects leave?",
+    "type": "Book",
+    "category": "Technology",
+    "author": "Stewart Brand",
+    "source_title": "How Buildings Learn: What Happens After They're Built",
+    "source_url": "https://www.penguinrandomhouse.com/books/320919/how-buildings-learn-by-stewart-brand/",
+    "year": 1994,
+    "minutes": 3,
+    "art": "amber",
+    "summary": "Stewart Brand argues that buildings become useful through adaptation. Their occupants continually revise spaces, while different parts of a building age and change at different speeds.",
+    "body": [
+      "An architect's photographs capture opening day. Brand asks what happens in the decades after: people move furniture, reconfigure rooms, replace systems, and repurpose entire structures.",
+      "Building on the idea of layers that change at different rates, his account suggests a practical design principle: do not make a frequently changed element unnecessarily dependent on a long-lived one.",
+      "His book is an illustrated architectural argument supported by examples, not a controlled experiment proving that every flexible building is better."
+    ],
+    "takeaways": [
+      "Judge a design by its ability to accommodate future uses, not only its opening appearance.",
+      "Different building components need different replacement and adaptation cycles.",
+      "Make frequently changing parts easier to access and modify."
+    ],
+    "nuance": "Adaptability has costs, and heritage, safety, and structural requirements can constrain modifications. Brand's case studies do not establish a universal optimum.",
+    "application": "Look at a room or workspace: which changes are easy, and which require disturbing a more permanent layer? Identify one reversible improvement.",
+    "quiz": {
+      "question": "What does Brand's account suggest about good building design?",
+      "choices": [
+        "Finish every detail permanently before occupants arrive",
+        "Allow occupants to adapt spaces as needs change",
+        "Replace the entire building whenever furniture changes"
+      ],
+      "answer": 1,
+      "explanation": "Brand emphasizes adaptation over time, especially the ability to modify components without unnecessarily disturbing others."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "AFTER OPENING DAY",
+        "title": "A building is never really finished",
+        "html": "<p>A new building looks complete in the architect's photographs. Then people move in, rearrange rooms, add equipment, and discover what the original plan missed.</p><p>Stewart Brand asks a different design question: <strong>how well will this building learn from its occupants?</strong></p>"
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE SHIFT",
+        "title": "Design for decades, not the reveal",
+        "html": "<p>In <em>How Buildings Learn</em>, Brand follows structures as their uses change. A successful space is not necessarily one that stays visually pristine. It may be one that can be repaired, rearranged, and repurposed without enormous friction.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "DIFFERENT CLOCKS",
+        "title": "Not everything changes at once",
+        "html": "<p>A chair may move today; room divisions might change in years; the structural frame may remain for generations. Treating all these parts as one inseparable object makes adaptation harder.</p>",
+        "visual": {
+          "type": "steps",
+          "items": [
+            {
+              "label": "FAST",
+              "title": "Stuff",
+              "text": "Furniture and everyday objects move often."
+            },
+            {
+              "label": "MEDIUM",
+              "title": "Space and services",
+              "text": "Layouts, wiring, and equipment need periodic changes."
+            },
+            {
+              "label": "SLOW",
+              "title": "Structure and site",
+              "text": "Foundations and structural decisions endure much longer."
+            }
+          ]
+        }
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "TRY THE LENS",
+        "title": "Where is the hidden rigidity?",
+        "html": "<p>Imagine an office that needs new desks every year, but moving a wall requires rerouting fixed electrical systems. Which part of the design is fighting change?</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "What should be easier to alter?",
+          "answer": "The frequently changing layout and its supporting services. Keep modifications as independent as practical from long-lived structural elements."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE LIMIT",
+        "title": "Flexibility is not free",
+        "html": "<p>Extra capacity, accessible systems, and adaptable layouts can cost money or space. Some buildings also have preservation and safety constraints.</p><p>Brand offers a design perspective, not a law: when future needs are uncertain, make changes easier where they are most likely.</p>"
+      }
+    ]
+  },
+  {
+    "id": "reciprocity-with-the-living-world",
+    "title": "What if taking from nature created an obligation?",
+    "kicker": "A botanist's different question",
+    "hook": "We ask what nature can give us. What changes when we also ask what we owe back?",
+    "type": "Book",
+    "category": "Philosophy",
+    "author": "Robin Wall Kimmerer",
+    "source_title": "Braiding Sweetgrass: Indigenous Wisdom, Scientific Knowledge, and the Teachings of Plants",
+    "source_url": "https://robinwallkimmerer.com/book/braiding-sweetgrass/",
+    "year": 2013,
+    "minutes": 3,
+    "art": "green",
+    "summary": "Botanist Robin Wall Kimmerer brings scientific ecology and Potawatomi perspectives together to explore reciprocity: receiving benefits from the living world should prompt care, restraint, and a contribution in return.",
+    "body": [
+      "Kimmerer writes as both a botanist and a member of the Citizen Potawatomi Nation. Her book juxtaposes ecological observation with Indigenous ways of understanding relationships with plants and places.",
+      "A recurring ethical proposal is reciprocity: rather than treating living systems only as resources to extract, consider how use can be paired with responsibility, restoration, and gratitude.",
+      "This is a philosophical and ecological invitation, not an experimental finding that any single practice always improves biodiversity."
+    ],
+    "takeaways": [
+      "Ecological knowledge can include observation and questions about responsibility.",
+      "Receiving a benefit from a place can motivate care for its continued health.",
+      "Scientific and cultural perspectives can illuminate different aspects of human–nature relationships."
+    ],
+    "nuance": "Reciprocity is an ethical framework, not a substitute for ecological measurement, land rights, or policy. Indigenous knowledge traditions are diverse and should not be flattened into one universal rule.",
+    "application": "Choose a place you regularly benefit from—a garden, park, or local trail. Identify one concrete way to reduce harm or contribute to its care.",
+    "quiz": {
+      "question": "What does reciprocity mean in Kimmerer's ecological framing?",
+      "choices": [
+        "Nature exists only to supply human needs",
+        "Receiving from the living world also brings responsibilities",
+        "Scientific observation should be abandoned"
+      ],
+      "answer": 1,
+      "explanation": "Kimmerer combines ecological science and Indigenous perspectives to argue for relationships of mutual care rather than extraction alone."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "A DIFFERENT QUESTION",
+        "title": "After the harvest, what comes next?",
+        "html": "<p>You pick berries, use a tree's shade, or drink clean water from a watershed. We usually count what we received.</p><p>Botanist Robin Wall Kimmerer invites a second question: <strong>what responsibility follows from receiving a gift from the living world?</strong></p>"
+      },
+      {
+        "kind": "story",
+        "eyebrow": "TWO WAYS OF KNOWING",
+        "title": "Science and relationship",
+        "html": "<p>In <em>Braiding Sweetgrass</em>, Kimmerer draws on her training in botany and her Potawatomi heritage. Scientific observation helps describe how plants and ecosystems function; cultural and ethical perspectives ask how people ought to relate to them.</p><p>The book asks readers to hold both questions in view.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "THE RECIPROCITY LENS",
+        "title": "From taking to tending",
+        "html": "<p>Kimmerer's central invitation is to see ourselves as participants in ecological relationships, not merely consumers of natural resources.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "EXTRACTION",
+            "title": "What can I get?",
+            "text": "Measure only the immediate benefit received."
+          },
+          "right": {
+            "label": "RECIPROCITY",
+            "title": "What can I return?",
+            "text": "Consider restraint, repair, and care for future flourishing."
+          }
+        }
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "APPLY IT",
+        "title": "Your neighborhood tree",
+        "html": "<p>A mature street tree cools your walk. You cannot repay it with a transaction. What might a reciprocal response look like?</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "Name one concrete act, not just a feeling.",
+          "answer": "Protect its roots from damage, support appropriate tree care, or advocate for maintaining the neighborhood canopy. The point is responsibility expressed through action."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "KEEP THE DISTINCTIONS",
+        "title": "An ethic, not a lab result",
+        "html": "<p>Reciprocity is an ethical framework, not proof that any particular intervention helps an ecosystem. Actual effects still need observation and measurement.</p><p>Nor is there a single Indigenous worldview. Kimmerer offers her situated perspective: pair knowledge of how life works with attention to how we live alongside it.</p>"
+      }
+    ]
   }
 ]
