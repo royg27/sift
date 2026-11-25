@@ -4579,5 +4579,99 @@
         "html": "<p>Reciprocity is an ethical framework, not proof that any particular intervention helps an ecosystem. Actual effects still need observation and measurement.</p><p>Nor is there a single Indigenous worldview. Kimmerer offers her situated perspective: pair knowledge of how life works with attention to how we live alongside it.</p>"
       }
     ]
+  },
+  {
+    "id": "plague-before-written-history",
+    "title": "The plague existed thousands of years before the Black Death",
+    "kicker": "History hidden in teeth",
+    "hook": "What if a human tooth could reveal a disease that no surviving chronicler recorded?",
+    "type": "Paper",
+    "category": "History",
+    "author": "Simon Rasmussen et al.",
+    "source_title": "Early Divergent Strains of Yersinia pestis in Eurasia 5,000 Years Ago",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4644222/",
+    "year": 2015,
+    "minutes": 3,
+    "art": "green",
+    "summary": "A 2015 ancient-DNA study identified plague bacteria in human teeth from Eurasia dating back approximately five millennia, showing that the pathogen infected people long before surviving accounts of plague pandemics.",
+    "body": [
+      "Written records offer only a partial view of disease history. Ancient human remains can preserve traces of microorganisms that infected people.",
+      "Rasmussen and colleagues sequenced DNA recovered from ancient teeth and compared the bacterial sequences with known plague genomes. The findings placed the pathogen in Bronze Age Eurasia.",
+      "The discovery establishes ancient infections, not the scale of any epidemic or the cause of every sampled person's death."
+    ],
+    "takeaways": [
+      "Ancient DNA can reveal infections absent from written records.",
+      "The history of a pathogen can precede the history of its documented epidemics.",
+      "Evidence of infection does not establish population-wide mortality."
+    ],
+    "nuance": "The archaeological sample cannot establish how widespread plague was across all Bronze Age populations or whether it caused particular societal changes.",
+    "application": "When reading about the first recorded occurrence of a phenomenon, distinguish the earliest surviving record from the earliest evidence of its existence.",
+    "quiz": {
+      "question": "What did the ancient DNA establish?",
+      "choices": [
+        "Every Bronze Age settlement experienced plague",
+        "Plague infected humans before documented pandemics",
+        "The Black Death occurred in the Bronze Age"
+      ],
+      "answer": 1,
+      "explanation": "The recovered bacterial DNA establishes ancient infections, but cannot by itself establish the size of an epidemic."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "BEFORE THE CHRONICLES",
+        "title": "A tooth can rewrite a timeline",
+        "html": "<p>Medieval chronicles describe devastating plague outbreaks. But what happened before anyone left a surviving account?</p><p>Researchers can sometimes find evidence in an unexpected archive: <strong>ancient human teeth.</strong></p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "THE METHOD",
+        "title": "Reading a biological archive",
+        "html": "<p>In 2015, researchers examined ancient human remains from Eurasia. Rather than relying on descriptions of symptoms, they looked for molecular traces of infection.</p>",
+        "visual": {
+          "type": "steps",
+          "items": [
+            {
+              "label": "01",
+              "title": "Recover",
+              "text": "Extract preserved DNA from ancient teeth."
+            },
+            {
+              "label": "02",
+              "title": "Compare",
+              "text": "Identify sequences consistent with plague bacteria."
+            },
+            {
+              "label": "03",
+              "title": "Date",
+              "text": "Place the evidence in its archaeological context."
+            }
+          ]
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE DISCOVERY",
+        "title": "A much older history",
+        "html": "<p>The researchers identified plague bacteria in remains dating back approximately 5,000 years. This placed human infections far earlier than surviving historical accounts of plague pandemics.</p><p>The disease's biological history and its written history are not the same timeline.</p>"
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "THINK LIKE AN ARCHAEOLOGIST",
+        "title": "Infection or epidemic?",
+        "html": "<p>Imagine finding traces of a pathogen in several ancient individuals. Can you conclude that it devastated an entire civilization?</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "What additional evidence would you need?",
+          "answer": "Broader sampling, reliable dating, population evidence and independent archaeological context would help distinguish isolated infections from widespread outbreaks."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE LIMIT",
+        "title": "Absence of records is not absence of disease",
+        "html": "<p>Ancient DNA expands what historians can investigate, but it does not supply a complete account of past societies.</p><p>Finding an infection is different from establishing its prevalence, mortality or historical consequences. Each requires its own evidence.</p>"
+      }
+    ]
   }
 ]
