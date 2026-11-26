@@ -4673,5 +4673,151 @@
         "html": "<p>Ancient DNA expands what historians can investigate, but it does not supply a complete account of past societies.</p><p>Finding an infection is different from establishing its prevalence, mortality or historical consequences. Each requires its own evidence.</p>"
       }
     ]
+  },
+  {
+    "id": "industrial-revolution-resource-escape",
+    "title": "The Industrial Revolution was not inevitable",
+    "kicker": "The geography of growth",
+    "hook": "Why did industrialization accelerate in Britain rather than in prosperous regions of China?",
+    "type": "Book",
+    "category": "History",
+    "author": "Kenneth Pomeranz",
+    "source_title": "The Great Divergence: China, Europe, and the Making of the Modern World Economy",
+    "source_url": "https://press.princeton.edu/books/paperback/9780691217185/the-great-divergence",
+    "year": 2000,
+    "minutes": 3,
+    "art": "green",
+    "summary": "Pomeranz argues that accessible coal and resources from the Americas helped Western Europe escape constraints on land and energy that also confronted prosperous East Asian regions.",
+    "body": [
+      "Comparing advanced regions rather than entire continents changes the starting point of the industrialization story.",
+      "Coal offered an alternative energy source, while overseas resources eased pressure on domestic land.",
+      "This is a comparative historical explanation, not proof that geography alone determines industrial development."
+    ],
+    "takeaways": [
+      "Compare regions at similar stages of development.",
+      "Resource constraints can shape economic trajectories.",
+      "Historical outcomes need not have been inevitable."
+    ],
+    "nuance": "Historians debate the timing of divergence and the relative roles of institutions, technology, resources and empire. Colonial trade also involved coercion and exploitation.",
+    "application": "When explaining why one economy overtook another, examine its resource access as well as its institutions and inventions.",
+    "quiz": {
+      "question": "What is central to Pomeranz's explanation?",
+      "choices": [
+        "Europe had always been richer than every Asian region",
+        "Coal and overseas resources helped ease constraints",
+        "Industrialization required no natural resources"
+      ],
+      "answer": 1,
+      "explanation": "His comparative account emphasizes access to energy and resources beyond domestic land."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "ECONOMIC HISTORY",
+        "title": "What if Europe had not pulled ahead?",
+        "html": "<p>Industrial Britain can look like the inevitable destination of centuries of European progress. But historian Kenneth Pomeranz asks us to compare it with prosperous parts of East Asia before the industrial breakthrough.</p><p>The outcome looks less predetermined.</p>"
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE BOTTLENECK",
+        "title": "Growth needs physical resources",
+        "html": "<p>Before industrialization, expanding production put pressure on land. Fuel, food and raw materials competed for space. Prosperity alone could not remove these constraints.</p><p>What mattered was whether an economy could draw on resources beyond its existing agricultural base.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "TWO ESCAPE ROUTES",
+        "title": "Below ground and across the ocean",
+        "html": "<p>Pomeranz highlights two advantages that helped Western Europe relax resource constraints.</p>",
+        "visual": {
+          "type": "cards",
+          "items": [
+            {
+              "label": "ENERGY",
+              "title": "Coal",
+              "text": "Accessible deposits provided fuel beyond what forests could supply."
+            },
+            {
+              "label": "LAND",
+              "title": "Overseas resources",
+              "text": "Imports supplied goods that would otherwise require domestic land."
+            }
+          ]
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE LIMIT",
+        "title": "An explanation, not a law",
+        "html": "<p>Resource access is not the only proposed explanation for industrialization. Historians also investigate institutions, inventions and the timing of economic differences.</p><p>And overseas resources were entangled with colonial exploitation. Economic advantage should not be confused with moral achievement.</p>"
+      }
+    ]
+  },
+  {
+    "id": "octopus-unfamiliar-intelligence",
+    "title": "Intelligence doesn't have to look human",
+    "kicker": "An unfamiliar kind of mind",
+    "hook": "What would intelligence look like in an animal with eight arms and no resemblance to a primate?",
+    "type": "Book",
+    "category": "Science",
+    "author": "Sy Montgomery",
+    "source_title": "The Soul of an Octopus: A Surprising Exploration into the Wonder of Consciousness",
+    "source_url": "https://www.simonandschuster.com/books/The-Soul-of-an-Octopus/Sy-Montgomery/9781451697742",
+    "year": 2015,
+    "minutes": 3,
+    "art": "green",
+    "summary": "Montgomery's encounters with octopuses illustrate how flexible behavior and individual differences can challenge a human-centered view of intelligence.",
+    "body": [
+      "Octopuses offer a striking alternative to familiar examples of animal cognition.",
+      "Montgomery describes individuals behaving differently and solving practical problems, including getting out of enclosures.",
+      "Observing flexible behavior invites questions about cognition without resolving the nature of subjective experience."
+    ],
+    "takeaways": [
+      "Intelligent behavior need not resemble human behavior.",
+      "Individuals within an animal species can behave differently.",
+      "Behavior and subjective experience are distinct questions."
+    ],
+    "nuance": "The book is natural-history reporting, not a controlled comparison of cognitive abilities. Human interpretations of animal emotions can exceed the evidence.",
+    "application": "When evaluating an unfamiliar animal, ask what problems matter in its own environment rather than how closely it resembles a human.",
+    "quiz": {
+      "question": "What is the most defensible lesson from these observations?",
+      "choices": [
+        "Only animals resembling humans can solve problems",
+        "Octopus behavior proves its experience is identical to ours",
+        "Flexible behavior can occur in very different kinds of animals"
+      ],
+      "answer": 2,
+      "explanation": "Problem-solving in an unfamiliar animal challenges narrow assumptions about cognition without establishing identical subjective experience."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "ANIMAL MINDS",
+        "title": "An intelligence unlike ours",
+        "html": "<p>When we imagine a clever animal, we often picture a chimpanzee or a dog. Naturalist Sy Montgomery turns our attention to a very different creature: the octopus.</p><p>What counts as cleverness when an animal lives in a world unlike our own?</p>"
+      },
+      {
+        "kind": "story",
+        "eyebrow": "OBSERVATION",
+        "title": "Not just a reflex",
+        "html": "<p>Montgomery recounts octopuses escaping enclosures and manipulating objects with jets of water. She also describes striking differences in the behavior of the individuals she encounters.</p><p>These observations invite us to look beyond familiar mammalian expressions of intelligence.</p>"
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "CHANGE THE TEST",
+        "title": "Whose intelligence are we measuring?",
+        "html": "<p>Imagine testing an octopus using a task designed for a primate. A poor result could reflect the animal's abilities, or simply a mismatch between the task and its body or environment.</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "What would make a better test?",
+          "answer": "Choose a problem the animal can perceive and manipulate naturally, then test whether it adapts when the conditions change."
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "THE OPEN QUESTION",
+        "title": "Behavior is not a window into everything",
+        "html": "<p>Flexible problem-solving is observable. The private experience of another creature is much harder to establish.</p><p>Montgomery's reporting encourages curiosity about unfamiliar minds without requiring us to assume that an octopus feels or thinks exactly as we do.</p>"
+      }
+    ]
   }
 ]
