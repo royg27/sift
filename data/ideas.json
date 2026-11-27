@@ -4819,5 +4819,86 @@
         "html": "<p>Flexible problem-solving is observable. The private experience of another creature is much harder to establish.</p><p>Montgomery's reporting encourages curiosity about unfamiliar minds without requiring us to assume that an octopus feels or thinks exactly as we do.</p>"
       }
     ]
+  },
+  {
+    "id": "commons-need-rules-not-owners",
+    "title": "A shared resource need not be a ruined resource",
+    "kicker": "The third option for the commons",
+    "hook": "Must a shared fishery be privatized or controlled from above to survive?",
+    "type": "Book",
+    "category": "Economics",
+    "author": "Erik Nordman",
+    "source_title": "The Uncommon Knowledge of Elinor Ostrom: Essential Lessons for Collective Action",
+    "source_url": "https://press.princeton.edu/books/paperback/9781642831559/the-uncommon-knowledge-of-elinor-ostrom",
+    "year": 2021,
+    "minutes": 3,
+    "art": "green",
+    "summary": "Nordman recounts how Elinor Ostrom's research challenged the assumption that shared resources require privatization or centralized control: communities can sometimes organize their own sustainable systems of use.",
+    "body": [
+      "A shared resource creates a tension between individual extraction and collective preservation.",
+      "Ostrom studied arrangements in which users collectively manage resources rather than leaving access unrestricted.",
+      "Nordman illustrates the research through examples including fisheries and Spanish waterways."
+    ],
+    "takeaways": [
+      "Shared ownership is not the same as unrestricted access.",
+      "Community governance is a distinct institutional possibility.",
+      "Cooperation depends on the arrangements and circumstances."
+    ],
+    "nuance": "The existence of successful local arrangements does not establish that every community can govern every resource sustainably.",
+    "application": "When a shared resource is being depleted, examine whether users can agree on enforceable rules before assuming that ownership must change.",
+    "quiz": {
+      "question": "What alternative did Ostrom's research establish as possible?",
+      "choices": [
+        "Unlimited extraction",
+        "Community-organized resource governance",
+        "Privatization in every case"
+      ],
+      "answer": 1,
+      "explanation": "Users can sometimes establish collective arrangements that sustain a shared resource."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "ECONOMICS",
+        "title": "Who saves the shared fishery?",
+        "html": "<p>Imagine a fishing village where everyone benefits from a healthy fish population, but each fisher gains from catching a little more today.</p><p>Must an outside authority intervene, or can the people who depend on the fishery organize themselves?</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "THE THIRD OPTION",
+        "title": "Shared does not mean unregulated",
+        "html": "<p>Elinor Ostrom challenged the assumption that shared resources must be privatized or managed centrally. A community can sometimes establish its own rules.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "Open access",
+            "title": "Take what you can",
+            "text": "No effective collective limits on extraction."
+          },
+          "right": {
+            "label": "Governed commons",
+            "title": "Agree on limits",
+            "text": "Users organize how a resource is shared."
+          }
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "FROM THEORY TO PRACTICE",
+        "title": "Look at institutions, not just ownership",
+        "html": "<p>In his book about Ostrom, Erik Nordman follows examples ranging from Maine fisheries to historic Spanish waterways.</p><p>The interesting question is not simply who owns a resource. It is how people coordinate their use of it, and whether their arrangements can endure.</p>"
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "TRY THE IDEA",
+        "title": "The shared well",
+        "html": "<p>Imagine several farms drawing from one well. Each farmer needs water, but excessive pumping threatens everyone. What could they change without selling the well to a private owner?</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "Consider an alternative",
+          "answer": "They might agree on extraction limits, ways to observe usage and procedures for resolving disputes. These are possible arrangements, not guarantees of success."
+        }
+      }
+    ]
   }
 ]
