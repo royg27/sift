@@ -4900,5 +4900,86 @@
         }
       }
     ]
+  },
+  {
+    "id": "fossils-as-rock-addresses",
+    "title": "A fossil can tell you where a rock belongs",
+    "kicker": "Mapping the invisible underground",
+    "hook": "How can you recognize the same layer of rock miles away, when everything between is hidden?",
+    "type": "Book",
+    "category": "History",
+    "author": "Simon Winchester",
+    "source_title": "The Map That Changed the World",
+    "source_url": "https://www.simonwinchester.com/map",
+    "year": 2001,
+    "minutes": 3,
+    "art": "green",
+    "summary": "William Smith realized that characteristic fossils could help identify and correlate rock layers across distant locations, an insight behind his landmark geological map of 1815.",
+    "body": [
+      "While working on canals, Smith observed that different strata contained different fossils.",
+      "Fossil assemblages helped him correlate layers across separated outcrops.",
+      "His 1815 map represented the distribution of geological formations across much of Britain."
+    ],
+    "takeaways": [
+      "A fossil assemblage can help identify a rock layer.",
+      "Separated observations can reveal a continuous geological structure.",
+      "A useful map can represent properties that are not immediately visible."
+    ],
+    "nuance": "Fossil correlation has limitations: organisms occupied different environments, and not every rock contains useful fossils. Modern geologists combine multiple lines of evidence.",
+    "application": "When trying to connect fragmented observations, look for distinctive markers that recur across locations.",
+    "quiz": {
+      "question": "What helped Smith correlate distant rock layers?",
+      "choices": [
+        "Their distance from London",
+        "Characteristic fossil assemblages",
+        "The height of nearby trees"
+      ],
+      "answer": 1,
+      "explanation": "Recurring fossil assemblages provided clues to the relative position of strata."
+    },
+    "slides": [
+      {
+        "kind": "cover",
+        "eyebrow": "HISTORY OF SCIENCE",
+        "title": "A map of what you cannot see",
+        "html": "<p>A conventional map shows roads, rivers and hills. But imagine trying to map the rock formations beneath them, with only scattered exposures to inspect.</p><p>William Smith found a clue inside the rocks themselves: fossils.</p>"
+      },
+      {
+        "kind": "visual",
+        "eyebrow": "THE CLUE",
+        "title": "Different places, recognizable layers",
+        "html": "<p>Smith noticed that particular strata contained characteristic fossils. Finding similar fossil assemblages in distant exposures could help connect layers that were otherwise difficult to trace.</p>",
+        "visual": {
+          "type": "compare",
+          "left": {
+            "label": "Exposure A",
+            "title": "A layer with distinctive shells",
+            "text": "Record its fossils and position among surrounding layers."
+          },
+          "right": {
+            "label": "Exposure B",
+            "title": "A familiar assemblage",
+            "text": "Similar fossils provide evidence for a correlation."
+          }
+        }
+      },
+      {
+        "kind": "story",
+        "eyebrow": "1815",
+        "title": "From scattered clues to a national map",
+        "html": "<p>Smith spent years examining exposures and traveling across Britain. His landmark map brought those observations together, showing the geographical distribution of rock formations rather than merely the landscape above them.</p>"
+      },
+      {
+        "kind": "interactive",
+        "eyebrow": "THINK LIKE A GEOLOGIST",
+        "title": "What if the fossils disagree?",
+        "html": "<p>Two exposures contain similar-looking rock but different fossils. Should you assume they belong to the same layer?</p>",
+        "interaction": {
+          "type": "reveal",
+          "prompt": "Reveal the reasoning",
+          "answer": "Not automatically. Fossils, stratigraphic position and other geological evidence can help distinguish layers. Similar appearance alone is not decisive."
+        }
+      }
+    ]
   }
 ]
